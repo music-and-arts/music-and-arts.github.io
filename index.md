@@ -45,22 +45,51 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
         </div>
     </div>
 
-    <div class="quote-block">
-        <blockquote>
-            "La musica è la letteratura del cuore; essa comincia dove finisce la parola."
-            <cite>— Alphonse de Lamartine</cite>
-        </blockquote>
+    <div class="quotes-section">
+        <h2>Pensieri in nota</h2>
+        <div class="quotes-grid">
+            <div class="quote-card">
+                <blockquote>
+                    "La musica è la letteratura del cuore; essa comincia dove finisce la parola."
+                    <cite>— Alphonse de Lamartine</cite>
+                </blockquote>
+            </div>
+            <div class="quote-card">
+                <blockquote>
+                    "La musica può dare nome all'innominabile e comunicare l'inconoscibile."
+                    <cite>— Leonard Bernstein</cite>
+                </blockquote>
+            </div>
+            <div class="quote-card">
+                <blockquote>
+                    "Dove le parole falliscono, la musica parla."
+                    <cite>— Hans Christian Andersen</cite>
+                </blockquote>
+            </div>
+        </div>
     </div>
 </section>
 
 <style>
 .hero {
-    padding: 4rem 0;
+    padding: 5rem 0;
     text-align: center;
     background: var(--gradient);
     color: white;
-    border-radius: 20px;
-    margin-bottom: 3rem;
+    border-radius: 16px;
+    margin-bottom: 4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.1"><circle cx="50" cy="50" r="2" fill="white"/></svg>') repeat;
 }
 
 .hero-title {
@@ -68,12 +97,14 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
     font-size: 3.5rem;
     font-weight: 500;
     margin-bottom: 1rem;
+    position: relative;
 }
 
 .hero-subtitle {
     font-size: 1.4rem;
     opacity: 0.9;
     font-weight: 300;
+    position: relative;
 }
 
 .content-section {
@@ -105,16 +136,28 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 .feature-card {
-    background: var(--background);
+    background: white;
     padding: 2.5rem;
-    border-radius: 16px;
+    border-radius: 12px;
     box-shadow: var(--shadow);
     transition: all 0.3s ease;
     border: 1px solid var(--border-color);
+    position: relative;
+}
+
+.feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient);
+    border-radius: 12px 12px 0 0;
 }
 
 .feature-card:hover {
@@ -139,35 +182,57 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .feature-link:hover {
     color: var(--secondary-color);
+    gap: 1rem;
 }
 
-.quote-block {
-    max-width: 600px;
-    margin: 4rem auto;
-    padding: 2.5rem;
-    text-align: center;
-    background: var(--background-alt);
-    border-left: 4px solid var(--primary-color);
-    border-radius: 8px;
+.quotes-section {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.quote-block blockquote {
+.quotes-section h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--primary-color);
+}
+
+.quotes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.quote-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border-left: 4px solid var(--primary-color);
+}
+
+.quote-card blockquote {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
     font-style: italic;
     color: var(--text-color);
-    margin-bottom: 1rem;
     line-height: 1.6;
+    margin-bottom: 1rem;
 }
 
-.quote-block cite {
+.quote-card cite {
     color: var(--text-light);
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-style: normal;
 }
 
 @media (max-width: 768px) {
@@ -180,6 +245,10 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
     }
     
     .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .quotes-grid {
         grid-template-columns: 1fr;
     }
     
