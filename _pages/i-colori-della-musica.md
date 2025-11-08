@@ -20,11 +20,11 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
             
             <div class="images-row">
                 <div class="image-real">
-                    <img src="https://images.unsplash.com/photo-1493225454164-6b339b583b6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="David Bowie">
+                    <img src="https://drive.google.com/thumbnail?id=1FrOt4Ubz55Ma6SnGT2LT15hrdHX7QHgp&sz=w1000" alt="David Bowie" style="object-position: center 30%;">
                     <div class="image-caption">David Bowie - Heroes</div>
                 </div>
                 <div class="image-real">
-                    <img src="https://images.unsplash.com/photo-1598488031591-0e6cb6c0a7ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Beethoven">
+                    <img src="https://drive.google.com/thumbnail?id=1FrOt4Ubz55Ma6SnGT2LT15hrdHX7QHgp&sz=w1000" alt="Beethoven" style="object-position: center 20%;">
                     <div class="image-caption">Beethoven - Karajan</div>
                 </div>
             </div>
@@ -34,7 +34,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
         <div class="content-section">
             <div class="content-split">
                 <div class="image-single">
-                    <img src="https://images.unsplash.com/photo-1589000250157-43a931a8b1a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Musicassetta vintage">
+                    <img src="https://drive.google.com/thumbnail?id=1FrOt4Ubz55Ma6SnGT2LT15hrdHX7QHgp&sz=w1000" alt="Musicassetta vintage" style="object-position: center 30%;">
                     <div class="image-caption">Musicassetta anni '90</div>
                 </div>
                 <div class="text-split">
@@ -46,7 +46,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
 
         <!-- MEMORIA E ERA DIGITALE -->
         <div class="highlight-card">
-            <div class="highlight-icon">🎵</div>
+            <div class="highlight-icon">🍂</div>
             <div class="highlight-content">
                 <p><strong>Ingenuità, imperizie di esecuzione, fruscii insopportabili.</strong> Eppure era tutto nuovo per noi, entusiasmante come qualsiasi cosa nata di slancio intorno ai vent'anni.</p>
             </div>
@@ -70,7 +70,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
                     <p>E' il tripudio dell'autarchia musicale.</p>
                 </div>
                 <div class="image-single">
-                    <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Home Studio">
+                    <img src="https://drive.google.com/thumbnail?id=1FrOt4Ubz55Ma6SnGT2LT15hrdHX7QHgp&sz=w1000" alt="Home Studio" style="object-position: center 30%;">
                     <div class="image-caption">Home Studio Setup</div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
 
         <!-- MEMORIA FINALE -->
         <div class="highlight-card">
-            <div class="highlight-icon">🎹</div>
+            <div class="highlight-icon">🍂</div>
             <div class="highlight-content">
                 <p><strong>Tuttavia insieme ai fruscii e alle sedute di registrazione tutte da ridere</strong> se ne volano per sempre anche l'ingenuità e la sfrontata incoscienza dell'età verde.</p>
             </div>
@@ -189,7 +189,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
 
 .image-real img {
     width: 100%;
-    height: 300px;
+    height: 400px;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
@@ -244,7 +244,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
 
 .image-single img {
     width: 100%;
-    height: 350px;
+    height: 400px;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
@@ -453,7 +453,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
     
     .image-real img,
     .image-single img {
-        height: 250px;
+        height: 300px;
     }
 }
 
@@ -470,4 +470,4 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
         padding: 1.5rem;
     }
 }
-</style></style>
+</style></style></style>
