@@ -444,3 +444,53 @@
     </div>
 </body>
 </html>
+/* SISTEMA IMMAGINI - I COLORI DELLA MUSICA */
+.images-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.image-real {
+    text-align: center;
+    max-width: 400px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.image-real img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Per immagini singole al centro */
+.content-section .images-row:has(.image-real:only-child) {
+    justify-content: center;
+}
+
+.content-section .images-row:has(.image-real:only-child) .image-real {
+    max-width: 500px;
+    flex: none;
+}
+
+/* Spaziatura tra sezioni */
+.content-section {
+    margin-bottom: 50px;
+}
+
+.text-content-full {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
