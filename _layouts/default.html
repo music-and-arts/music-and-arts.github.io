@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #7f8c8d;
+            --text-color: #2c3e50;
+            --text-light: #7f8c8d;
+            --background: #ffffff;
+            --background-alt: #f8f9fa;
+            --border-color: #e9ecef;
+            --shadow: 0 2px 20px rgba(0,0,0,0.08);
+            --shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
+            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background: var(--background);
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Header */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            border-bottom: 1px solid var(--border-color);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 0;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .nav-brand h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: var(--primary-color);
+            letter-spacing: -0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--text-light);
+            font-weight: 400;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 0.5rem 0;
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: var(--primary-color);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary-color);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .main {
+            margin-top: 100px;
+            min-height: 80vh;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 3rem 0;
+            margin-top: 4rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-light);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1.5rem;
+            }
+
+            .nav {
+                flex-direction: column;
+                gap: 1.5rem;
+                padding: 1rem 0;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1.5rem;
+            }
+
+            .main {
+                margin-top: 140px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <h1>{{ site.title }}</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="{{ '/' | relative_url }}" class="nav-link">Home</a></li>
+                    <li><a href="{{ '/i-colori-della-musica' | relative_url }}" class="nav-link">I Colori della Musica</a></li>
+                    <li><a href="{{ '/un-regalo-per-voi' | relative_url }}" class="nav-link">Un Regalo per Voi</a></li>
+                    <li><a href="{{ '/interludio-i' | relative_url }}" class="nav-link">Interludio I</a></li>
+                    <li><a href="{{ '/consigli-musica-nicchia' | relative_url }}" class="nav-link">Consigli Musica</a></li>
+                    <li><a href="{{ '/immagini-e-musica' | relative_url }}" class="nav-link">Immagini e Musica</a></li>
+                    <li><a href="{{ '/interludio-ii' | relative_url }}" class="nav-link">Interludio II</a></li>
+                    <li><a href="{{ '/tre-albums-esagerati' | relative_url }}" class="nav-link">Tre Albums</a></li>
+                    <li><a href="{{ '/biografia' | relative_url }}" class="nav-link">Biografia</a></li>
+                    <li><a href="{{ '/contatti' | relative_url }}" class="nav-link">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            {{ content }}
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 {{ site.title }}. Tutti i diritti riservati.</p>
+        </footer>
+    </div>
+</body>
+</html>
