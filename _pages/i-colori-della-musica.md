@@ -10,30 +10,33 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
     </div>
 
     <div class="main-content-full">
-        <!-- PRIMA SEZIONE: Bowie e Beethoven -->
+        <!-- PRIMO BLOCCO: Introduzione -->
         <div class="content-section">
             <div class="text-content-full">
                 <p>Dall'età di quindici anni sono innamorato della musica.</p>
                 <p>Mio padre un giorno rientrò a casa portando con sé alcuni 45 giri, tra cui "Heroes" di David Bowie; e, in curata confezione, un doppio L.P. con le ultime due sinfonie di Beethoven dirette da Karajan.</p>
             </div>
-            
+        </div>
+
+        <!-- SECONDO BLOCCO: Bowie e Beethoven affiancati -->
+        <div class="content-section">
             <div class="images-row">
                 <div class="image-real">
-                    <img src="/images/bowie.jpg" alt="David Bowie" style="object-position: center 30%;">
+                    <img src="/images/bowie.jpg" alt="David Bowie">
                     <div class="image-caption">David Bowie - Heroes</div>
                 </div>
                 <div class="image-real">
-                    <img src="/images/beethoven.jpg" alt="Beethoven" style="object-position: center 20%;">
+                    <img src="/images/beethoven.jpg" alt="Beethoven">
                     <div class="image-caption">Beethoven - Sinfonia Corale</div>
                 </div>
             </div>
-
+            
             <div class="text-content-full">
                 <p>Ancor oggi ritengo che "Heros" sia una delle più riuscite canzoni di ogni tempo; ed anche se è da molto, anzi troppo tempo che non riascolto la Sinfonia Corale ricordo l'impressione che fecero su di me gli sviluppi del primo tempo, con la meravigliosa alternanza di un motivo imperioso a cui rispondeva una frase gentile, quasi implorante. All'epoca visualizzavo l'immagine di un diverbio piuttosto acceso tra marito e moglie!</p>
             </div>
         </div>
 
-        <!-- SECONDA SEZIONE: Battisti (usa foglia.jpg) -->
+        <!-- TERZO BLOCCO: Battisti -->
         <div class="content-section">
             <div class="text-content-full">
                 <p>Da allora ho ascoltato, e dopo poco ho iniziato a studiare. Al pianoforte mi sono avvicinato in modo piuttosto serio, la chitarra invece l'ho iniziata con i soliti quattro accordi della "Canzone" del sole" di Lucio Battisti, un classico per chiunque inizi da zero.</p>
@@ -41,32 +44,31 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
             
             <div class="images-row">
                 <div class="image-real">
-                    <img src="/images/foglia.jpg" alt="Lucio Battisti" style="object-position: center 30%;">
+                    <img src="/images/foglia.jpg" alt="Lucio Battisti">
                     <div class="image-caption">Lucio Battisti - Canzone del sole</div>
                 </div>
             </div>
         </div>
 
-        <!-- TERZA SEZIONE: Cassette -->
+        <!-- QUARTO BLOCCO: Cassette -->
         <div class="content-section">
             <div class="text-content-full">
-                <p>Avevo diciotto anni quando ho messo su carta le prime note, e il mio primo pubblico è stato quello, selezionatissimo, degli amici degli anni verdi. Devo ancora avere da qualche parte una di quelle vecchie cassette a nastro che non si usano più, con registrazioni men che amatoriali, effettuate con improbabili apparecchietti da discount dell'elektronica.</p>
+                <p>Avevo diciotto anni quando ho messo su carta le prime note, e il mio primo pubblico è stato quello, selezionatissimo, degli amici degli anni verdi. Devo ancora avere da qualche parte una di quelle vecchie cassette a nastro che non si usano più, con registrazioni men che amatoriali, effettuate con improbabili apparecchietti da discount dell'elettronica.</p>
             </div>
             
             <div class="images-row">
                 <div class="image-real">
-                    <img src="/images/musicassetta.jpg" alt="Cassette a nastro" style="object-position: center 30%;">
+                    <img src="/images/musicassetta.jpg" alt="Cassette a nastro">
                     <div class="image-caption">Cassette a nastro anni '80</div>
                 </div>
             </div>
 
             <div class="text-content-full">
-                <hr>
                 <p><em>Ingenuità, imperizie di esecuzione, fruscii insopportabili. Eppure era tutto nuovo per noi, entusiasmante come qualsiasi cosa nata di slancio intorno ai vent'anni.</em></p>
             </div>
         </div>
 
-        <!-- QUARTA SEZIONE: Computer e home studio -->
+        <!-- QUINTO BLOCCO: Computer e home studio -->
         <div class="content-section">
             <div class="text-content-full">
                 <p>Poi è venuta l'era dei computer. Ho resistito a lungo, umanisticamente contrario all'imperio delle "macchine", sino a quando il P.C. non l'ho dovuto comprare per mio figlio. Ho iniziato a metter mano per curiosità, ed anche il copia-incolla era all'inizio per me cosa difficile.</p>
@@ -82,7 +84,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
             
             <div class="images-row">
                 <div class="image-real">
-                    <img src="/images/Home studio.jpg" alt="Home studio moderno" style="object-position: center 30%;">
+                    <img src="/images/Home studio.jpg" alt="Home studio moderno">
                     <div class="image-caption">Home studio moderno</div>
                 </div>
             </div>
@@ -116,4 +118,4 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
             </div>
         </div>
     </div>
-</div>
+</div>v>
