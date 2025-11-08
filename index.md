@@ -67,6 +67,19 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
             <p>Biografia men che minima - Il mio percorso artistico e personale.</p>
             <a href="{{ '/biografia' | relative_url }}" class="feature-link">Esplora →</a>
         </div>
+
+        <!-- NUOVA CARD CONTATTI -->
+        <div class="feature-card contact-card">
+            <h3>Contatti</h3>
+            <p>Vuoi collaborare, condividere idee o semplicemente dire ciao? Saremo felici di sentirti.</p>
+            <a href="{{ '/contatti' | relative_url }}" class="feature-link">Scrivici →</a>
+            <div class="social-links">
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">YT</a>
+                <a href="#" class="social-icon">SC</a>
+                <a href="#" class="social-icon">SP</a>
+            </div>
+        </div>
     </div>
 
     <div class="quotes-section">
@@ -113,6 +126,28 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
 </section>
 
 <style>
+:root {
+    --primary-color: #e2e8f0;
+    --secondary-color: #cbd5e1;
+    --accent-color: #94a3b8;
+    --text-color: #e2e8f0;
+    --text-light: #94a3b8;
+    --background: #0f172a;
+    --background-alt: #1e293b;
+    --border-color: #334155;
+    --shadow: 0 4px 15px rgba(0,0,0,0.3);
+    --shadow-hover: 0 8px 30px rgba(0,0,0,0.4);
+    --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
+}
+
+body {
+    background: var(--background);
+    color: var(--text-color);
+    background-image: 
+        radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(139, 92, 246, 0.05) 0%, transparent 50%);
+}
+
 .hero {
     padding: 5rem 0;
     text-align: center;
@@ -176,13 +211,13 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-bottom: 5rem;
 }
 
 .feature-card {
-    background: white;
+    background: var(--background-alt);
     padding: 2.5rem;
     border-radius: 12px;
     box-shadow: var(--shadow);
@@ -205,6 +240,7 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
 .feature-card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-hover);
+    background: #1e293b;
 }
 
 .feature-card h3 {
@@ -235,6 +271,41 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
     gap: 1rem;
 }
 
+/* Stili per la card Contatti */
+.contact-card {
+    background: linear-gradient(135deg, var(--background-alt), #312e81);
+}
+
+.contact-card h3 {
+    color: #c4b5fd;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.social-icon:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
 .quotes-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -255,11 +326,11 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
 }
 
 .quote-card {
-    background: white;
+    background: var(--background-alt);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: var(--shadow);
-    border-left: 4px solid var(--primary-color);
+    border-left: 4px solid #6366f1;
 }
 
 .quote-card blockquote {
@@ -275,6 +346,12 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
     color: var(--text-light);
     font-size: 0.9rem;
     font-style: normal;
+}
+
+@media (max-width: 1024px) {
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
