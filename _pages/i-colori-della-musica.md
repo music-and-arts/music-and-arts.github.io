@@ -118,4 +118,4 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
             </div>
         </div>
     </div>
-</div>v>
+</div>
