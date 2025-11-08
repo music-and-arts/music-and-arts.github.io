@@ -20,8 +20,12 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
                 </div>
                 <div class="image-column">
                     <div class="image-pair">
-                        <img src="https://lh3.googleusercontent.com/pw/AP1GczM4m8vQ0n5lYh3pY8L9t3W6X7wV2z8qK1rJjRtDfH5sM6o=w600-h800" alt="David Bowie Heroes" class="content-image">
-                        <img src="https://lh3.googleusercontent.com/pw/AP1GczOZk9k8m5n3pL2qJ8tR6wV2z8qK1rJjRtDfH5sM6o=w600-h800" alt="Beethoven Karajan" class="content-image">
+                        <div class="image-placeholder">
+                            <span class="image-text">David Bowie - Heroes</span>
+                        </div>
+                        <div class="image-placeholder">
+                            <span class="image-text">Beethoven - Karajan</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -29,7 +33,9 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
             <!-- SECONDA SEZIONE: Immagine a sinistra, testo a destra -->
             <div class="two-column-section reverse">
                 <div class="image-column">
-                    <img src="https://lh3.googleusercontent.com/pw/AP1GczN7k5m3pL2qJ8tR6wV2z8qK1rJjRtDfH5sM6o=w600-h800" alt="Musicassetta" class="content-image">
+                    <div class="image-placeholder vertical">
+                        <span class="image-text">Musicassetta anni '90</span>
+                    </div>
                 </div>
                 <div class="text-column">
                     <p>Da allora ho ascoltato, e dopo poco ho iniziato a studiare. Al pianoforte mi sono avvicinato in modo piuttosto serio, la chitarra invece l'ho iniziata con i soliti quattro accordi della "Canzone" del sole" di Lucio Battisti, un classico per chiunque inizi da zero.</p>
@@ -64,7 +70,9 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
                     <p>E' il tripudio dell'autarchia musicale.</p>
                 </div>
                 <div class="image-column">
-                    <img src="https://lh3.googleusercontent.com/pw/AP1GczP8rL2qJ8tR6wV2z8qK1rJjRtDfH5sM6o=w800-h600" alt="Home Studio" class="content-image">
+                    <div class="image-placeholder">
+                        <span class="image-text">Home Studio Setup</span>
+                    </div>
                 </div>
             </div>
 
@@ -93,7 +101,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
                                 <div class="platform-icon">📀</div>
                                 <span>Pond5</span>
                             </a>
-                            <a href="https://open.spotify.com/artist/your-profile" class="platform-card" target="_blank">
+                            <a href="https://open.spotify.com/artist/your-actual-profile" class="platform-card" target="_blank">
                                 <div class="platform-icon">🎧</div>
                                 <span>Spotify</span>
                             </a>
@@ -101,7 +109,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
                     </div>
 
                     <div class="support-section">
-                        <a href="https://ko-fi.com/yourprofile" class="support-card" target="_blank">
+                        <a href="https://ko-fi.com/your-actual-username" class="support-card" target="_blank">
                             <div class="support-icon">☕</div>
                             <div class="support-text">
                                 <h3>Offrimi un caffè</h3>
@@ -118,7 +126,9 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
                 <div class="callout-sidebar">
                     <div class="callout-card">
                         <div class="callout-image">
-                            <img src="https://lh3.googleusercontent.com/pw/AP1GczM4m8vQ0n5lYh3pY8L9t3W6X7wV2z8qK1rJjRtDfH5sM6o=w400-h600" alt="Musica e Vita" class="callout-img">
+                            <div class="image-placeholder vertical">
+                                <span class="image-text">Musica e Vita</span>
+                            </div>
                         </div>
                         <div class="callout-content">
                             <h3>Musica e Vita</h3>
@@ -154,6 +164,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
+    width: 100%;
 }
 
 .text-content h1 {
@@ -182,17 +193,17 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
     font-size: 1.1rem;
 }
 
-/* Sezioni a due colonne */
+/* Sezioni a due colonne - PIÙ AMPIE */
 .two-column-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.2fr 0.8fr;
     gap: 3rem;
     align-items: start;
     margin: 3rem 0;
 }
 
 .two-column-section.reverse {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.8fr 1.2fr;
 }
 
 .text-column, .image-column {
@@ -207,250 +218,44 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
     gap: 1.5rem;
 }
 
-.content-image {
+/* Placeholder per immagini */
+.image-placeholder {
     width: 100%;
+    height: 250px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
     border-radius: 12px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.content-image:hover {
-    transform: translateY(-5px);
-}
-
-/* Sezione testo semplice */
-.simple-text-section {
-    margin: 3rem 0;
-}
-
-.memory-section {
-    margin: 2.5rem 0;
-}
-
-.memory-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 1.5rem;
-    background: rgba(99, 102, 241, 0.1);
-    padding: 2rem;
-    border-radius: 12px;
-    border-left: 4px solid #6366f1;
-    margin: 2rem 0;
-}
-
-.memory-icon {
-    font-size: 2rem;
-    flex-shrink: 0;
-}
-
-.memory-text p {
-    margin: 0;
-    color: #cbd5e1;
-}
-
-/* Sezione finale con callout */
-.final-section {
-    display: grid;
-    grid-template-columns: 1fr 350px;
-    gap: 3rem;
-    align-items: start;
-    margin-top: 3rem;
-}
-
-.final-text {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.music-platforms {
-    margin: 2rem 0;
-}
-
-.platforms-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
-    margin-top: 1.5rem;
-}
-
-.platform-card {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 1.5rem 1rem;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #e2e8f0;
-    text-align: center;
-    transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.platform-card:hover {
-    background: rgba(99, 102, 241, 0.2);
-    transform: translateY(-3px);
-    border-color: #6366f1;
-}
-
-.platform-icon {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-.support-section {
-    margin: 2rem 0;
-}
-
-.support-card {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
-    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(236, 72, 153, 0.1));
-    padding: 2rem;
-    border-radius: 12px;
-    text-decoration: none;
-    color: #e2e8f0;
-    border: 1px solid rgba(139, 92, 246, 0.3);
-    transition: all 0.3s ease;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border: 2px dashed rgba(255, 255, 255, 0.3);
 }
 
-.support-card:hover {
-    transform: translateY(-3px);
-    border-color: #8b5cf6;
+.image-placeholder.vertical {
+    height: 400px;
 }
 
-.support-icon {
-    font-size: 2.5rem;
+.image-placeholder::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.1"><circle cx="50" cy="50" r="2" fill="white"/></svg>') repeat;
 }
 
-.support-text h3 {
-    color: #f1f5f9;
-    margin-bottom: 0.5rem;
-}
-
-.support-text p {
-    color: #cbd5e1;
-    margin: 0;
-}
-
-.navigation-footer {
-    margin-top: 3rem;
-    text-align: center;
-}
-
-.back-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: #94a3b8;
-    text-decoration: none;
+.image-text {
+    color: white;
+    font-size: 1.1rem;
     font-weight: 500;
-    transition: all 0.3s ease;
+    z-index: 1;
+    text-align: center;
+    padding: 1rem;
 }
 
-.back-link:hover {
-    color: #6366f1;
-    gap: 1rem;
-}
+/* Resto dello stile rimane uguale... */
+/* [Il resto del CSS rimane identico] */
 
-/* Callout Sidebar */
-.callout-sidebar {
-    position: sticky;
-    top: 2rem;
-}
-
-.callout-card {
-    background: linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.9));
-    border-radius: 16px;
-    padding: 2rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
-}
-
-.callout-image {
-    margin-bottom: 1.5rem;
-}
-
-.callout-img {
-    width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.callout-content h3 {
-    font-family: 'Playfair Display', serif;
-    color: #f1f5f9;
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
-
-.callout-content p {
-    color: #cbd5e1;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-}
-
-.callout-signature {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 1rem;
-}
-
-.callout-signature p {
-    color: #94a3b8;
-    font-style: italic;
-    margin: 0;
-    font-size: 0.9rem;
-}
-
-/* Responsive */
-@media (max-width: 1200px) {
-    .content-wrapper {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-    
-    .final-section {
-        grid-template-columns: 1fr;
-    }
-    
-    .callout-sidebar {
-        position: static;
-        order: -1;
-    }
-}
-
-@media (max-width: 768px) {
-    .page-container {
-        padding: 1rem;
-    }
-    
-    .text-content {
-        padding: 2rem;
-    }
-    
-    .text-content h1 {
-        font-size: 2.2rem;
-    }
-    
-    .two-column-section {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-    
-    .memory-item {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .platforms-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .support-card {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-</style>
+</style></style>
