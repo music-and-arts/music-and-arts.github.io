@@ -127,16 +127,16 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
 
 <style>
 :root {
-    --primary-color: #e2e8f0;
-    --secondary-color: #cbd5e1;
+    --primary-color: #f1f5f9;
+    --secondary-color: #e2e8f0;
     --accent-color: #94a3b8;
-    --text-color: #e2e8f0;
-    --text-light: #94a3b8;
-    --background: #0f172a;
-    --background-alt: #1e293b;
-    --border-color: #334155;
-    --shadow: 0 4px 15px rgba(0,0,0,0.3);
-    --shadow-hover: 0 8px 30px rgba(0,0,0,0.4);
+    --text-color: #f1f5f9;
+    --text-light: #cbd5e1;
+    --background: #0a0f1c;
+    --background-alt: #1a233d;
+    --border-color: #2d3748;
+    --shadow: 0 4px 20px rgba(0,0,0,0.4);
+    --shadow-hover: 0 8px 35px rgba(0,0,0,0.6);
     --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
 }
 
@@ -144,8 +144,8 @@ body {
     background: var(--background);
     color: var(--text-color);
     background-image: 
-        radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 75% 75%, rgba(139, 92, 246, 0.05) 0%, transparent 50%);
+        radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(139, 92, 246, 0.08) 0%, transparent 50%);
 }
 
 .hero {
@@ -218,12 +218,7 @@ body {
 
 .feature-card {
     background: var(--background-alt);
-    padding: 2.5rem;
-    border-radius: 12px;
-    box-shadow: var(--shadow);
-    transition: all 0.3s ease;
     border: 1px solid var(--border-color);
-    position: relative;
 }
 
 .feature-card::before {
@@ -238,9 +233,7 @@ body {
 }
 
 .feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-hover);
-    background: #1e293b;
+    background: #1e2a4a;
 }
 
 .feature-card h3 {
@@ -327,9 +320,6 @@ body {
 
 .quote-card {
     background: var(--background-alt);
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: var(--shadow);
     border-left: 4px solid #6366f1;
 }
 
