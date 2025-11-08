@@ -1,0 +1,20 @@
+title: "Music and Arts"
+description: "Uno spazio per musica, arte e creatività"
+baseurl: ""
+url: "https://music-and-arts.github.io"
+theme: minima
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-sitemap
