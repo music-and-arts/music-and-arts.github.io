@@ -1,246 +1,446 @@
-/* Reset e variabili */
-:root {
-    --primary-color: #2c3e50;
-    --secondary-color: #34495e;
-    --accent-color: #7f8c8d;
-    --text-color: #2c3e50;
-    --text-light: #7f8c8d;
-    --background: #ffffff;
-    --background-alt: #f8f9fa;
-    --border-color: #e9ecef;
-    --shadow: 0 2px 20px rgba(0,0,0,0.08);
-    --shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
-}
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music and Arts - Musica, Arte e Pensiero</title>
+    <meta name="description" content="Uno spazio raffinato dedicato alla musica, arte, scrittura e creatività. Esplora contenuti unici e riflessioni profonde.">
+    <meta name="keywords" content="musica, arte, scrittura, creatività, cultura, pensiero">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #7f8c8d;
+            --text-color: #2c3e50;
+            --text-light: #7f8c8d;
+            --background: #ffffff;
+            --background-alt: #f8f9fa;
+            --border-color: #e9ecef;
+            --shadow: 0 2px 20px rgba(0,0,0,0.08);
+            --shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
+            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.7;
-    color: var(--text-color);
-    background: var(--background);
-    font-weight: 300;
-}
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background: var(--background);
+            font-weight: 300;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(102, 126, 234, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 85% 30%, rgba(118, 75, 162, 0.05) 0%, transparent 50%);
+        }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
 
-/* Header e Navigazione */
-.header {
-    background: var(--background);
-    border-bottom: 1px solid var(--border-color);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    backdrop-filter: blur(10px);
-}
+        /* Header */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            border-bottom: 1px solid var(--border-color);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 0;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-.nav-brand h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--primary-color);
-}
+        .nav-brand h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: var(--primary-color);
+            letter-spacing: -0.5px;
+        }
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-}
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
 
-.nav-link {
-    text-decoration: none;
-    color: var(--text-light);
-    font-weight: 400;
-    transition: color 0.3s ease;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
+        .nav-link {
+            text-decoration: none;
+            color: var(--text-light);
+            font-weight: 400;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 0.5rem 0;
+            position: relative;
+        }
 
-.nav-link:hover,
-.nav-link.active {
-    color: var(--primary-color);
-}
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--primary-color);
+        }
 
-/* Hero Section */
-.hero {
-    margin-top: 80px;
-    padding: 4rem 0;
-    text-align: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    border-radius: 12px;
-    margin-bottom: 3rem;
-}
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary-color);
+            transition: width 0.3s ease;
+        }
 
-.hero-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 3.5rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-}
+        .nav-link:hover::after {
+            width: 100%;
+        }
 
-.hero-subtitle {
-    font-size: 1.3rem;
-    opacity: 0.9;
-    font-weight: 300;
-}
+        /* Hero Section */
+        .hero {
+            margin-top: 100px;
+            padding: 6rem 0;
+            text-align: center;
+            background: var(--gradient);
+            color: white;
+            border-radius: 20px;
+            margin-bottom: 4rem;
+            position: relative;
+            overflow: hidden;
+        }
 
-/* Content Sections */
-.content-section {
-    padding: 2rem 0;
-}
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.1"><circle cx="50" cy="50" r="2" fill="white"/></svg>') repeat;
+            animation: float 20s infinite linear;
+        }
 
-.text-block {
-    max-width: 800px;
-    margin: 0 auto 4rem;
-    text-align: center;
-}
+        @keyframes float {
+            0% { transform: translateY(0) rotate(0deg); }
+            100% { transform: translateY(-100px) rotate(360deg); }
+        }
 
-.text-block h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
-    font-weight: 500;
-}
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
 
-.text-block p {
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
-    color: var(--text-color);
-    line-height: 1.8;
-}
+        .hero-subtitle {
+            font-size: 1.4rem;
+            opacity: 0.9;
+            font-weight: 300;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
 
-/* Features Grid */
-.features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    margin-bottom: 4rem;
-}
+        /* Content Sections */
+        .content-section {
+            padding: 3rem 0;
+        }
 
-.feature-card {
-    background: var(--background);
-    padding: 2.5rem;
-    border-radius: 12px;
-    box-shadow: var(--shadow);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid var(--border-color);
-}
+        .text-block {
+            max-width: 800px;
+            margin: 0 auto 5rem;
+            text-align: center;
+        }
 
-.feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-hover);
-}
+        .text-block h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 2.5rem;
+            font-weight: 500;
+            color: var(--primary-color);
+        }
 
-.feature-card h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    color: var(--primary-color);
-}
+        .text-block p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: var(--text-color);
+            line-height: 1.8;
+        }
 
-.feature-card p {
-    color: var(--text-light);
-    margin-bottom: 1.5rem;
-    line-height: 1.6;
-}
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+            margin-bottom: 5rem;
+        }
 
-.feature-link {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
+        .feature-card {
+            background: var(--background);
+            padding: 3rem 2.5rem;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
+            position: relative;
+            overflow: hidden;
+        }
 
-.feature-link:hover {
-    color: var(--secondary-color);
-}
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient);
+        }
 
-/* Quote Block */
-.quote-block {
-    max-width: 600px;
-    margin: 4rem auto;
-    padding: 2rem;
-    text-align: center;
-    border-left: 4px solid var(--primary-color);
-    background: var(--background-alt);
-}
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-hover);
+        }
 
-.quote-block blockquote {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
-    font-style: italic;
-    color: var(--text-color);
-    margin-bottom: 1rem;
-}
+        .feature-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+        }
 
-.quote-block cite {
-    color: var(--text-light);
-    font-size: 1rem;
-}
+        .feature-card p {
+            color: var(--text-light);
+            margin-bottom: 2rem;
+            line-height: 1.7;
+            font-size: 1.1rem;
+        }
 
-/* Footer */
-.footer {
-    text-align: center;
-    padding: 3rem 0;
-    margin-top: 4rem;
-    border-top: 1px solid var(--border-color);
-    color: var(--text-light);
-}
+        .feature-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .container {
-        padding: 0 1rem;
-    }
+        .feature-link:hover {
+            color: var(--secondary-color);
+            gap: 1rem;
+        }
 
-    .nav {
-        flex-direction: column;
-        gap: 1rem;
-    }
+        /* Quote Block */
+        .quote-block {
+            max-width: 700px;
+            margin: 5rem auto;
+            padding: 3rem;
+            text-align: center;
+            background: var(--gradient);
+            color: white;
+            border-radius: 16px;
+            position: relative;
+        }
 
-    .nav-links {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1rem;
-    }
+        .quote-block::before {
+            content: '"';
+            font-family: 'Playfair Display', serif;
+            font-size: 8rem;
+            position: absolute;
+            top: -2rem;
+            left: 2rem;
+            opacity: 0.3;
+            line-height: 1;
+        }
 
-    .hero-title {
-        font-size: 2.5rem;
-    }
+        .quote-block blockquote {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+            position: relative;
+            z-index: 2;
+        }
 
-    .hero-subtitle {
-        font-size: 1.1rem;
-    }
+        .quote-block cite {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            font-style: normal;
+        }
 
-    .text-block h2 {
-        font-size: 1.8rem;
-    }
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 4rem 0;
+            margin-top: 5rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-light);
+            background: var(--background-alt);
+        }
 
-    .features-grid {
-        grid-template-columns: 1fr;
-    }
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1.5rem;
+            }
 
-    .feature-card {
-        padding: 2rem;
-    }
-}
+            .nav {
+                flex-direction: column;
+                gap: 1.5rem;
+                padding: 1rem 0;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1.5rem;
+            }
+
+            .hero {
+                margin-top: 140px;
+                padding: 4rem 2rem;
+                border-radius: 16px;
+            }
+
+            .hero-title {
+                font-size: 2.8rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+
+            .text-block h2 {
+                font-size: 2rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .feature-card {
+                padding: 2.5rem 2rem;
+            }
+
+            .quote-block {
+                margin: 3rem auto;
+                padding: 2.5rem 2rem;
+            }
+
+            .quote-block blockquote {
+                font-size: 1.3rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 2.2rem;
+            }
+            
+            .nav-links {
+                gap: 1rem;
+            }
+            
+            .nav-link {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <h1>Music & Arts</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="i-colori-della-musica.html" class="nav-link">I Colori della Musica</a></li>
+                    <li><a href="un-regalo-per-voi.html" class="nav-link">Un Regalo per Voi</a></li>
+                    <li><a href="interludio-i.html" class="nav-link">Interludio I</a></li>
+                    <li><a href="consigli-musica-nicchia.html" class="nav-link">Consigli Musica</a></li>
+                    <li><a href="immagini-e-musica.html" class="nav-link">Immagini e Musica</a></li>
+                    <li><a href="interludio-ii.html" class="nav-link">Interludio II</a></li>
+                    <li><a href="tre-albums-esagerati.html" class="nav-link">Tre Albums</a></li>
+                    <li><a href="biografia.html" class="nav-link">Biografia</a></li>
+                    <li><a href="contatti.html" class="nav-link">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Musica e Altro</h1>
+                    <p class="hero-subtitle">Uno spazio per condividere passioni, idee e riflessioni</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <div class="text-block">
+                    <h2>Benvenuto nel mio angolo di creatività</h2>
+                    <p>Questo sito nasce dalla necessità di dare forma concreta a pensieri, emozioni e connessioni che la musica e l'arte suscitano in me. Non troverai recensioni tecniche o analisi accademiche, ma piuttosto impressioni personali, suggestioni e forse qualche intuizione che risuoni con la tua esperienza.</p>
+                    
+                    <p>La musica per me non è solo suono organizzato, ma un linguaggio in grado di attraversare dimensioni diverse della percezione. È colore, è immagine, è memoria, è corpo. In queste pagine esploreremo insieme queste connessioni.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>I Colori della Musica</h3>
+                        <p>Esplorazione delle connessioni tra musica e percezione visiva. Come i suoni si traducono in palette cromatiche e visioni interiori.</p>
+                        <a href="i-colori-della-musica.html" class="feature-link">Esplora →</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Un Regalo per Voi</h3>
+                        <p>Risorse musicali e contenuti speciali condivisi con la comunità. Piccoli doni per chi apprezza la profondità artistica.</p>
+                        <a href="un-regalo-per-voi.html" class="feature-link">Scopri →</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Tre Albums Esagerati</h3>
+                        <p>Album che hanno superato i confini della normalità musicale. Opere che hanno segnato traiettorie artistiche uniche.</p>
+                        <a href="tre-albums-esagerati.html" class="feature-link">Ascolta →</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Immagini e Musica</h3>
+                        <p>Il dialogo costante tra visione e ascolto nell'esperienza artistica. Come le immagini influenzano la percezione musicale.</p>
+                        <a href="immagini-e-musica.html" class="feature-link">Vedi →</a>
+                    </div>
+                </div>
+
+                <div class="quote-block">
+                    <blockquote>
+                        "La musica è la letteratura del cuore; essa comincia dove finisce la parola."
+                        <cite>— Alphonse de Lamartine</cite>
+                    </blockquote>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 Music and Arts. Tutti i diritti riservati.</p>
+        </footer>
+    </div>
+</body>
+</html>
