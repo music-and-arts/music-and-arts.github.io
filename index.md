@@ -29,41 +29,83 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
         <div class="feature-card">
             <h3>Un Regalo per Voi</h3>
             <p>Risorse musicali e contenuti speciali condivisi con la comunità. Piccoli doni per chi apprezza la profondità artistica.</p>
-            <a href="{{ '/un-regalo-per-voi' | relative_url }}" class="feature-link">Scopri →</a>
+            <a href="{{ '/un-regalo-per-voi' | relative_url }}" class="feature-link">Esplora →</a>
         </div>
 
         <div class="feature-card">
-            <h3>Tre Albums Esagerati</h3>
-            <p>Album che hanno superato i confini della normalità musicale. Opere che hanno segnato traiettorie artistiche uniche.</p>
-            <a href="{{ '/tre-albums-esagerati' | relative_url }}" class="feature-link">Ascolta →</a>
+            <h3>Interludio I</h3>
+            <p>Un Pamphlet reazionario - Riflessioni e pensieri sulla creatività contemporanea.</p>
+            <a href="{{ '/interludio-i' | relative_url }}" class="feature-link">Esplora →</a>
+        </div>
+
+        <div class="feature-card">
+            <h3>Consigli Musica</h3>
+            <p>Qualche consiglio per chi fa musica di nicchia - Strategie per artisti emergenti.</p>
+            <a href="{{ '/consigli-musica-nicchia' | relative_url }}" class="feature-link">Esplora →</a>
         </div>
 
         <div class="feature-card">
             <h3>Immagini e Musica</h3>
-            <p>Il dialogo costante tra visione e ascolto nell'esperienza artistica. Come le immagini influenzano la percezione musicale.</p>
-            <a href="{{ '/immagini-e-musica' | relative_url }}" class="feature-link">Vedi →</a>
+            <p>Il dialogo costante tra visione e ascolto nell'esperienza artistica.</p>
+            <a href="{{ '/immagini-e-musica' | relative_url }}" class="feature-link">Esplora →</a>
+        </div>
+
+        <div class="feature-card">
+            <h3>Interludio II</h3>
+            <p>Fotografia e Erotismo - Esplorazioni tra arte visiva e sensorialità.</p>
+            <a href="{{ '/interludio-ii' | relative_url }}" class="feature-link">Esplora →</a>
+        </div>
+
+        <div class="feature-card">
+            <h3>Tre Albums</h3>
+            <p>Album che hanno superato i confini della normalità musicale.</p>
+            <a href="{{ '/tre-albums-esagerati' | relative_url }}" class="feature-link">Esplora →</a>
+        </div>
+
+        <div class="feature-card">
+            <h3>Biografia</h3>
+            <p>Biografia men che minima - Il mio percorso artistico e personale.</p>
+            <a href="{{ '/biografia' | relative_url }}" class="feature-link">Esplora →</a>
         </div>
     </div>
 
     <div class="quotes-section">
-        <h2>Pensieri in nota</h2>
+        <h2>Pensieri Musicali</h2>
         <div class="quotes-grid">
             <div class="quote-card">
                 <blockquote>
-                    "La musica è la letteratura del cuore; essa comincia dove finisce la parola."
-                    <cite>— Alphonse de Lamartine</cite>
+                    "La musica comprende l'insieme delle arti alle quali presiedono le Muse. Essa racchiude tutto quello che è necessario all'educazione dello spirito"
+                    <cite>— Platone</cite>
                 </blockquote>
             </div>
             <div class="quote-card">
                 <blockquote>
-                    "La musica può dare nome all'innominabile e comunicare l'inconoscibile."
-                    <cite>— Leonard Bernstein</cite>
+                    "Senza musica, la vita sarebbe un errore"
+                    <cite>— Friedrich Nietzsche</cite>
                 </blockquote>
             </div>
             <div class="quote-card">
                 <blockquote>
-                    "Dove le parole falliscono, la musica parla."
-                    <cite>— Hans Christian Andersen</cite>
+                    "Mi chiesero cosa ne pensassi dell'illustre Mozart e dei suoi peccati. Risposi che avrei rinunciato volentieri a tutte le mie virtù per i peccati di Mozart."
+                    <cite>— Felix Mendelssohn Bartholdy</cite>
+                </blockquote>
+            </div>
+            <div class="quote-card">
+                <blockquote>
+                    "Tra i piaceri della vita, solo all'amore la musica è seconda. Ma l'amore stesso è musica."
+                    <cite>— Aleksandr Puskin</cite>
+                </blockquote>
+            </div>
+            <div class="quote-card">
+                <blockquote>
+                    "La musica è l'unica arte essenzialmente viva. I suoi elementi sono gli elementi stessi della vita. Sorda ma percepibile, potente benché riconosciuta, si trova ovunque ci sia vita."
+                    <cite>— Paderewski Ignacy Jan</cite>
+                </blockquote>
+            </div>
+            <div class="quote-card">
+                <blockquote>
+                    "Abbiamo un naso. Il naso sente l'odore e sceglie. Un artista è semplicemente una specie di maiale che cerca tartufi."
+                    <cite>— Igor Stravinskij</cite>
                 </blockquote>
             </div>
         </div>
@@ -194,7 +236,7 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
 }
 
 .quotes-section {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -208,7 +250,7 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
 
 .quotes-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
 
@@ -254,6 +296,10 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
     
     .feature-card {
         padding: 2rem;
+    }
+    
+    .quote-card {
+        padding: 1.5rem;
     }
 }
 </style>
