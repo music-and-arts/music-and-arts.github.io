@@ -25,7 +25,7 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
                             <div class="image-caption">David Bowie - Heroes</div>
                         </div>
                         <div class="music-image">
-                            <img src="/images/beethoven.jpg" alt="Beethoven - Sinfonia Corale">
+                            <img src="/images/beethoven.jpg" alt="Beethoven - Sinfonia Corale" style="filter: brightness(1.1) contrast(1.1);">
                             <div class="image-caption">Beethoven - Sinfonia Corale</div>
                         </div>
                     </div>
@@ -37,18 +37,10 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
             </div>
         </div>
 
-        <!-- SEZIONE 2: Battisti e chitarra -->
+        <!-- SEZIONE 2: Battisti e chitarra - SOLO TESTO -->
         <div class="music-section">
-            <div class="text-with-images reverse">
-                <div class="images-side">
-                    <div class="music-image single">
-                        <img src="/images/foglia.jpg" alt="Lucio Battisti - Canzone del sole">
-                        <div class="image-caption">Lucio Battisti - Canzone del sole</div>
-                    </div>
-                </div>
-                <div class="text-content">
-                    <p>Da allora ho ascoltato, e dopo poco ho iniziato a studiare. Al pianoforte mi sono avvicinato in modo piuttosto serio, la chitarra invece l'ho iniziata con i soliti quattro accordi della "Canzone" del sole" di Lucio Battisti, un classico per chiunque inizi da zero.</p>
-                </div>
+            <div class="text-content-full">
+                <p>Da allora ho ascoltato, e dopo poco ho iniziato a studiare. Al pianoforte mi sono avvicinato in modo piuttosto serio, la chitarra invece l'ho iniziata con i soliti quattro accordi della "Canzone" del sole" di Lucio Battisti, un classico per chiunque inizi da zero.</p>
             </div>
         </div>
 
@@ -199,7 +191,15 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
     border-left: 4px solid #e74c3c;
 }
 
-.text-content p {
+.text-content-full {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #3498db;
+    margin-bottom: 40px;
+}
+
+.text-content p, .text-content-full p {
     color: #ffffff;
     font-size: 1.2em;
     line-height: 1.8;
@@ -337,20 +337,23 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
     text-align: center;
 }
 
+/* BOTTONE SOBRIO E LEGGERO */
 .btn-home {
     display: inline-block;
-    background: #e74c3c;
+    background: rgba(52, 152, 219, 0.8); /* BLU SOBRIO E TRASPARENTE */
     color: white;
-    padding: 15px 40px;
+    padding: 12px 35px;
     text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 1.1em;
-    transition: background 0.3s ease;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .btn-home:hover {
-    background: #c0392b;
+    background: rgba(41, 128, 185, 0.9); /* BLU LEGGERMENTE PIÙ SCURO */
+    transform: translateY(-2px);
 }
 
 /* RESPONSIVE */
