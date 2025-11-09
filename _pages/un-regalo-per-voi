@@ -134,6 +134,32 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
         <div class="music-section">
             <div class="license-section">
                 <h3>Licenza Musicale Cumulativa</h3>
+<div class="license-intro">
+    <p><strong>Questa licenza si applica a tutti i brani elencati nelle categorie precedenti:</strong></p>
+    <div class="licensed-tracks">
+        <span class="track-tag">Bring Her</span>
+        <span class="track-tag">Take This Kiss</span>
+        <span class="track-tag">Toutes les Choses</span>
+        <span class="track-tag">Last Dragon</span>
+        <span class="track-tag">Santa Claus Flies on the Chimneys</span>
+        <span class="track-tag">Fairy's Melancholy</span>
+        <span class="track-tag">Adieu (Nylon Guitar)</span>
+        <span class="track-tag">Amazed Innocence</span>
+        <span class="track-tag">Old Beauty</span>
+        <span class="track-tag">Mira Sidera</span>
+        <span class="track-tag">Mystical Compulsion</span>
+        <span class="track-tag">Stream of Consciousness</span>
+        <span class="track-tag">Cello on Carpet of Stars</span>
+        <span class="track-tag">Celestial Mystery</span>
+        <span class="track-tag">Oriental Aroma</span>
+        <span class="track-tag">Reiki Water</span>
+        <span class="track-tag">Rain on the Cherry Orchard</span>
+        <span class="track-tag">Pagodas and Trees</span>
+        <span class="track-tag">Gently Down into the Maelstrom</span>
+        <span class="track-tag">Peaceful Aconcagua</span>
+        <span class="track-tag">Mystic Lights of the Sound</span>
+    </div>
+</div>
                 <div class="license-content">
                     <div class="license-info">
                         <div class="license-details">
@@ -218,6 +244,35 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
 </div>
 
 <style>
+/* STILI PER L'INTESTAZIONE LICENZA */
+.license-intro {
+    background: rgba(52, 152, 219, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border-left: 4px solid #3498db;
+}
+
+.license-intro p {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.licensed-tracks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.track-tag {
+    background: rgba(255, 255, 255, 0.1);
+    color: #cccccc;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
 /* STILI PER LE CATEGORIE MUSICALI */
 .categories-section {
     background: rgba(255, 255, 255, 0.05);
