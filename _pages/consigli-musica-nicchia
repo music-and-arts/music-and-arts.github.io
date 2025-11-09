@@ -19,14 +19,14 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
         </div>
 
         <!-- SEZIONE 2: Prova della sottrazione con immagine fionda -->
-        <div class="layout-ibrido">
-            <div class="container-immagine">
+        <div class="layout-grid-avanzato">
+            <div class="area-immagine">
                 <div class="consigli-image">
-                    <img src="/images/fionda.webp" alt="Metafora della fionda e della pietra" class="immagine-flottante">
+                    <img src="/images/fionda.webp" alt="Metafora della fionda e della pietra">
                     <div class="image-caption">La metafora della fionda - senza scopo, anche il miglior proiettile è inerte</div>
                 </div>
             </div>
-            <div class="testo-flottante">
+            <div class="area-testo">
                 <p>In genere la musica per il mercato non regge alla <em>prova della sottrazione</em>. Una volta messa in cuffia senza l'immagine, il video, lo spot cui è dedicata suona vuota: ancor più banale, ancor più inutile - per quanto conservi un'innocua e superficiale piacevolezza - proprio perché con l'immagine, il video o lo spot, le si è tolto lo scopo cui era destinata, e che essa di per sé non ha e non sa creare.</p>
 
                 <p>Si potrà prendere una pietra da terra, caricarla in una fionda e colpire un qualsiasi bersaglio. In quel caso, sempre che si abbia buona mira, si dirà che il sasso ha centrato l'obiettivo. Ma quella stessa pietra, senza fionda e bersaglio, non avrà nulla da fare se non rimanere là dov'è, indifferentemente pestata o scalciata da chiunque, a chiunque indifferente e del tutto inerte.</p>
@@ -34,14 +34,14 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
         </div>
 
         <!-- SEZIONE 3: Musica pura vs commerciale con immagine orchestra -->
-        <div class="layout-ibrido reverse">
-            <div class="container-immagine">
+        <div class="layout-grid-avanzato reverse">
+            <div class="area-immagine">
                 <div class="consigli-image">
-                    <img src="/images/orchestra.webp" alt="Orchestra e musica pura" class="immagine-flottante">
+                    <img src="/images/orchestra.webp" alt="Orchestra e musica pura">
                     <div class="image-caption">La musica pura vive di vita propria, indipendente da scopi esterni</div>
                 </div>
             </div>
-            <div class="testo-flottante">
+            <div class="area-testo">
                 <p>Nata esplicitamente per soddisfare uno scopo esterno, una volta separata da esso la musica per il mercato rivela la sua pochezza. E nel migliore dei casi potremo passare qualche secondo ad ascoltarla con la testa altrove, proprio come fanno quei bambini che, pensando ad altro, distrattamente sulla rena ghiaiosa muovono tra i piedi i sassolini colorati.</p>
 
                 <p>La musica pura, o "assoluta" che dir si voglia, può invece permettersi anche il lusso di essere sgradevole, perché pure (e forse soprattutto) in tal caso crea emozioni in chi ascolta.</p>
@@ -73,14 +73,14 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
         </div>
 
         <!-- SEZIONE 6: WATER & FIRE con immagine -->
-        <div class="layout-ibrido">
-            <div class="container-immagine">
+        <div class="layout-grid-avanzato">
+            <div class="area-immagine">
                 <div class="consigli-image">
-                    <img src="/images/water_fire.webp" alt="Water and Fire - contrasti musicali" class="immagine-flottante">
+                    <img src="/images/water_fire.webp" alt="Water and Fire - contrasti musicali">
                     <div class="image-caption">WATER & FIRE - I contrasti che il mercato spesso rifiuta</div>
                 </div>
             </div>
-            <div class="testo-flottante">
+            <div class="area-testo">
                 <h3>WATER & FIRE</h3>
                 <p>E allora? Allora, per chi vuole tenersi le mani libere, non resta altro da fare che capovolgere la situazione.</p>
 
@@ -94,20 +94,20 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
         <div class="testo-section">
             <p>Insomma, se la vostra musica viene rifiutata da qualcuno non è detto che il motivo sia la scarsa qualità della stessa, quindi bando ai complessi d'inferiorità! Anzi, è assai probabile che i brani da voi proposti siano di grande spessore ma semplicemente inadatti al target di pubblico della piattaforma.</p>
 
-            <p>Personalmente mi sentirei di indicare Pond5 come un ottimo punto di partenza. Accetta musica di tendenza ma anche contenuti non facili, fermo restando che tecnicamente non ci devono essere difetti.</p>
+            <p>Personalmente mi sentirei di indicare Pond5 como un ottimo punto di partenza. Accetta musica di tendenza ma anche contenuti non facili, fermo restando che tecnicamente non ci devono essere difetti.</p>
 
             <p>E' bene iniziare senza pretese, senza ambire a grandi numeri, senza pensare neanche da lontano di poter lucrare chissà quali cifre. Senza produrre musica a ritmi dannati, menando qua e là migliaia di tracce. Senza ripetere cento volte - con l'alterazione di tre note - il "motivo di successo", alla maniera di quei pittori seriali che, per comprare i bonbon, hanno dipinto non so più quanti cavalli per la gioia di seriali collezionisti.</p>
         </div>
 
         <!-- SEZIONE 8: Conclusioni con immagine Pirandello -->
-        <div class="layout-ibrido reverse">
-            <div class="container-immagine">
+        <div class="layout-grid-avanzato reverse">
+            <div class="area-immagine">
                 <div class="consigli-image">
-                    <img src="/images/pirandello.webp" alt="Luigi Pirandello" class="immagine-flottante">
+                    <img src="/images/pirandello.webp" alt="Luigi Pirandello">
                     <div class="image-caption">Luigi Pirandello - Così sia, se vi pare</div>
                 </div>
             </div>
-            <div class="testo-flottante">
+            <div class="area-testo">
                 <p>Da quando è incominciato questo gioco il mio modo di concepire e di fare la musica non è cambiato. E non cambierà.</p>
 
                 <p>Ciò che faccio è e resterà su Jamendo, a disposizione di chiunque voglia ascoltare: con o senza donazioni; con o senza ulteriori vendite.</p>
@@ -122,6 +122,27 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
                 <div class="citazione-finale-centrata">
                     <p>Così sia, se vi pare.</p>
                     <cite>— Luigi Pirandello</cite>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEZIONE LINK MUSICA E DONAZIONI -->
+        <div class="link-section">
+            <div class="link-columns">
+                <div class="link-col">
+                    <h3>🎵 La Mia Musica</h3>
+                    <ul class="link-list">
+                        <li><a href="https://www.jamendo.com/artist/347673/aufklarung" target="_blank" rel="noopener">Jamendo</a></li>
+                        <li><a href="https://www.melodyloops.com/composers/raffaele-de-leonardo/" target="_blank" rel="noopener">Melodyloops</a></li>
+                        <li><a href="https://www.pond5.com/it/artist/europeanart" target="_blank" rel="noopener">Pond5</a></li>
+                        <li><a href="https://open.spotify.com/intl-it/artist/23mNnUEoDifg6ax49JfQrP" target="_blank" rel="noopener">Spotify</a></li>
+                    </ul>
+                </div>
+                <div class="link-col">
+                    <h3>☕ Offrimi un caffè</h3>
+                    <ul class="link-list">
+                        <li><a href="https://ko-fi.com/aufklarung" target="_blank" rel="noopener">Supportami su Ko-fi</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -186,38 +207,42 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     text-align: justify;
 }
 
-/* LAYOUT IBRIDO - TESTO CHE SCORRE ACCANTO E POI SOTTO */
-.layout-ibrido {
+/* LAYOUT GRID AVANZATO - TESTO ACCANTO E POI SOTTO */
+.layout-grid-avanzato {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "immagine testo"
+        ". testo";
+    gap: 40px;
     margin-bottom: 80px;
-    position: relative;
+    align-items: start;
 }
 
-.layout-ibrido.reverse {
-    direction: rtl;
+.layout-grid-avanzato.reverse {
+    grid-template-columns: 1fr 400px;
+    grid-template-areas: 
+        "testo immagine"
+        "testo .";
 }
 
-.layout-ibrido.reverse > * {
-    direction: ltr;
+.area-immagine {
+    grid-area: immagine;
+    position: sticky;
+    top: 40px;
+    align-self: start;
 }
 
-.container-immagine {
-    width: 45%;
-    float: left;
-    margin-right: 40px;
-    margin-bottom: 30px;
-}
-
-.layout-ibrido.reverse .container-immagine {
-    float: right;
-    margin-right: 0;
-    margin-left: 40px;
+.area-testo {
+    grid-area: testo;
 }
 
 .consigli-image {
     text-align: center;
 }
 
-.immagine-flottante {
+.consigli-image img {
     width: 100%;
     height: 380px;
     object-fit: cover;
@@ -226,7 +251,7 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     transition: transform 0.3s ease;
 }
 
-.immagine-flottante:hover {
+.consigli-image img:hover {
     transform: scale(1.02);
 }
 
@@ -240,12 +265,7 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     padding: 0 10px;
 }
 
-.testo-flottante {
-    overflow: hidden; /* Crea nuovo contesto di formato */
-    padding: 20px 0;
-}
-
-.testo-flottante h3 {
+.area-testo h3 {
     color: #3498db;
     font-size: 1.8em;
     margin-bottom: 25px;
@@ -254,7 +274,7 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     padding-bottom: 10px;
 }
 
-.testo-flottante p {
+.area-testo p {
     margin-bottom: 25px;
     font-size: 1.2em;
     line-height: 1.8;
@@ -269,6 +289,7 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     border: 1px solid #3498db;
+    grid-column: 1 / -1;
 }
 
 .citazione-finale-centrata p {
@@ -285,10 +306,54 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     font-style: normal;
 }
 
+/* SEZIONE LINK */
+.link-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    margin: 60px 0 40px;
+}
+
+.link-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.link-col h3 {
+    color: #ffffff;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 12px;
+}
+
+.link-list a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+    display: block;
+    padding: 8px 0;
+}
+
+.link-list a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 .home-button {
     text-align: center;
-    margin-top: 60px;
-    clear: both; /* Importante: pulisce i float */
+    margin-top: 40px;
 }
 
 .btn-home {
@@ -309,30 +374,43 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     transform: translateY(-2px);
 }
 
-@media (max-width: 768px) {
-    .container-immagine {
-        width: 100%;
-        float: none;
-        margin-right: 0;
-        margin-left: 0;
-        margin-bottom: 30px;
+@media (max-width: 968px) {
+    .layout-grid-avanzato {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "immagine"
+            "testo";
+        gap: 30px;
     }
     
-    .layout-ibrido.reverse .container-immagine {
-        float: none;
-        margin-left: 0;
+    .layout-grid-avanzato.reverse {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "immagine"
+            "testo";
     }
     
-    .immagine-flottante {
+    .area-immagine {
+        position: static;
+    }
+    
+    .consigli-image img {
         height: 300px;
     }
-    
+}
+
+@media (max-width: 768px) {
     .consigli-header h1 {
         font-size: 2.2em;
     }
     
+    .link-columns {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
     .testo-section p,
-    .testo-flottante p {
+    .area-testo p {
         text-align: left;
         font-size: 1.1em;
     }
