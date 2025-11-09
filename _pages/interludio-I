@@ -233,7 +233,7 @@
             <h1 class="main-title">Music and Arts</h1>
             
             <div class="sidebar-container">
-                <img src="images/Sidebar.webp" alt="Riflessioni politiche" class="sidebar-image">
+                <img src="/images/Sidebar.webp" alt="Riflessioni politiche" class="sidebar-image">
                 <div class="image-title">Riflessioni politiche</div>
             </div>
         </div>
@@ -247,7 +247,7 @@
             <!-- Sezione Ebook con immagine -->
             <div class="ebook-section">
                 <div class="ebook-image">
-                    <img src="images/Ebook.webp" alt="Copertina Ebook">
+                    <img src="/images/Ebook.webp" alt="Copertina Ebook">
                 </div>
                 <div class="ebook-list">
                     <h3>Ebook disponibili su Amazon Kindle:</h3>
