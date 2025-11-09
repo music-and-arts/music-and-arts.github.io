@@ -13,7 +13,7 @@ permalink: /interludio-fotografia-erotismo/
     <div class="music-content">
         <!-- IMMAGINE CAMERA IN ALTO -->
         <div class="main-image">
-            <img src="{{ site.baseurl }}/images/camera.webp" alt="Fotografia - La macchina fotografica di El Lelante">
+            <img src="/images/camera.webp" alt="Fotografia - La macchina fotografica di El Lelante">
         </div>
 
         <!-- SEZIONE 1: PRESENTAZIONE -->
@@ -25,7 +25,7 @@ permalink: /interludio-fotografia-erotismo/
                 </div>
                 <div class="images-side">
                     <div class="music-image">
-                        <img src="{{ site.baseurl }}/images/lello.webp" alt="El Lelante - Ritratto">
+                        <img src="/images/lello.webp" alt="El Lelante - Ritratto">
                         <div class="image-caption">El Lelante</div>
                     </div>
                 </div>
@@ -44,18 +44,18 @@ permalink: /interludio-fotografia-erotismo/
             <div class="images-grid">
                 <div class="image-pair">
                     <div class="music-image">
-                        <img src="{{ site.baseurl }}/images/chiara.webp" alt="Fotografia di Chiara">
+                        <img src="/images/chiara.webp" alt="Fotografia di Chiara">
                         <div class="image-caption">Scatto artistico</div>
                     </div>
                     <div class="music-image">
-                        <img src="{{ site.baseurl }}/images/moglie.webp" alt="Fotografia della moglie">
+                        <img src="/images/moglie.webp" alt="Fotografia della moglie">
                         <div class="image-caption">Ritratto femminile</div>
                     </div>
                 </div>
             </div>
 
             <div class="highlight-box">
-                <p>Inoltre El Lelante, da bravo uomo del sud, ama le mulheres. Le ama per tutta la carica d'innocente malizia, di sensualità che esse -volontariamente o meno- sanno esprimere. Le sue foto ultimamente stanno avendo riscontri lusinghieri, sia da un punto di vista commerciale che critico.</p>
+                <p>Inoltre El Lelante, da bravo uomo del sud, ama le donne. Le ama per tutta la carica d'innocente malizia, di sensualità che esse -volontariamente o meno- sanno esprimere. Le sue foto ultimamente stanno avendo riscontri lusinghieri, sia da un punto di vista commerciale che critico.</p>
             </div>
         </div>
 
@@ -78,7 +78,7 @@ permalink: /interludio-fotografia-erotismo/
             <div class="text-with-images reverse">
                 <div class="images-side">
                     <div class="music-image single">
-                        <img src="{{ site.baseurl }}/images/scrittura.webp" alt="Scrittura creativa">
+                        <img src="/images/scrittura.webp" alt="Scrittura creativa">
                         <div class="image-caption">L'arte della scrittura</div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@ permalink: /interludio-fotografia-erotismo/
             </div>
             
             <div class="home-button">
-                <a href="{{ site.baseurl }}/" class="btn-home">Torna alla Home</a>
+                <a href="/" class="btn-home">Torna alla Home</a>
             </div>
         </div>
     </div>
