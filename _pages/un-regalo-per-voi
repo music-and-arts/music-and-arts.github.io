@@ -37,40 +37,155 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
             </div>
         </div>
 
-        <!-- SEZIONE 4: Licenza Creative Commons -->
+        <!-- SEZIONE 4: CATEGORIE MUSICALI -->
         <div class="music-section">
-            <div class="license-section">
-                <h3>Licenza Creative Commons</h3>
-                <div class="license-content">
-                    <div class="license-icons">
-                        <div class="license-icon">CC</div>
-                        <div class="license-icon">BY</div>
-                    </div>
-                    <div class="license-text">
-                        <p><strong>Attribuzione 4.0 Internazionale (CC BY 4.0)</strong></p>
-                        <p>Sei libero di:</p>
-                        <ul>
-                            <li><strong>Condividere</strong> — copiare e redistribuire il materiale in qualsiasi mezzo o formato</li>
-                            <li><strong>Adattare</strong> — remixare, trasformare e creare a partire dal materiale per qualsiasi fine, anche commerciale</li>
+            <div class="categories-section">
+                <h3>Le Mie Categorie Musicali</h3>
+                
+                <div class="category-grid">
+                    <!-- VOCALS -->
+                    <div class="category-card">
+                        <div class="category-header">
+                            <h4>🎤 VOCALS</h4>
+                        </div>
+                        <ul class="track-list">
+                            <li>Bring Her</li>
+                            <li>Take This Kiss</li>
+                            <li>Toutes les Choses</li>
                         </ul>
-                        <p>A una sola condizione:</p>
-                        <ul>
-                            <li><strong>Attribuzione</strong> — Devi riconoscere una menzione di paternità adeguata, fornire un link alla licenza e indicare se sono state effettuate delle modifiche.</li>
+                    </div>
+
+                    <!-- SYMPHONIC - ORCHESTRAL -->
+                    <div class="category-card">
+                        <div class="category-header">
+                            <h4>🎻 SYMPHONIC - ORCHESTRAL</h4>
+                        </div>
+                        <ul class="track-list">
+                            <li>Last Dragon</li>
+                            <li>Santa Claus Flies on the Chimneys</li>
+                            <li>Fairy's Melancholy</li>
+                        </ul>
+                    </div>
+
+                    <!-- CLASSICAL - SOLOIST -->
+                    <div class="category-card">
+                        <div class="category-header">
+                            <h4>🎹 CLASSICAL - SOLOIST</h4>
+                        </div>
+                        <ul class="track-list">
+                            <li>Adieu (Nylon Guitar)</li>
+                            <li>Amazed Innocence</li>
+                            <li>Old Beauty</li>
+                        </ul>
+                    </div>
+
+                    <!-- PROGRESSIVE -->
+                    <div class="category-card">
+                        <div class="category-header">
+                            <h4>🎸 PROGRESSIVE</h4>
+                        </div>
+                        <ul class="track-list">
+                            <li>Mira Sidera</li>
+                            <li>Mystical Compulsion</li>
+                            <li>Stream of Consciousness</li>
+                        </ul>
+                    </div>
+
+                    <!-- EXPERIMENTAL -->
+                    <div class="category-card">
+                        <div class="category-header">
+                            <h4>🔮 EXPERIMENTAL</h4>
+                        </div>
+                        <ul class="track-list">
+                            <li>Cello on Carpet of Stars</li>
+                            <li>Celestial Mystery</li>
+                            <li>Oriental Aroma</li>
+                        </ul>
+                    </div>
+
+                    <!-- EXOTIC -->
+                    <div class="category-card">
+                        <div class="category-header">
+                            <h4>🌍 EXOTIC</h4>
+                        </div>
+                        <ul class="track-list">
+                            <li>Reiki Water</li>
+                            <li>Rain on the Cherry Orchard</li>
+                            <li>Pagodas and Trees</li>
+                        </ul>
+                    </div>
+
+                    <!-- AMBIENCES -->
+                    <div class="category-card">
+                        <div class="category-header">
+                            <h4>🌊 AMBIENCES</h4>
+                        </div>
+                        <ul class="track-list">
+                            <li>Gently Down into the Maelstrom</li>
+                            <li>Peaceful Aconcagua</li>
+                            <li>Mystic Lights of the Sound</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- SEZIONE 5: Link ai brani -->
+        <!-- SEZIONE 5: Licenza Personalizzata -->
+        <div class="music-section">
+            <div class="license-section">
+                <h3>Licenza Musicale Cumulativa</h3>
+                <div class="license-content">
+                    <div class="license-info">
+                        <div class="license-details">
+                            <p><strong>Titolare dei diritti:</strong> Raffaele De Leonardo</p>
+                            
+                            <div class="license-permissions">
+                                <h4>✅ COSA PUOI FARE (SENZA CHIEDERE):</h4>
+                                <ul>
+                                    <li>Scaricare, condividere e copiare i brani</li>
+                                    <li>Usare per progetti personali e commerciali</li>
+                                    <li>Inserire in video, podcast, streaming</li>
+                                    <li>Creare remix, modifiche e campionamenti</li>
+                                    <li>Includere in compilation e raccolte</li>
+                                </ul>
+                            </div>
+
+                            <div class="license-requirements">
+                                <h4>✅ COSA DEVI SEMPRE FARE IN CASI D'USO COMMERCIALI:</h4>
+                                <ul>
+                                    <li><strong>Attribuzione:</strong> "Musica di Raffaele De Leonardo - Other Music"</li>
+                                    <li><strong>Collegamento al sito:</strong> https://sites.google.com/view/othermusic/home-page</li>
+                                </ul>
+                            </div>
+
+                            <div class="license-restrictions">
+                                <h4>❌ COSA NON PUOI FARE:</h4>
+                                <ul>
+                                    <li>Registrare la musica a tuo nome</li>
+                                    <li>Modificare o rimuovere gli attributi di paternità</li>
+                                    <li>Utilizzare per contenuti illegali o discriminatori</li>
+                                </ul>
+                            </div>
+
+                            <div class="license-declaration">
+                                <p><strong>Dichiarazione:</strong> Il licenziante rinuncia alla percezione di royalties per gli utilizzi sopra descritti. La licenza è perpetua e irrevocabile.</p>
+                                <p><em>Per utilizzi non coperti da questa licenza: raffaele61@hotmail.com</em></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEZIONE 6: Link ai brani -->
         <div class="music-section">
             <div class="gift-section">
-                <h3>Regalo in Musica</h3>
+                <h3>Scarica la Mia Musica</h3>
                 <div class="gift-link">
                     <a href="https://drive.google.com/drive/folders/1IKD5MalSTJSBSQ0MflPXx3__RVA2k9eR?hl=it" target="_blank" class="btn-gift">
-                        🎵 Accedi ai miei brani gratuiti 🎵
+                        🎵 Accedi a tutti i miei brani 🎵
                     </a>
-                    <p class="link-description">Clicca qui per scaricare la mia musica da Google Drive</p>
+                    <p class="link-description">Download gratuito da Google Drive</p>
                 </div>
             </div>
         </div>
@@ -103,7 +218,114 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
 </div>
 
 <style>
-/* STILI SPECIFICI PER LA PAGINA REGALO */
+/* STILI PER LE CATEGORIE MUSICALI */
+.categories-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    border: 2px solid #e74c3c;
+}
+
+.categories-section h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 15px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.category-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 25px;
+    border-left: 4px solid #3498db;
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.category-header h4 {
+    color: #ffffff;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 8px;
+}
+
+.track-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.track-list li {
+    color: #cccccc;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 1em;
+}
+
+.track-list li:last-child {
+    border-bottom: none;
+}
+
+/* STILI LICENZA PERSONALIZZATA */
+.license-permissions,
+.license-requirements,
+.license-restrictions {
+    margin-bottom: 25px;
+}
+
+.license-permissions h4 {
+    color: #2ecc71;
+    margin-bottom: 10px;
+}
+
+.license-requirements h4 {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.license-restrictions h4 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.license-details ul {
+    color: #cccccc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.license-details li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.license-declaration {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #9b59b6;
+    margin-top: 20px;
+}
+
+.license-declaration p {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* MANTIENI TUTTI GLI ALTRI STILI */
 .gift-section {
     text-align: center;
     padding: 40px;
@@ -147,7 +369,6 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
     margin-top: 10px;
 }
 
-/* LICENZA CREATIVE COMMONS */
 .license-section {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
@@ -164,71 +385,6 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
     padding-bottom: 10px;
 }
 
-.license-content {
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
-}
-
-.license-icons {
-    display: flex;
-    gap: 15px;
-    flex-shrink: 0;
-}
-
-.license-icon {
-    width: 80px;
-    height: 80px;
-    background: #3498db;
-    color: white;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.license-text {
-    flex: 1;
-}
-
-.license-text p {
-    color: #ffffff;
-    margin-bottom: 15px;
-    line-height: 1.6;
-}
-
-.license-text ul {
-    color: #cccccc;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-.license-text li {
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    .license-content {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .license-icons {
-        justify-content: center;
-    }
-    
-    .btn-gift {
-        padding: 15px 25px;
-        font-size: 1.1em;
-    }
-}
-
-/* MANTIENI TUTTI GLI ALTRI STILI DELLA PAGINA PRECEDENTE */
 .music-colors-container {
     background: #1a1a1a;
     color: #ffffff;
@@ -373,6 +529,10 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
     
     .music-header h1 {
         font-size: 2.2em;
+    }
+    
+    .category-grid {
+        grid-template-columns: 1fr;
     }
 }
 </style>
