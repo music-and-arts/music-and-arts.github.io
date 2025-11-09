@@ -74,37 +74,36 @@ permalink: /interludio-ii/
         </div>
 
         <!-- SEZIONE 4: SCRITTURA EROTICA -->
-        <div class="music-section">
-            <div class="text-with-images reverse">
-                <div class="images-side">
-                    <div class="music-image single">
-                        <img src="/images/scrittura.webp" alt="Scrittura creativa">
-                        <div class="image-caption">L'arte della scrittura</div>
-                    </div>
-                </div>
-                <div class="text-content">
-                    <h3>Narrativa Erotica</h3>
-                    <p>Riguardo alla scrittura, El Lelante ha riversato la sua passione per il gentil sesso nella narrativa erotica. Amazon ospita, con significativo successo di vendite, due opere che farebbero resuscitare anche gli eunuchi.</p>
-                    
-                    <p>E questo, ci tengo a sottolinearlo, senza mai scadere nella pornografia spicciola o nella volgarità fine a sé stessa.</p>
-                </div>
-            </div>
-
-            <div class="text-content-full">
-                <p>Prima di scandalizzarvi per certo linguaggio talora esplicito e per situazioni non certo da educande, ricordate che da Plauto a Catullo, da Baudelaire a Bukowski il sesso è tema privilegiato della letteratura. Senza contare che esso è una costituente fondamentale di ciò che siamo, e che spesso nascondiamo a noi stessi.</p>
-                
-                <div class="highlight-box">
-                    <p><em>Se vi va di dare un'occhiata, andate qui: non si tratta di volgarità ma di erotismo raffinato. Falco De Rosa è lo pseudonimo del nostro autore.</em></p>
-                </div>
-
-                <div class="social-link">
-                    <a href="https://www.amazon.it/s?i=digital-text&rh=p_27%3AFalco+De+Rosa&s=relevancerank&text=Falco+De+Rosa&ref=dp_byline_sr_ebooks_1" target="_blank" class="amazon-btn">
-                        📚 Scopri i libri di Falco De Rosa su Amazon
-                    </a>
-                </div>
+<div class="music-section">
+    <div class="text-with-images reverse">
+        <div class="images-side">
+            <div class="music-image single">
+                <img src="{{ site.baseurl }}/images/scrittura.webp" alt="Scrittura creativa">
+                <div class="image-caption">L'arte della scrittura</div>
             </div>
         </div>
+        <div class="text-content">
+            <h3>Narrativa Erotica</h3>
+            <p>Riguardo alla scrittura, El Lelante ha riversato la sua passione per il gentil sesso nella narrativa erotica. Amazon ospita, con significativo successo di vendite, due opere che farebbero resuscitare anche gli eunuchi.</p>
+            
+            <p>E questo, ci tengo a sottolinearlo, senza mai scadere nella pornografia spicciola o nella volgarità fine a sé stessa.</p>
+        </div>
+    </div>
 
+    <div class="text-content-full">
+        <p>Prima di scandalizzarvi per certo linguaggio talora esplicito e per situazioni non certo da educande, ricordate che da Plauto a Catullo, da Baudelaire a Bukowski il sesso è tema privilegiato della letteratura. Senza contare che esso è una costituente fondamentale di ciò che siamo, e che spesso nascondiamo a noi stessi.</p>
+        
+        <div class="highlight-box">
+            <p><em>Se vi va di dare un'occhiata, andate qui: non si tratta di volgarità ma di erotismo raffinato. Falco De Rosa è lo pseudonimo del nostro autore.</em></p>
+        </div>
+
+        <div class="social-link">
+            <a href="https://www.amazon.it/s?i=digital-text&rh=p_27%3AFalco+De+Rosa&s=relevancerank&text=Falco+De+Rosa&ref=dp_byline_sr_ebooks_1" target="_blank" class="amazon-btn">
+                📚 Scopri i libri di Falco De Rosa su Amazon
+            </a>
+        </div>
+    </div>
+</div>
         <!-- MENU FINALE -->
         <div class="music-nav">
             <div class="nav-columns">
