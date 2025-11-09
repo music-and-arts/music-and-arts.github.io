@@ -126,30 +126,29 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
             </div>
         </div>
 
-        <!-- SEZIONE LINK MUSICA E DONAZIONI -->
-        <div class="link-section">
-            <div class="link-columns">
-                <div class="link-col">
+        <!-- SEZIONE FINALE IDENTICA ALLE ALTRE PAGINE -->
+        <div class="music-nav">
+            <div class="nav-columns">
+                <div class="nav-col">
                     <h3>🎵 La Mia Musica</h3>
-                    <ul class="link-list">
+                    <ul>
                         <li><a href="https://www.jamendo.com/artist/347673/aufklarung" target="_blank" rel="noopener">Jamendo</a></li>
                         <li><a href="https://www.melodyloops.com/composers/raffaele-de-leonardo/" target="_blank" rel="noopener">Melodyloops</a></li>
                         <li><a href="https://www.pond5.com/it/artist/europeanart" target="_blank" rel="noopener">Pond5</a></li>
                         <li><a href="https://open.spotify.com/intl-it/artist/23mNnUEoDifg6ax49JfQrP" target="_blank" rel="noopener">Spotify</a></li>
                     </ul>
                 </div>
-                <div class="link-col">
+                <div class="nav-col">
                     <h3>☕ Offrimi un caffè</h3>
-                    <ul class="link-list">
+                    <ul>
                         <li><a href="https://ko-fi.com/aufklarung" target="_blank" rel="noopener">Supportami su Ko-fi</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-
-        <!-- PULSANTE HOME -->
-        <div class="home-button">
-            <a href="/" class="btn-home">Torna alla Home</a>
+            
+            <div class="home-button">
+                <a href="/" class="btn-home">Torna alla Home</a>
+            </div>
         </div>
     </div>
 </div>
@@ -306,21 +305,22 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     font-style: normal;
 }
 
-/* SEZIONE LINK */
-.link-section {
+/* SEZIONE FINALE IDENTICA ALLE ALTRE PAGINE */
+.music-nav {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     padding: 40px;
-    margin: 60px 0 40px;
+    margin-top: 60px;
 }
 
-.link-columns {
+.nav-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+    margin-bottom: 40px;
 }
 
-.link-col h3 {
+.nav-col h3 {
     color: #ffffff;
     border-bottom: 2px solid #e74c3c;
     padding-bottom: 10px;
@@ -328,32 +328,30 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     font-size: 1.4em;
 }
 
-.link-list {
+.nav-col ul {
     list-style: none;
     padding: 0;
 }
 
-.link-list li {
-    margin-bottom: 12px;
+.nav-col li {
+    color: #cccccc;
+    padding: 8px 0;
+    font-size: 1.1em;
 }
 
-.link-list a {
+.nav-col a {
     color: #3498db;
     text-decoration: none;
-    font-size: 1.1em;
     transition: color 0.3s ease;
-    display: block;
-    padding: 8px 0;
 }
 
-.link-list a:hover {
+.nav-col a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
 
 .home-button {
     text-align: center;
-    margin-top: 40px;
 }
 
 .btn-home {
@@ -404,7 +402,7 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
         font-size: 2.2em;
     }
     
-    .link-columns {
+    .nav-columns {
         grid-template-columns: 1fr;
         gap: 30px;
     }
