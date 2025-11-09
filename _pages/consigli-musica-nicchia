@@ -19,38 +19,34 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
         </div>
 
         <!-- SEZIONE 2: Prova della sottrazione con immagine fionda -->
-        <div class="layout-companion">
-            <div class="colonna-testo">
-                <div class="testo-content">
-                    <p>In genere la musica per il mercato non regge alla <em>prova della sottrazione</em>. Una volta messa in cuffia senza l'immagine, il video, lo spot cui è dedicata suona vuota: ancor più banale, ancor più inutile - per quanto conservi un'innocua e superficiale piacevolezza - proprio perché con l'immagine, il video o lo spot, le si è tolto lo scopo cui era destinata, e che essa di per sé non ha e non sa creare.</p>
-
-                    <p>Si potrà prendere una pietra da terra, caricarla in una fionda e colpire un qualsiasi bersaglio. In quel caso, sempre che si abbia buona mira, si dirà che il sasso ha centrato l'obiettivo. Ma quella stessa pietra, senza fionda e bersaglio, non avrà nulla da fare se non rimanere là dov'è, indifferentemente pestata o scalciata da chiunque, a chiunque indifferente e del tutto inerte.</p>
-                </div>
-            </div>
-            <div class="colonna-immagine">
+        <div class="layout-ibrido">
+            <div class="container-immagine">
                 <div class="consigli-image">
-                    <img src="/images/fionda.webp" alt="Metafora della fionda e della pietra">
+                    <img src="/images/fionda.webp" alt="Metafora della fionda e della pietra" class="immagine-flottante">
                     <div class="image-caption">La metafora della fionda - senza scopo, anche il miglior proiettile è inerte</div>
                 </div>
+            </div>
+            <div class="testo-flottante">
+                <p>In genere la musica per il mercato non regge alla <em>prova della sottrazione</em>. Una volta messa in cuffia senza l'immagine, il video, lo spot cui è dedicata suona vuota: ancor più banale, ancor più inutile - per quanto conservi un'innocua e superficiale piacevolezza - proprio perché con l'immagine, il video o lo spot, le si è tolto lo scopo cui era destinata, e che essa di per sé non ha e non sa creare.</p>
+
+                <p>Si potrà prendere una pietra da terra, caricarla in una fionda e colpire un qualsiasi bersaglio. In quel caso, sempre che si abbia buona mira, si dirà che il sasso ha centrato l'obiettivo. Ma quella stessa pietra, senza fionda e bersaglio, non avrà nulla da fare se non rimanere là dov'è, indifferentemente pestata o scalciata da chiunque, a chiunque indifferente e del tutto inerte.</p>
             </div>
         </div>
 
         <!-- SEZIONE 3: Musica pura vs commerciale con immagine orchestra -->
-        <div class="layout-companion reverse">
-            <div class="colonna-immagine">
+        <div class="layout-ibrido reverse">
+            <div class="container-immagine">
                 <div class="consigli-image">
-                    <img src="/images/orchestra.webp" alt="Orchestra e musica pura">
+                    <img src="/images/orchestra.webp" alt="Orchestra e musica pura" class="immagine-flottante">
                     <div class="image-caption">La musica pura vive di vita propria, indipendente da scopi esterni</div>
                 </div>
             </div>
-            <div class="colonna-testo">
-                <div class="testo-content">
-                    <p>Nata esplicitamente per soddisfare uno scopo esterno, una volta separata da esso la musica per il mercato rivela la sua pochezza. E nel migliore dei casi potremo passare qualche secondo ad ascoltarla con la testa altrove, proprio come fanno quei bambini che, pensando ad altro, distrattamente sulla rena ghiaiosa muovono tra i piedi i sassolini colorati.</p>
+            <div class="testo-flottante">
+                <p>Nata esplicitamente per soddisfare uno scopo esterno, una volta separata da esso la musica per il mercato rivela la sua pochezza. E nel migliore dei casi potremo passare qualche secondo ad ascoltarla con la testa altrove, proprio come fanno quei bambini che, pensando ad altro, distrattamente sulla rena ghiaiosa muovono tra i piedi i sassolini colorati.</p>
 
-                    <p>La musica pura, o "assoluta" che dir si voglia, può invece permettersi anche il lusso di essere sgradevole, perché pure (e forse soprattutto) in tal caso crea emozioni in chi ascolta.</p>
+                <p>La musica pura, o "assoluta" che dir si voglia, può invece permettersi anche il lusso di essere sgradevole, perché pure (e forse soprattutto) in tal caso crea emozioni in chi ascolta.</p>
 
-                    <p>Essa può essere associata a particolari supporti; ma non ne sente necessariamente il bisogno perché già di per sé stimola stati d'animo, fa nascere immagini, provoca sensazioni di notevole intensità.</p>
-                </div>
+                <p>Essa può essere associata a particolari supporti; ma non ne sente necessariamente il bisogno perché già di per sé stimola stati d'animo, fa nascere immagini, provoca sensazioni di notevole intensità.</p>
             </div>
         </div>
 
@@ -69,7 +65,7 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
 
             <p>L'ascolto (quello vero, di Musica vera - e intendo <em>libera</em>) è per sua natura evocativo: di luoghi, di sensazioni più o meno intense, di stati d'animo vissuti nel passato; e ancora di speranze, sogni, desideri, o anche angosce e paure del tutto astratte e indefinibili.</p>
 
-            <p>E tutto ciò, seppure non raggiunge il livello di una percezione razionale e logicamente giustificata, si mantiene pur sempre sul piano di un'assoluta consapevolezza. Per cui ogni ascolto autentico è accompagnato dalla coscienza di un'impressione, di un determinato mutamentopsichico che interviene a cambiare lo stato di coscienza.</p>
+            <p>E tutto ciò, seppure non raggiunge il livello di una percezione razionale e logicamente giustificata, si mantiene pur sempre sul piano di un'assoluta consapevolezza. Per cui ogni ascolto autentico è accompagnato dalla coscienza di un'impressione, di un determinato mutamento psichico che interviene a cambiare lo stato di coscienza.</p>
 
             <p>Il vero musicista è colui che vuole alterare uno stato percettivo, il vero ascoltatore è colui che trova in se stesso i motivi dell'ascolto, colui che lo cerca con un atto volontario e con l'esatta consapevolezza che le onde sonore non lasceranno inerti le sue sinapsi.</p>
 
@@ -77,22 +73,20 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
         </div>
 
         <!-- SEZIONE 6: WATER & FIRE con immagine -->
-        <div class="layout-companion">
-            <div class="colonna-testo">
-                <div class="testo-content">
-                    <h3>WATER & FIRE</h3>
-                    <p>E allora? Allora, per chi vuole tenersi le mani libere, non resta altro da fare che capovolgere la situazione.</p>
-
-                    <p>Non bisogna fare cioè musica per il mercato, ma provare a servirsi del mercato per la <em>propria</em> musica. L'unica soluzione è diffonderla in rete, su siti con licenza royalty free.</p>
-
-                    <p>Attenzione, è proprio per "ragioni di mercato" che alcune piattaforme non accettano certi brani, anche se molto ben fatti. Ad esempio ho rinunciato a pubblicare su Audiojungle perché due tracce su tre venivano rifiutate con la seguente motivazione: "Caro Raffaele, ci dispiace ma questo brano non è adatto allo spirito di questa libreria". In un caso particolare un membro dello staff mi disse anche, con estrema chiarezza, che la musica gli era piaciuta moltissimo ma che, a malincuore, non poteva consentirne la pubblicazione perché "poco vendibile".</p>
-                </div>
-            </div>
-            <div class="colonna-immagine">
+        <div class="layout-ibrido">
+            <div class="container-immagine">
                 <div class="consigli-image">
-                    <img src="/images/water_fire.webp" alt="Water and Fire - contrasti musicali">
+                    <img src="/images/water_fire.webp" alt="Water and Fire - contrasti musicali" class="immagine-flottante">
                     <div class="image-caption">WATER & FIRE - I contrasti che il mercato spesso rifiuta</div>
                 </div>
+            </div>
+            <div class="testo-flottante">
+                <h3>WATER & FIRE</h3>
+                <p>E allora? Allora, per chi vuole tenersi le mani libere, non resta altro da fare che capovolgere la situazione.</p>
+
+                <p>Non bisogna fare cioè musica per il mercato, ma provare a servirsi del mercato per la <em>propria</em> musica. L'unica soluzione è diffonderla in rete, su siti con licenza royalty free.</p>
+
+                <p>Attenzione, è proprio per "ragioni di mercato" che alcune piattaforme non accettano certi brani, anche se molto ben fatti. Ad esempio ho rinunciato a pubblicare su Audiojungle perché due tracce su tre venivano rifiutate con la seguente motivazione: "Caro Raffaele, ci dispiace ma questo brano non è adatto allo spirito di questa libreria". In un caso particolare un membro dello staff mi disse anche, con estrema chiarezza, che la musica gli era piaciuta moltissimo ma che, a malincuore, non poteva consentirne la pubblicazione perché "poco vendibile".</p>
             </div>
         </div>
 
@@ -106,26 +100,28 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
         </div>
 
         <!-- SEZIONE 8: Conclusioni con immagine Pirandello -->
-        <div class="layout-companion reverse">
-            <div class="colonna-immagine">
+        <div class="layout-ibrido reverse">
+            <div class="container-immagine">
                 <div class="consigli-image">
-                    <img src="/images/pirandello.webp" alt="Luigi Pirandello">
+                    <img src="/images/pirandello.webp" alt="Luigi Pirandello" class="immagine-flottante">
                     <div class="image-caption">Luigi Pirandello - Così sia, se vi pare</div>
                 </div>
             </div>
-            <div class="colonna-testo">
-                <div class="testo-content">
-                    <p>Da quando è incominciato questo gioco il mio modo di concepire e di fare la musica non è cambiato. E non cambierà.</p>
+            <div class="testo-flottante">
+                <p>Da quando è incominciato questo gioco il mio modo di concepire e di fare la musica non è cambiato. E non cambierà.</p>
 
-                    <p>Ciò che faccio è e resterà su Jamendo, a disposizione di chiunque voglia ascoltare: con o senza donazioni; con o senza ulteriori vendite.</p>
+                <p>Ciò che faccio è e resterà su Jamendo, a disposizione di chiunque voglia ascoltare: con o senza donazioni; con o senza ulteriori vendite.</p>
 
-                    <p>Ho iniziato a pubblicare musica per il puro piacere di sapere che in un paese lontano qualcuno - che neanche conosco - possa ascoltarla, per il puro piacere di leggere una recensione, e talora anche di scriverla per altri.</p>
+                <p>Ho iniziato a pubblicare musica per il puro piacere di sapere che in un paese lontano qualcuno - che neanche conosco - possa ascoltarla, per il puro piacere di leggere una recensione, e talora anche di scriverla per altri.</p>
 
-                    <p>Dunque - se volete - soprattutto per semplice, umana, miserrima vanità.</p>
+                <p>Dunque - se volete - soprattutto per semplice, umana, miserrima vanità.</p>
 
-                    <p>Non ricordo chi d'altronde affermava che i cosiddetti "grandi uomini", conosciuti come tali per la grandezza della loro opera, sono sempre - in realtà - di gran lunga inferiori ad essa. Lo dico per gloriarmi, lo dico anche per consolarmi.</p>
+                <p>Non ricordo chi d'altronde affermava che i cosiddetti "grandi uomini", conosciuti come tali per la grandezza della loro opera, sono sempre - in realtà - di gran lunga inferiori ad essa. Lo dico per gloriarmi, lo dico anche per consolarmi.</p>
 
-                    <p class="citazione-finale">Così sia, se vi pare. <em>Luigi Pirandello</em></p>
+                <!-- CITAZIONE FINALE CENTRATA -->
+                <div class="citazione-finale-centrata">
+                    <p>Così sia, se vi pare.</p>
+                    <cite>— Luigi Pirandello</cite>
                 </div>
             </div>
         </div>
@@ -190,64 +186,38 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     text-align: justify;
 }
 
-/* LAYOUT COMPANION PERFETTO - TESTO E IMMAGINE ALLINEATI IN ALTO */
-.layout-companion {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: start; /* CRUCIALE: allinea in alto */
+/* LAYOUT IBRIDO - TESTO CHE SCORRE ACCANTO E POI SOTTO */
+.layout-ibrido {
     margin-bottom: 80px;
+    position: relative;
 }
 
-.layout-companion.reverse {
+.layout-ibrido.reverse {
     direction: rtl;
 }
 
-.layout-companion.reverse > * {
+.layout-ibrido.reverse > * {
     direction: ltr;
 }
 
-.colonna-testo {
-    display: flex;
-    flex-direction: column;
+.container-immagine {
+    width: 45%;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 30px;
 }
 
-.colonna-immagine {
-    display: flex;
-    flex-direction: column;
-}
-
-.testo-content {
-    padding: 35px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 15px;
-    border-left: 4px solid #3498db;
-    height: auto;
-}
-
-.testo-content h3 {
-    color: #3498db;
-    font-size: 1.8em;
-    margin-bottom: 25px;
-    font-weight: 400;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 10px;
-}
-
-.testo-content p {
-    margin-bottom: 25px;
-    font-size: 1.2em;
-    line-height: 1.8;
-    text-align: justify;
+.layout-ibrido.reverse .container-immagine {
+    float: right;
+    margin-right: 0;
+    margin-left: 40px;
 }
 
 .consigli-image {
     text-align: center;
-    position: sticky;
-    top: 40px; /* Mantiene l'immagine visibile durante lo scroll */
 }
 
-.consigli-image img {
+.immagine-flottante {
     width: 100%;
     height: 380px;
     object-fit: cover;
@@ -256,7 +226,7 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     transition: transform 0.3s ease;
 }
 
-.consigli-image img:hover {
+.immagine-flottante:hover {
     transform: scale(1.02);
 }
 
@@ -270,19 +240,55 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
     padding: 0 10px;
 }
 
-.citazione-finale {
+.testo-flottante {
+    overflow: hidden; /* Crea nuovo contesto di formato */
+    padding: 20px 0;
+}
+
+.testo-flottante h3 {
+    color: #3498db;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    font-weight: 400;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.testo-flottante p {
+    margin-bottom: 25px;
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* CITAZIONE FINALE CENTRATA */
+.citazione-finale-centrata {
+    text-align: center;
+    margin: 60px 0 30px 0;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border: 1px solid #3498db;
+}
+
+.citazione-finale-centrata p {
     font-style: italic;
     color: #3498db;
-    font-size: 1.3em;
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px;
-    border-top: 1px solid #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.citazione-finale-centrata cite {
+    color: #cccccc;
+    font-size: 1.1em;
+    font-style: normal;
 }
 
 .home-button {
     text-align: center;
     margin-top: 60px;
+    clear: both; /* Importante: pulisce i float */
 }
 
 .btn-home {
@@ -304,39 +310,40 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
 }
 
 @media (max-width: 768px) {
-    .layout-companion {
-        grid-template-columns: 1fr;
-        gap: 40px;
+    .container-immagine {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
     }
     
-    .layout-companion.reverse {
-        direction: ltr;
+    .layout-ibrido.reverse .container-immagine {
+        float: none;
+        margin-left: 0;
+    }
+    
+    .immagine-flottante {
+        height: 300px;
     }
     
     .consigli-header h1 {
         font-size: 2.2em;
     }
     
-    .testo-content {
-        padding: 25px;
-    }
-    
-    .testo-content p {
+    .testo-section p,
+    .testo-flottante p {
         text-align: left;
         font-size: 1.1em;
     }
     
-    .consigli-image img {
-        height: 300px;
+    .citazione-finale-centrata {
+        margin: 40px 0;
+        padding: 30px 20px;
     }
     
-    .consigli-image {
-        position: static; /* Rimuove sticky su mobile */
-    }
-    
-    .testo-section p {
-        text-align: left;
-        font-size: 1.1em;
+    .citazione-finale-centrata p {
+        font-size: 1.3em;
     }
 }
 </style>
