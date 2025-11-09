@@ -1,0 +1,64 @@
+---
+layout: default
+title: Immagini e Musica
+---
+
+<article class="page-content">
+    <h1>{{ page.title }}</h1>
+
+    <p>Nonostante sia un sostenitore dell'ascolto puro, è innegabile che l'associazione di musica e immagini produca talvolta effetti straordinari.</p>
+
+    <p>Come avviene per un organismo, che non è riducibile alla semplice sommatoria di un insieme di organi, così un insieme di sensazioni visive e auditive crea risultati che vanno al di là delle singole componenti.</p>
+
+    <p>È per questo che molti insieme a Mahler ricordano automaticamente le bellissime scene di "Morte a Venezia".</p>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/ampu-e8A6Ls" title="Luchino Visconti - Morte a Venezia" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <p>Oppure chi, pensando a R. Strauss, non rivede gli scenari cosmici di "2001 Odissea nello spazio" (ed è vero anche il contrario)?</p>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/af3YAP6TBmk" title="2001: Odissea nello spazio" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <p>Quando io ero bambino ed esistevano solo due canali Rai, rigorosamente in bianco e nero, mi suggestionava enormemente la sigla di chiusura di un bel documentario di Mino Damato, <a href="https://www.youtube.com/watch?v=m3IGfsYV0Fs&list=RDm3IGfsYV0Fs&start_radio=1">"Avventura"</a>.</p>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/m3IGfsYV0Fs" title="Avventura - Sigla" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <p>Onde altissime, i marinai indaffarati, i titoli di coda in scorrimento; e soprattutto una stupenda canzone -che ancora non potevo conoscere- e che iniziava appunto col verso di gabbiani e accordi lenti e malinconici. Solo parecchio più tardi ho capito che si trattava di "A salty dog", a mio giudizio la più bella canzone dei <a href="https://www.youtube.com/watch?v=Q6BzNEZxbiw">Procol Harum</a>.</p>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/Q6BzNEZxbiw" title="Procol Harum - A Salty Dog" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <p>Se, passati quaranta o forse più anni, mi rimane impressa nella memoria la sigla di chiusura di un documentario, una ragione ci sarà pure.</p>
+
+    <p>E insomma, ho almanaccato con la mia musica e con immagini certo non da me create, ringraziando gli autori di queste ultime, per creare video amatoriali in cui ho messo alla prova le mie capacità di montatore dilettante.</p>
+
+    <p>Con risultati che vi lascio giudicare. Io personalmente mi autoassolvo da ogni peccato.</p>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/pS2TAeOnOxQ" title="Melodramma" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/i09qxUjNLDU" title="Elegy for the Earth" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/ScSRDr9jeOM" title="Return of Hero" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/fQmpCYjtoAQ" title="The Forest Way" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+</article>
+
+<div class="page-end-links">
+    <p><strong>Musica libera da diritti per i tuoi progetti?</strong> Esplora <a href="https://www.jamendo.com" target="_blank">Jamendo</a> o <a href="https://freemusicarchive.org/" target="_blank">Free Music Archive</a>.</p>
+    <a href="{{ site.baseurl }}/" class="home-button">Torna alla Home</a>
+</div>
