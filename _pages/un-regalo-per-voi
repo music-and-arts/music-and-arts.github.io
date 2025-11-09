@@ -1,0 +1,378 @@
+---
+layout: default
+title: "Un regalo per voi - Music and Arts"
+description: "Scopri i miei brani musicali gratuiti. Download libero per uso personale e commerciale."
+---
+
+<div class="music-colors-container">
+    <div class="music-header">
+        <h1>Un regalo per voi</h1>
+        <p class="music-subtitle">Condivido con voi la mia passione per la musica</p>
+    </div>
+
+    <div class="music-content">
+        <!-- SEZIONE 1: Introduzione -->
+        <div class="music-section">
+            <div class="text-content-full">
+                <p>Quel che trovate qui spero vi piacerà, perché offro alcuni dei miei brani migliori.</p>
+                <p>Ascoltateli e usateli come vi pare, ad uso personale o anche commerciale.</p>
+            </div>
+        </div>
+
+        <!-- SEZIONE 2: Immagine centrale -->
+        <div class="music-section">
+            <div class="final-image">
+                <div class="music-image single">
+                    <img src="/images/regalo.webp" alt="Regalo musicale">
+                    <div class="image-caption">Un dono dalla mia creatività alla vostra</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEZIONE 3: Condizioni d'uso -->
+        <div class="music-section">
+            <div class="text-content-full">
+                <p>Vi chiedo solo una menzione dell'autore e un'indicazione del link a questo sito nel caso di usi commerciali.</p>
+                <p>Graditissima sarebbe anche una donazione, sia pur minima, giusto per incoraggiarmi a proseguire.</p>
+            </div>
+        </div>
+
+        <!-- SEZIONE 4: Licenza Creative Commons -->
+        <div class="music-section">
+            <div class="license-section">
+                <h3>Licenza Creative Commons</h3>
+                <div class="license-content">
+                    <div class="license-icons">
+                        <div class="license-icon">CC</div>
+                        <div class="license-icon">BY</div>
+                    </div>
+                    <div class="license-text">
+                        <p><strong>Attribuzione 4.0 Internazionale (CC BY 4.0)</strong></p>
+                        <p>Sei libero di:</p>
+                        <ul>
+                            <li><strong>Condividere</strong> — copiare e redistribuire il materiale in qualsiasi mezzo o formato</li>
+                            <li><strong>Adattare</strong> — remixare, trasformare e creare a partire dal materiale per qualsiasi fine, anche commerciale</li>
+                        </ul>
+                        <p>A una sola condizione:</p>
+                        <ul>
+                            <li><strong>Attribuzione</strong> — Devi riconoscere una menzione di paternità adeguata, fornire un link alla licenza e indicare se sono state effettuate delle modifiche.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEZIONE 5: Link ai brani -->
+        <div class="music-section">
+            <div class="gift-section">
+                <h3>Regalo in Musica</h3>
+                <div class="gift-link">
+                    <a href="https://drive.google.com/drive/folders/1IKD5MalSTJSBSQ0MflPXx3__RVA2k9eR?hl=it" target="_blank" class="btn-gift">
+                        🎵 Accedi ai miei brani gratuiti 🎵
+                    </a>
+                    <p class="link-description">Clicca qui per scaricare la mia musica da Google Drive</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- MENU FINALE -->
+        <div class="music-nav">
+            <div class="nav-columns">
+                <div class="nav-col">
+                    <h3>La Mia Musica</h3>
+                    <ul>
+                        <li>🎵 Jamendo</li>
+                        <li>🎵 Melodyloops</li>
+                        <li>🎵 Pond5</li>
+                        <li>🎵 Spotify</li>
+                    </ul>
+                </div>
+                <div class="nav-col">
+                    <h3>Offrimi un caffè</h3>
+                    <ul>
+                        <li>☕ Supportami su Ko-fi</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="home-button">
+                <a href="/" class="btn-home">Torna alla Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* STILI SPECIFICI PER LA PAGINA REGALO */
+.gift-section {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border: 2px solid #e74c3c;
+}
+
+.gift-section h3 {
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.btn-gift {
+    display: inline-block;
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+    margin-bottom: 20px;
+}
+
+.btn-gift:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(231, 76, 60, 0.5);
+    background: linear-gradient(135deg, #c0392b, #a93226);
+}
+
+.link-description {
+    color: #cccccc;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* LICENZA CREATIVE COMMONS */
+.license-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    border-left: 4px solid #3498db;
+}
+
+.license-section h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.license-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.license-icons {
+    display: flex;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.license-icon {
+    width: 80px;
+    height: 80px;
+    background: #3498db;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.license-text {
+    flex: 1;
+}
+
+.license-text p {
+    color: #ffffff;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.license-text ul {
+    color: #cccccc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.license-text li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .license-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .license-icons {
+        justify-content: center;
+    }
+    
+    .btn-gift {
+        padding: 15px 25px;
+        font-size: 1.1em;
+    }
+}
+
+/* MANTIENI TUTTI GLI ALTRI STILI DELLA PAGINA PRECEDENTE */
+.music-colors-container {
+    background: #1a1a1a;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.music-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.music-header {
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #333;
+}
+
+.music-header h1 {
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.music-subtitle {
+    color: #cccccc;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+.music-section {
+    margin-bottom: 80px;
+}
+
+.text-content-full {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #3498db;
+    margin-bottom: 40px;
+}
+
+.text-content-full p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.final-image {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.music-image.single {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.music-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.music-image img:hover {
+    transform: scale(1.03);
+}
+
+.image-caption {
+    color: #cccccc;
+    font-style: italic;
+    margin-top: 12px;
+    font-size: 0.95em;
+}
+
+.music-nav {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.nav-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.nav-col h3 {
+    color: #ffffff;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.nav-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-col li {
+    color: #cccccc;
+    padding: 8px 0;
+    font-size: 1.1em;
+}
+
+.home-button {
+    text-align: center;
+}
+
+.btn-home {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.8);
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-home:hover {
+    background: rgba(41, 128, 185, 0.9);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .nav-columns {
+        grid-template-columns: 1fr;
+    }
+    
+    .music-header h1 {
+        font-size: 2.2em;
+    }
+}
+</style>
