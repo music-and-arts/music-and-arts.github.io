@@ -75,22 +75,12 @@ permalink: /interludio-ii/
 
         <!-- SEZIONE 4: SCRITTURA EROTICA -->
 <div class="music-section">
-    <div class="text-with-images reverse">
-        <div class="images-side">
-            <div class="music-image single">
-                <img src="{{ site.baseurl }}/images/scrittura.webp" alt="Scrittura creativa">
-                <div class="image-caption">L'arte della scrittura</div>
-            </div>
-        </div>
-        <div class="text-content">
-            <h3>Narrativa Erotica</h3>
-            <p>Riguardo alla scrittura, El Lelante ha riversato la sua passione per il gentil sesso nella narrativa erotica. Amazon ospita, con significativo successo di vendite, due opere che farebbero resuscitare anche gli eunuchi.</p>
-            
-            <p>E questo, ci tengo a sottolinearlo, senza mai scadere nella pornografia spicciola o nella volgarità fine a sé stessa.</p>
-        </div>
-    </div>
-
     <div class="text-content-full">
+        <h3>Narrativa Erotica</h3>
+        <p>Riguardo alla scrittura, El Lelante ha riversato la sua passione per il gentil sesso nella narrativa erotica. Amazon ospita, con significativo successo di vendite, due opere che farebbero resuscitare anche gli eunuchi.</p>
+        
+        <p>E questo, ci tengo a sottolinearlo, senza mai scadere nella pornografia spicciola o nella volgarità fine a sé stessa.</p>
+
         <p>Prima di scandalizzarvi per certo linguaggio talora esplicito e per situazioni non certo da educande, ricordate che da Plauto a Catullo, da Baudelaire a Bukowski il sesso è tema privilegiato della letteratura. Senza contare che esso è una costituente fondamentale di ciò che siamo, e che spesso nascondiamo a noi stessi.</p>
         
         <div class="highlight-box">
