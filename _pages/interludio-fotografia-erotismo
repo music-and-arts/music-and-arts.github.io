@@ -1,0 +1,428 @@
+---
+layout: default
+title: "Interludio II - Fotografia e Erotismo - Music and Arts"
+permalink: /interludio-fotografia-erotismo/
+---
+
+<div class="interludio-container">
+    <div class="music-header">
+        <h1>Interludio II - Fotografia e Erotismo</h1>
+        <p class="music-subtitle">L'arte di El Lelante tra scatti e parole</p>
+    </div>
+
+    <div class="music-content">
+        <!-- IMMAGINE CAMERA IN ALTO -->
+        <div class="main-image">
+            <img src="/images/camera.webp" alt="Fotografia - La macchina fotografica di El Lelante">
+        </div>
+
+        <!-- SEZIONE 1: PRESENTAZIONE -->
+        <div class="music-section">
+            <div class="text-with-images">
+                <div class="text-content">
+                    <p>Lello (alias "El Lelante" per pochi ed intimi amici) è personaggio mitico per chiunque, come me, lo conosca da quasi mezzo secolo.</p>
+                    <p>Perché gli dedico una pagina apposita? Per almeno due ottimi motivi: in primo luogo perché è un amico di antichissima data, di quelli che ti restano a vita; in secondo luogo perché, pur non praticando musica, è un artista in senso pieno.</p>
+                </div>
+                <div class="images-side">
+                    <div class="music-image">
+                        <img src="/images/lello.webp" alt="El Lelante - Ritratto">
+                        <div class="image-caption">El Lelante</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEZIONE 2: FOTOGRAFIA -->
+        <div class="music-section">
+            <div class="text-content-full">
+                <h3>La Fotografia di El Lelante</h3>
+                <p>Visto che qualsiasi forma espressiva è benvenuta, hanno pieno diritto di cittadinanza in questo sito anche le arti gradite a El Lelante: la fotografia e la scrittura.</p>
+                
+                <p>Napoletano DOC, El Lelante trova nella sua città infiniti spunti per le sue stupende fotografie. E il suo scatto non è mai banale, fissando squarci di vita, paesaggi, espressioni e volti che rendono giustizia a un luogo, ad una cultura, ad un modo di rapportarsi alla vita.</p>
+            </div>
+
+            <div class="images-grid">
+                <div class="image-pair">
+                    <div class="music-image">
+                        <img src="/images/chiara.webp" alt="Fotografia di Chiara">
+                        <div class="image-caption">Scatto artistico</div>
+                    </div>
+                    <div class="music-image">
+                        <img src="/images/moglie.webp" alt="Fotografia della moglie">
+                        <div class="image-caption">Ritratto femminile</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <p>Inoltre El Lelante, da bravo uomo del sud, ama le donne. Le ama per tutta la carica d'innocente malizia, di sensualità che esse -volontariamente o meno- sanno esprimere. Le sue foto ultimamente stanno avendo riscontri lusinghieri, sia da un punto di vista commerciale che critico.</p>
+            </div>
+        </div>
+
+        <!-- SEZIONE 3: INSTAGRAM -->
+        <div class="music-section">
+            <div class="text-content-full">
+                <h3>Scopri il suo mondo visivo</h3>
+                <p>Visitate la sua pagina Instagram e scoprirete un mondo!</p>
+                
+                <div class="social-link">
+                    <a href="https://www.instagram.com/el_lelante/?hl=it" target="_blank" class="instagram-btn">
+                        📷 El Lelante - Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEZIONE 4: SCRITTURA EROTICA -->
+        <div class="music-section">
+            <div class="text-with-images reverse">
+                <div class="images-side">
+                    <div class="music-image single">
+                        <img src="/images/scrittura.webp" alt="Scrittura creativa">
+                        <div class="image-caption">L'arte della scrittura</div>
+                    </div>
+                </div>
+                <div class="text-content">
+                    <h3>Narrativa Erotica</h3>
+                    <p>Riguardo alla scrittura, El Lelante ha riversato la sua passione per il gentil sesso nella narrativa erotica. Amazon ospita, con significativo successo di vendite, due opere che farebbero resuscitare anche gli eunuchi.</p>
+                    
+                    <p>E questo, ci tengo a sottolinearlo, senza mai scadere nella pornografia spicciola o nella volgarità fine a sé stessa.</p>
+                </div>
+            </div>
+
+            <div class="text-content-full">
+                <p>Prima di scandalizzarvi per certo linguaggio talora esplicito e per situazioni non certo da educande, ricordate che da Plauto a Catullo, da Baudelaire a Bukowski il sesso è tema privilegiato della letteratura. Senza contare che esso è una costituente fondamentale di ciò che siamo, e che spesso nascondiamo a noi stessi.</p>
+                
+                <div class="highlight-box">
+                    <p><em>Se vi va di dare un'occhiata, andate qui: non si tratta di volgarità ma di erotismo raffinato. Falco De Rosa è lo pseudonimo del nostro autore.</em></p>
+                </div>
+
+                <div class="social-link">
+                    <a href="https://www.amazon.it/s?i=digital-text&rh=p_27%3AFalco+De+Rosa&s=relevancerank&text=Falco+De+Rosa&ref=dp_byline_sr_ebooks_1" target="_blank" class="amazon-btn">
+                        📚 Scopri i libri di Falco De Rosa su Amazon
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- MENU FINALE -->
+        <div class="music-nav">
+            <div class="nav-columns">
+                <div class="nav-col">
+                    <h3>La Mia Musica</h3>
+                    <ul>
+                        <li>🎵 <a href="https://www.jamendo.com/artist/347673/aufklarung" target="_blank">Jamendo</a></li>
+                        <li>🎵 <a href="https://www.melodyloops.com/composers/raffaele-de-leonardo/" target="_blank">Melodyloops</a></li>
+                        <li>🎵 <a href="https://www.pond5.com/it/artist/europeanart" target="_blank">Pond5</a></li>
+                        <li>🎵 <a href="https://open.spotify.com/intl-it/artist/23mNnUEoDifg6ax49JfQrP" target="_blank">Spotify</a></li>
+                    </ul>
+                </div>
+                <div class="nav-col">
+                    <h3>Offrimi un caffè</h3>
+                    <ul>
+                        <li>☕ <a href="https://ko-fi.com/aufklarung" target="_blank">Supportami su Ko-fi</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="home-button">
+                <a href="/" class="btn-home">Torna alla Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* STILI BASE */
+.interludio-container {
+    background: #1a1a1a;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.music-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.music-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #333;
+}
+
+.music-header h1 {
+    color: #ffffff;
+    font-size: 2.8em;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.music-subtitle {
+    color: #cccccc;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+/* IMMAGINE PRINCIPALE CAMERA */
+.main-image {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* SEZIONI PRINCIPALI */
+.music-section {
+    margin-bottom: 80px;
+}
+
+/* LAYOUT TESTO + IMMAGINI */
+.text-with-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: start;
+    margin-bottom: 40px;
+}
+
+.text-with-images.reverse {
+    grid-template-columns: 1fr 1fr;
+    direction: rtl;
+}
+
+.text-with-images.reverse > * {
+    direction: ltr;
+}
+
+.text-content {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #e74c3c;
+}
+
+.text-content-full {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #3498db;
+    margin-bottom: 40px;
+}
+
+.text-content h3, .text-content-full h3 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.text-content p, .text-content-full p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* IMMAGINI */
+.images-side {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.images-grid {
+    margin: 40px 0;
+}
+
+.image-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.music-image {
+    text-align: center;
+}
+
+.music-image.single {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.music-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.music-image img:hover {
+    transform: scale(1.03);
+}
+
+.image-caption {
+    color: #cccccc;
+    font-style: italic;
+    margin-top: 12px;
+    font-size: 0.95em;
+}
+
+/* BOX EVIDENZIATO */
+.highlight-box {
+    background: rgba(231, 76, 60, 0.1);
+    border: 1px solid #e74c3c;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px 0;
+}
+
+.highlight-box p {
+    color: #ffffff;
+    font-size: 1.3em;
+    line-height: 1.7;
+    text-align: center;
+    margin: 0;
+}
+
+/* PULSANTI SOCIAL */
+.social-link {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.instagram-btn, .amazon-btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #E1306C, #F77737);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(225, 48, 108, 0.3);
+}
+
+.amazon-btn {
+    background: linear-gradient(45deg, #FF9900, #FFD700);
+    box-shadow: 0 4px 15px rgba(255, 153, 0, 0.3);
+}
+
+.instagram-btn:hover, .amazon-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(225, 48, 108, 0.4);
+}
+
+.amazon-btn:hover {
+    box-shadow: 0 6px 20px rgba(255, 153, 0, 0.4);
+}
+
+/* NAVIGAZIONE FINALE */
+.music-nav {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.nav-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.nav-col h3 {
+    color: #ffffff;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.nav-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-col li {
+    color: #cccccc;
+    padding: 8px 0;
+    font-size: 1.1em;
+}
+
+.nav-col a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.nav-col a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+.home-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* BOTTONE HOME */
+.btn-home {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.8);
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-home:hover {
+    background: rgba(41, 128, 185, 0.9);
+    transform: translateY(-2px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .text-with-images {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .text-with-images.reverse {
+        grid-template-columns: 1fr;
+        direction: ltr;
+    }
+    
+    .image-pair {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav-columns {
+        grid-template-columns: 1fr;
+    }
+    
+    .music-header h1 {
+        font-size: 2.2em;
+    }
+    
+    .music-image img {
+        height: 250px;
+    }
+}
+</style>
