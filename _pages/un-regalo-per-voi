@@ -23,7 +23,7 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
         <div class="music-section">
             <div class="final-image">
                 <div class="music-image single">
-                    <img src="/images/regalo.webp" alt="Regalo musicale">
+                    <img src="/images/regalo.jpg" alt="Regalo musicale">
                     <div class="image-caption">Un dono dalla mia creatività alla vostra</div>
                 </div>
             </div>
