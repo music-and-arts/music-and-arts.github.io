@@ -41,5 +41,404 @@ permalink: /immagini-e-musica/
             </div>
         </div>
 
-        <!-- ALTRE SEZIONI (come nel codice precedente) -->
-        <!-- ... il resto del codice che ti ho inviato prima ... -->
+        <!-- SEZIONE STRAUSS - 2001 ODISSEA NELLO SPAZIO -->
+        <div class="music-section">
+            <div class="text-with-images reverse">
+                <div class="images-side">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/af3YAP6TBmk" 
+                                title="2001: Odissea nello spazio" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="text-content">
+                    <h3>Strauss e Kubrick</h3>
+                    <p>Oppure chi, pensando a R. Strauss, non rivede gli scenari cosmici di "2001 Odissea nello spazio"?</p>
+                    <p>E vale anche il contrario: quelle immagini non sarebbero le stesse senza la potenza musicale di Strauss.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEZIONE PROCOL HARUM - AVVENTURA -->
+        <div class="music-section">
+            <div class="text-content-full">
+                <h3>I ricordi d'infanzia</h3>
+                <p>Quando io ero bambino ed esistevano solo due canali Rai, rigorosamente in bianco e nero, mi suggestionava enormemente la sigla di chiusura di un bel documentario di Mino Damato, <a href="https://www.youtube.com/watch?v=m3IGfsYV0Fs" target="_blank">"Avventura"</a>.</p>
+                
+                <p>Onde altissime, i marinai indaffarati, i titoli di coda in scorrimento; e soprattutto una stupenda canzone -che ancora non potevo conoscere- e che iniziava appunto col verso di gabbiani e accordi lenti e malinconici.</p>
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/m3IGfsYV0Fs" 
+                        title="Avventura - Sigla" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            
+            <div class="highlight-box">
+                <p><em>Solo parecchio più tardi ho capito che si trattava di "A Salty Dog", a mio giudizio la più bella canzone dei <a href="https://www.youtube.com/watch?v=Q6BzNEZxbiw" target="_blank">Procol Harum</a>.</em></p>
+            </div>
+        </div>
+
+        <!-- SEZIONE PROCOL HARUM -->
+        <div class="music-section">
+            <div class="text-content-full">
+                <h3>La scoperta musicale</h3>
+                <p>Se, passati quaranta o forse più anni, mi rimane impressa nella memoria la sigla di chiusura di un documentario, una ragione ci sarà pure.</p>
+                
+                <p>E insomma, ho almanaccato con la mia musica e con immagini certo non da me create, ringraziando gli autori di queste ultime, per creare video amatoriali in cui ho messo alla prova le mie capacità di montatore dilettante.</p>
+                
+                <p>Con risultati che vi lascio giudicare. Io personalmente mi autoassolvo da ogni peccato.</p>
+            </div>
+        </div>
+
+        <!-- I MIEI VIDEO -->
+        <div class="music-section">
+            <div class="text-content-full">
+                <h3>I miei esperimenti audiovisivi</h3>
+            </div>
+            
+            <div class="videos-grid">
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/pS2TAeOnOxQ" 
+                                title="Melodramma" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-caption">Melodramma</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/i09qxUjNLDU" 
+                                title="Elegy for the Earth" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-caption">Elegy for the Earth</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/ScSRDr9jeOM" 
+                                title="Return of Hero" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-caption">Return of Hero</div>
+                </div>
+                
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/fQmpCYjtoAQ" 
+                                title="The Forest Way" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-caption">The Forest Way</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MENU FINALE CON I TUOI LINK REALI -->
+        <div class="music-nav">
+            <div class="nav-columns">
+                <div class="nav-col">
+                    <h3>La Mia Musica</h3>
+                    <ul>
+                        <li>🎵 <a href="https://www.jamendo.com/artist/347673/aufklarung" target="_blank">Jamendo</a></li>
+                        <li>🎵 <a href="https://www.melodyloops.com/composers/raffaele-de-leonardo/" target="_blank">Melodyloops</a></li>
+                        <li>🎵 <a href="https://www.pond5.com/it/artist/europeanart" target="_blank">Pond5</a></li>
+                        <li>🎵 <a href="https://open.spotify.com/intl-it/artist/23mNnUEoDifg6ax49JfQrP" target="_blank">Spotify</a></li>
+                    </ul>
+                </div>
+                <div class="nav-col">
+                    <h3>Offrimi un caffè</h3>
+                    <ul>
+                        <li>☕ <a href="https://ko-fi.com/aufklarung" target="_blank">Supportami su Ko-fi</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="home-button">
+                <a href="/" class="btn-home">Torna alla Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* STILI BASE (coerenti con l'altra pagina) */
+.images-music-container {
+    background: #1a1a1a;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.music-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.music-header {
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #333;
+}
+
+.music-header h1 {
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.music-subtitle {
+    color: #cccccc;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+/* SEZIONI PRINCIPALI */
+.music-section {
+    margin-bottom: 80px;
+}
+
+/* LAYOUT TESTO + IMMAGINI AFFIANCATE */
+.text-with-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: start;
+    margin-bottom: 40px;
+}
+
+.text-with-images.reverse {
+    grid-template-columns: 1fr 1fr;
+    direction: rtl;
+}
+
+.text-with-images.reverse > * {
+    direction: ltr;
+}
+
+.text-content {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #e74c3c;
+}
+
+.text-content-full {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #3498db;
+    margin-bottom: 40px;
+}
+
+.text-content h3, .text-content-full h3 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.text-content p, .text-content-full p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* VIDEO CONTAINER RESPONSIVE - GRANDE */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    background: #000;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* GRIGLIA VIDEO */
+.videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.video-item {
+    text-align: center;
+}
+
+.video-caption {
+    color: #cccccc;
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+/* BOX EVIDENZIATO */
+.highlight-box {
+    background: rgba(231, 76, 60, 0.1);
+    border: 1px solid #e74c3c;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px 0;
+}
+
+.highlight-box p {
+    color: #ffffff;
+    font-size: 1.3em;
+    line-height: 1.7;
+    text-align: center;
+    margin: 0;
+}
+
+.highlight-box a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.highlight-box a:hover {
+    text-decoration: underline;
+}
+
+/* LINK */
+.text-content a, .text-content-full a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.text-content a:hover, .text-content-full a:hover {
+    text-decoration: underline;
+}
+
+/* NAVIGAZIONE FINALE */
+.music-nav {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.nav-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.nav-col h3 {
+    color: #ffffff;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.nav-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-col li {
+    color: #cccccc;
+    padding: 8px 0;
+    font-size: 1.1em;
+}
+
+.nav-col a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.nav-col a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+.home-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* BOTTONE HOME */
+.btn-home {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.8);
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-home:hover {
+    background: rgba(41, 128, 185, 0.9);
+    transform: translateY(-2px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .text-with-images {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .text-with-images.reverse {
+        grid-template-columns: 1fr;
+        direction: ltr;
+    }
+    
+    .videos-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav-columns {
+        grid-template-columns: 1fr;
+    }
+    
+    .music-header h1 {
+        font-size: 2.2em;
+    }
+    
+    .video-container {
+        margin: 0 10px;
+    }
+}
+</style>
