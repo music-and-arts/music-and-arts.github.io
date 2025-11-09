@@ -27,7 +27,7 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
             </div>
             <div class="immagine-side">
                 <div class="consigli-image">
-                    <img src="/images/fionda.jpg" alt="Metafora della fionda e della pietra">
+                    <img src="/images/fionda.webp" alt="Metafora della fionda e della pietra">
                     <div class="image-caption">La metafora della fionda - senza scopo, anche il miglior proiettile è inerte</div>
                 </div>
             </div>
@@ -37,7 +37,7 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
         <div class="testo-immagine-section reverse">
             <div class="immagine-side">
                 <div class="consigli-image">
-                    <img src="/images/orchestra.jpg" alt="Orchestra e musica pura">
+                    <img src="/images/orchestra.webp" alt="Orchestra e musica pura">
                     <div class="image-caption">La musica pura vive di vita propria, indipendente da scopi esterni</div>
                 </div>
             </div>
@@ -84,7 +84,7 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
             </div>
             <div class="immagine-side">
                 <div class="consigli-image">
-                    <img src="/images/water_fire.jpg" alt="Water and Fire - contrasti musicali">
+                    <img src="/images/water_fire.webp" alt="Water and Fire - contrasti musicali">
                     <div class="image-caption">WATER & FIRE - I contrasti che il mercato spesso rifiuta</div>
                 </div>
             </div>
@@ -103,7 +103,7 @@ description: "Riflessioni sulla musica pura vs musica commerciale. Consigli per 
         <div class="testo-immagine-section reverse">
             <div class="immagine-side">
                 <div class="consigli-image">
-                    <img src="/images/pirandello.jpg" alt="Luigi Pirandello">
+                    <img src="/images/pirandello.webp" alt="Luigi Pirandello">
                     <div class="image-caption">Luigi Pirandello - Così sia, se vi pare</div>
                 </div>
             </div>
