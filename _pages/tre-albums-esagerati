@@ -49,7 +49,7 @@ permalink: /tre-albums-esagerati/
                 </div>
                 <div class="album-content">
                     <h3>The Butcher's Ballroom</h3>
-                    <div class="text-content-full">
+                    <div class="highlight-box">
                         <p><strong>Senza un centro</strong></p>
                         <p>Ancora un album bellissimo, un gioco d'intarsio paziente in cui le singole tessere assumono valore solo nella visione d'insieme. Si devono chiudere gli occhi, ci si deve lasciar trasportare, ci si deve saper calare completamente nelle atmosfere. Questo non è "progressive" virtuosistico in senso stretto, perché il virtuosismo accompagna splendidamente l'ispirazione musicale senza nasconderla ed anzi valorizzandola al meglio.</p>
                     </div>
@@ -70,7 +70,7 @@ permalink: /tre-albums-esagerati/
                 </div>
                 <div class="album-content">
                     <h3>La Materia Dell'Asienza</h3>
-                    <div class="text-content-full">
+                    <div class="highlight-box">
                         <p><strong>Elettronica, minimalismo, sperimentazione</strong></p>
                         <p>Affascinante miscela di suoni, fusione di Elettronica e Minimalismo. Un album difficile, da ascoltare e riascoltare più volte, ipnotico e a tratti drammatico. In una parola, affascinante! Di nicchia ristrettissima, di un coraggio pari alla qualità della musica.</p>
                     </div>
@@ -160,20 +160,18 @@ permalink: /tre-albums-esagerati/
 }
 
 .album-image {
-    text-align: left;
+    text-align: center;
     align-self: start;
 }
 
 .album-image img {
     width: 100%;
-    max-width: 300px;
-    height: 300px;
+    max-width: 280px;
+    height: 280px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
-    margin-left: 0;
-    vertical-align: top;
-    display: block;
+    border: 3px solid #3498db;
 }
 
 .album-content h3 {
@@ -184,46 +182,27 @@ permalink: /tre-albums-esagerati/
     padding-bottom: 10px;
 }
 
-/* CONTENUTO TESTO */
-.text-content-full {
-    padding: 30px;
+/* BOX EVIDENZIATO */
+.highlight-box {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     border-left: 4px solid #3498db;
-    margin-bottom: 30px;
-}
-
-.text-content-full p {
-    color: #ffffff;
-    font-size: 1.2em;
-    line-height: 1.8;
-    margin-bottom: 15px;
-}
-
-.text-content-full strong {
-    color: #e74c3c;
-    font-size: 1.3em;
-}
-
-/* BOX EVIDENZIATO */
-.highlight-box {
-    background: rgba(231, 76, 60, 0.1);
-    border: 1px solid #e74c3c;
-    border-radius: 10px;
-    padding: 25px;
+    padding: 30px;
     margin-bottom: 30px;
 }
 
 .highlight-box p {
     color: #ffffff;
     font-size: 1.2em;
-    line-height: 1.7;
+    line-height: 1.8;
     margin-bottom: 15px;
 }
 
 .highlight-box strong {
     color: #e74c3c;
     font-size: 1.3em;
+    display: block;
+    margin-bottom: 15px;
 }
 
 /* LINK ALBUM */
@@ -234,7 +213,7 @@ permalink: /tre-albums-esagerati/
 
 .jamendo-btn {
     display: inline-block;
-    background: linear-gradient(45deg, #FF6B6B, #FF8E53);
+    background: linear-gradient(45deg, #3498db, #2ecc71);
     color: white;
     padding: 15px 30px;
     text-decoration: none;
@@ -242,12 +221,14 @@ permalink: /tre-albums-esagerati/
     font-weight: 500;
     font-size: 1.1em;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .jamendo-btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+    background: linear-gradient(45deg, #2980b9, #27ae60);
 }
 
 /* NAVIGAZIONE FINALE */
@@ -256,6 +237,7 @@ permalink: /tre-albums-esagerati/
     border-radius: 15px;
     padding: 40px;
     margin-top: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .nav-columns {
@@ -287,6 +269,7 @@ permalink: /tre-albums-esagerati/
 .nav-col a {
     color: #3498db;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .nav-col a:hover {
@@ -316,29 +299,29 @@ permalink: /tre-albums-esagerati/
 .btn-home:hover {
     background: rgba(41, 128, 185, 0.9);
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
 }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+    .albums-container {
+        padding: 20px 15px;
+    }
+    
     .album-card {
         grid-template-columns: 1fr;
         gap: 30px;
         text-align: center;
     }
     
-    .album-image {
-        text-align: center;
-    }
-    
     .album-image img {
         max-width: 250px;
         height: 250px;
-        margin-left: auto;
-        margin-right: auto;
     }
     
     .nav-columns {
         grid-template-columns: 1fr;
+        gap: 30px;
     }
     
     .music-header h1 {
@@ -347,6 +330,14 @@ permalink: /tre-albums-esagerati/
     
     .album-content h3 {
         font-size: 1.6em;
+    }
+    
+    .highlight-box {
+        padding: 20px;
+    }
+    
+    .music-nav {
+        padding: 25px;
     }
 }
 </style>
