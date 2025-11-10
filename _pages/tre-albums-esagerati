@@ -150,18 +150,17 @@ permalink: /tre-albums-esagerati/
     margin-bottom: 80px;
 }
 
-/* CARD ALBUM - ALLINEAMENTO PERFETTO */
+/* CARD ALBUM - ALLINEAMENTO PERFETTO CON IL RIQUADRO */
 .album-card {
     display: grid;
     grid-template-columns: 300px 1fr;
     gap: 50px;
-    align-items: start;
-    margin-bottom: 60px;
+    align-items: start; /* Questo è fondamentale per l'allineamento in alto */
 }
 
 .album-image {
-    text-align: center;
-    align-self: start;
+    align-self: start; /* Allinea l'immagine in alto */
+    margin-top: 0; /* Rimuove qualsiasi margine superiore */
 }
 
 .album-image img {
@@ -172,6 +171,11 @@ permalink: /tre-albums-esagerati/
     border-radius: 10px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
     border: 3px solid #3498db;
+    vertical-align: top; /* Importante per rimuovere spazio sotto */
+}
+
+.album-content {
+    align-self: start; /* Allinea il contenuto in alto */
 }
 
 .album-content h3 {
@@ -180,15 +184,17 @@ permalink: /tre-albums-esagerati/
     margin-bottom: 25px;
     border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
+    margin-top: 0; /* Rimuove margine superiore */
 }
 
-/* BOX EVIDENZIATO */
+/* BOX EVIDENZIATO - PERFETTAMENTE ALLINEATO CON L'IMMAGINE */
 .highlight-box {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     border-left: 4px solid #3498db;
     padding: 30px;
     margin-bottom: 30px;
+    margin-top: 0; /* Rimuove margine superiore */
 }
 
 .highlight-box p {
