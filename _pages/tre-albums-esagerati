@@ -1,0 +1,342 @@
+---
+layout: default
+title: "Tre Albums Esagerati - Music and Arts"
+permalink: /tre-albums-esagerati/
+---
+
+<div class="albums-container">
+    <div class="music-header">
+        <h1>Tre Albums esagerati</h1>
+        <p class="music-subtitle">Lavori liberi, belli e particolarmente suggestivi</p>
+    </div>
+
+    <div class="music-content">
+        <!-- INTRODUZIONE -->
+        <div class="music-section">
+            <div class="text-content-full">
+                <p>In questa pagina ho inserto tre albums di Jamendo che mi sono cari per motivi diversi.</p>
+                <p>Non è detto che debbano appartenere ad artisti particolarmente conosciuti, né che debbano essere visibili nelle prime pagine del sito, o nelle prime posizioni di classifica.</p>
+                <p>Sono semplicemente lavori che giudico liberi, e -ognuno a suo modo- belli e particolarmente suggestivi.</p>
+            </div>
+        </div>
+
+        <!-- ALBUM 1: OPUS 2 -->
+        <div class="music-section">
+            <div class="album-card">
+                <div class="album-image">
+                    <img src="{{ site.baseurl }}/images/opus2.webp" alt="Opus 2 Album Cover">
+                </div>
+                <div class="album-content">
+                    <h3>Opus 2</h3>
+                    <div class="highlight-box">
+                        <p><strong>Stupenda collaborazione</strong></p>
+                        <p>Anche qui qualche effetto, qua e là, di quelli di cui Cire fa spesso uso e talora -almeno a mio avviso- abuso. I momenti più belli sono quelli in cui la voce emerge limpida, lirica, calda: da interprete vero, e grande. Mi piacerebbe che Cire facesse più spesso esperimenti del genere, al di fuori dei recinti sciamanici che ama maggiormente. Una particolare citazione per il piano di South, semplicemente incantevole. Sensibilità, passione, dolcezza, tutto per un jazz tessuto di nuances magnifiche e toccanti nella loro semplicità. E' un album in cui io ed altri abbiamo dato a Cire la nostra musica, e lui ci ha messo su la magia della sua voce. Bravissimi tutti, e forse un po' anch'io ;-)</p>
+                    </div>
+                    <div class="album-link">
+                        <a href="https://www.jamendo.com/album/104876/opus-2/reviews" target="_blank" class="jamendo-btn">
+                            🎵 Ascolta "Opus 2" su Jamendo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ALBUM 2: THE BUTCHER'S BALLROOM -->
+        <div class="music-section">
+            <div class="album-card">
+                <div class="album-image">
+                    <img src="{{ site.baseurl }}/images/butcher.webp" alt="The Butcher's Ballroom Album Cover">
+                </div>
+                <div class="album-content">
+                    <h3>The Butcher's Ballroom</h3>
+                    <div class="text-content-full">
+                        <p><strong>Senza un centro</strong></p>
+                        <p>Ancora un album bellissimo, un gioco d'intarsio paziente in cui le singole tessere assumono valore solo nella visione d'insieme. Si devono chiudere gli occhi, ci si deve lasciar trasportare, ci si deve saper calare completamente nelle atmosfere. Questo non è "progressive" virtuosistico in senso stretto, perché il virtuosismo accompagna splendidamente l'ispirazione musicale senza nasconderla ed anzi valorizzandola al meglio.</p>
+                    </div>
+                    <div class="album-link">
+                        <a href="https://www.jamendo.com/album/49216/the-butcher-s-ballroom" target="_blank" class="jamendo-btn">
+                            🎵 Ascolta "The Butcher's Ballroom" su Jamendo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ALBUM 3: LA MATERIA -->
+        <div class="music-section">
+            <div class="album-card">
+                <div class="album-image">
+                    <img src="{{ site.baseurl }}/images/materia.webp" alt="La Materia Album Cover">
+                </div>
+                <div class="album-content">
+                    <h3>La Materia Dell'Asienza</h3>
+                    <div class="text-content-full">
+                        <p><strong>Elettronica, minimalismo, sperimentazione</strong></p>
+                        <p>Affascinante miscela di suoni, fusione di Elettronica e Minimalismo. Un album difficile, da ascoltare e riascoltare più volte, ipnotico e a tratti drammatico. In una parola, affascinante! Di nicchia ristrettissima, di un coraggio pari alla qualità della musica.</p>
+                    </div>
+                    <div class="album-link">
+                        <a href="https://www.jamendo.com/album/152046/la-materia-soundtrack" target="_blank" class="jamendo-btn">
+                            🎵 Ascolta "La Materia" su Jamendo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MENU FINALE -->
+        <div class="music-nav">
+            <div class="nav-columns">
+                <div class="nav-col">
+                    <h3>La Mia Musica</h3>
+                    <ul>
+                        <li>🎵 <a href="https://www.jamendo.com/artist/347673/aufklarung" target="_blank">Jamendo</a></li>
+                        <li>🎵 <a href="https://www.melodyloops.com/composers/raffaele-de-leonardo/" target="_blank">Melodyloops</a></li>
+                        <li>🎵 <a href="https://www.pond5.com/it/artist/europeanart" target="_blank">Pond5</a></li>
+                        <li>🎵 <a href="https://open.spotify.com/intl-it/artist/23mNnUEoDifg6ax49JfQrP" target="_blank">Spotify</a></li>
+                    </ul>
+                </div>
+                <div class="nav-col">
+                    <h3>Offrimi un caffè</h3>
+                    <ul>
+                        <li>☕ <a href="https://ko-fi.com/aufklarung" target="_blank">Supportami su Ko-fi</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="home-button">
+                <a href="{{ site.baseurl }}/" class="btn-home">Torna alla Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* STILI BASE */
+.albums-container {
+    background: #1a1a1a;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.music-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.music-header {
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #333;
+}
+
+.music-header h1 {
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.music-subtitle {
+    color: #cccccc;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+/* SEZIONI PRINCIPALI */
+.music-section {
+    margin-bottom: 80px;
+}
+
+/* CARD ALBUM */
+.album-card {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 50px;
+    align-items: start;
+    margin-bottom: 60px;
+}
+
+.album-image {
+    text-align: center;
+}
+
+.album-image img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.album-content h3 {
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* CONTENUTO TESTO */
+.text-content-full {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #3498db;
+    margin-bottom: 30px;
+}
+
+.text-content-full p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.text-content-full strong {
+    color: #e74c3c;
+    font-size: 1.3em;
+}
+
+/* BOX EVIDENZIATO */
+.highlight-box {
+    background: rgba(231, 76, 60, 0.1);
+    border: 1px solid #e74c3c;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.highlight-box p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.highlight-box strong {
+    color: #e74c3c;
+    font-size: 1.3em;
+}
+
+/* LINK ALBUM */
+.album-link {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.jamendo-btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #FF6B6B, #FF8E53);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.jamendo-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+}
+
+/* NAVIGAZIONE FINALE */
+.music-nav {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.nav-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.nav-col h3 {
+    color: #ffffff;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.nav-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-col li {
+    color: #cccccc;
+    padding: 8px 0;
+    font-size: 1.1em;
+}
+
+.nav-col a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.nav-col a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+.home-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* BOTTONE HOME */
+.btn-home {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.8);
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-home:hover {
+    background: rgba(41, 128, 185, 0.9);
+    transform: translateY(-2px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .album-card {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .album-image img {
+        max-width: 250px;
+        height: 250px;
+    }
+    
+    .nav-columns {
+        grid-template-columns: 1fr;
+    }
+    
+    .music-header h1 {
+        font-size: 2.2em;
+    }
+    
+    .album-content h3 {
+        font-size: 1.6em;
+    }
+}
+</style>
