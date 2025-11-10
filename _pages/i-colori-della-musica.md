@@ -119,8 +119,19 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
                 </div>
             </div>
             
-            <div class="home-button">
-                <a href="/" class="btn-home">Torna alla Home</a>
+            <!-- PULSANTI DI NAVIGAZIONE AGGIUNTI -->
+            <div class="navigation-buttons">
+                <div class="nav-buttons-container">
+                    <a href="/" class="btn-nav btn-prev">
+                        ← Home
+                    </a>
+                    
+                    <a href="/" class="btn-home">Torna alla Home</a>
+                    
+                    <a href="/un-regalo-per-voi/" class="btn-nav btn-next">
+                        Un regalo per voi →
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -333,14 +344,50 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
     font-size: 1.1em;
 }
 
-.home-button {
-    text-align: center;
+/* PULSANTI DI NAVIGAZIONE AGGIUNTI */
+.navigation-buttons {
+    margin-top: 40px;
 }
 
-/* BOTTONE SOBRIO E LEGGERO */
+.nav-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-nav {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.6);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    flex: 1;
+    max-width: 200px;
+}
+
+.btn-nav:hover {
+    background: rgba(41, 128, 185, 0.8);
+    transform: translateY(-2px);
+}
+
+.btn-prev {
+    text-align: left;
+}
+
+.btn-next {
+    text-align: right;
+}
+
 .btn-home {
     display: inline-block;
-    background: rgba(52, 152, 219, 0.8); /* BLU SOBRIO E TRASPARENTE */
+    background: rgba(52, 152, 219, 0.8);
     color: white;
     padding: 12px 35px;
     text-decoration: none;
@@ -349,10 +396,11 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
     font-size: 1em;
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    white-space: nowrap;
 }
 
 .btn-home:hover {
-    background: rgba(41, 128, 185, 0.9); /* BLU LEGGERMENTE PIÙ SCURO */
+    background: rgba(41, 128, 185, 0.9);
     transform: translateY(-2px);
 }
 
@@ -378,6 +426,20 @@ description: "Il mio percorso nella musica, dall'ascolto alla creazione. Un viag
     
     .music-header h1 {
         font-size: 2.2em;
+    }
+    
+    .nav-buttons-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .btn-nav {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .btn-prev, .btn-next {
+        text-align: center;
     }
 }
 </style>
