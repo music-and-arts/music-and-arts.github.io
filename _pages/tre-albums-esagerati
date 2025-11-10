@@ -150,7 +150,7 @@ permalink: /tre-albums-esagerati/
     margin-bottom: 80px;
 }
 
-/* CARD ALBUM */
+/* CARD ALBUM - IMMAGINI ALLINEATE A SINISTRA */
 .album-card {
     display: grid;
     grid-template-columns: 300px 1fr;
@@ -160,7 +160,7 @@ permalink: /tre-albums-esagerati/
 }
 
 .album-image {
-    text-align: center;
+    text-align: left; /* ALLINEAMENTO A SINISTRA */
 }
 
 .album-image img {
@@ -170,6 +170,7 @@ permalink: /tre-albums-esagerati/
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    margin-left: 0; /* FORZA ALLINEAMENTO A SINISTRA */
 }
 
 .album-content h3 {
@@ -322,9 +323,15 @@ permalink: /tre-albums-esagerati/
         text-align: center;
     }
     
+    .album-image {
+        text-align: center; /* SU MOBILE TORNA CENTRATO */
+    }
+    
     .album-image img {
         max-width: 250px;
         height: 250px;
+        margin-left: auto; /* SU MOBILE TORNA CENTRATO */
+        margin-right: auto; /* SU MOBILE TORNA CENTRATO */
     }
     
     .nav-columns {
