@@ -1,21 +1,180 @@
-pages:
-  - title: "Home"
-    url: "/"
-  - title: "I colori della musica"
-    url: "/i-colori-della-musica/"
-  - title: "Un regalo per voi"
-    url: "/un-regalo-per-voi/"
-  - title: "Interludio I"
-    url: "/interludio-i/"
-  - title: "Consigli musica di nicchia"
-    url: "/consigli-musica-nicchia/"
-  - title: "Immagini e Musica"
-    url: "/immagini-e-musica/"
-  - title: "Interludio II"
-    url: "/interludio-ii/"
-  - title: "Tre albums esagerati"
-    url: "/tre-albums-esagerati/"
-  - title: "Biografia"
-    url: "/biografia/"
-  - title: "Contatti"
-    url: "/contatti/"
+---
+layout: default
+title: "Immagini e Musica - Music and Arts"
+permalink: /immagini-e-musica/
+---
+
+<div class="immagini-container">
+    <div class="music-header">
+        <h1>Immagini e Musica</h1>
+        <p class="music-subtitle">Galleria di opere visive e musicali</p>
+    </div>
+
+    <div class="immagini-content">
+        <!-- CONTENUTO DELLA PAGINA IMMAGINI -->
+        <div class="testo-section">
+            <p>Questa pagina è dedicata alla relazione tra immagini e musica, due forme d'arte che si fondono per creare esperienze uniche.</p>
+            
+            <p>Qui troverai una selezione di lavori che esplorano questa sinergia creativa.</p>
+        </div>
+
+        <!-- GALLERIA IMMAGINI (da completare) -->
+        <div class="galleria-section">
+            <div class="grid-galleria">
+                <!-- Le immagini verranno aggiunte qui -->
+            </div>
+        </div>
+
+        <!-- SEZIONE FINALE -->
+        <div class="music-nav">
+            <div class="nav-columns">
+                <div class="nav-col">
+                    <h3>🎵 La Mia Musica</h3>
+                    <ul>
+                        <li><a href="https://www.jamendo.com/artist/347673/aufklarung" target="_blank" rel="noopener">Jamendo</a></li>
+                        <li><a href="https://www.melodyloops.com/composers/raffaele-de-leonardo/" target="_blank" rel="noopener">Melodyloops</a></li>
+                        <li><a href="https://www.pond5.com/it/artist/europeanart" target="_blank" rel="noopener">Pond5</a></li>
+                        <li><a href="https://open.spotify.com/intl-it/artist/23mNnUEoDifg6ax49JfQrP" target="_blank" rel="noopener">Spotify</a></li>
+                    </ul>
+                </div>
+                <div class="nav-col">
+                    <h3>☕ Offrimi un caffè</h3>
+                    <ul>
+                        <li><a href="https://ko-fi.com/aufklarung" target="_blank" rel="noopener">Supportami su Ko-fi</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="home-button">
+                <a href="/" class="btn-home">Torna alla Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.immagini-container {
+    background: #1a1a1a;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.immagini-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.music-header {
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #333;
+}
+
+.music-header h1 {
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.music-subtitle {
+    color: #cccccc;
+    font-size: 1.3em;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.testo-section {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #3498db;
+    margin-bottom: 50px;
+}
+
+.testo-section p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* SEZIONE FINALE */
+.music-nav {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.nav-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.nav-col h3 {
+    color: #ffffff;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.nav-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-col li {
+    color: #cccccc;
+    padding: 8px 0;
+    font-size: 1.1em;
+}
+
+.nav-col a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-col a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+.home-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-home {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.8);
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-home:hover {
+    background: rgba(41, 128, 185, 0.9);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+@media (max-width: 768px) {
+    .nav-columns {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+</style>
