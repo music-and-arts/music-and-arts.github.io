@@ -1,41 +1,152 @@
-pages:
-  - title: "Home"
-    url: "/"
-  - title: "I colori della musica"
-    url: "/i-colori-della-musica/"
-  - title: "Un regalo per voi"
-    url: "/un-regalo-per-voi/"
-  - title: "Interludio I"pages:
-  - title: "Home"
-    url: "/"
-  - title: "I colori della musica"
-    url: "/i-colori-della-musica/"
-  - title: "Un regalo per voi"
-    url: "/un-regalo-per-voi/"
-  - title: "Interludio I"
-    url: "/interludio-i/"
-  - title: "Consigli musica di nicchia"
-    url: "/consigli-musica-nicchia/"
-  - title: "Immagini e parole"
-    url: "/immagini-e-parole/"
-  - title: "Interludio II"
-    url: "/interludio-ii/"
-  - title: "Tre albums esagerati"
-    url: "/tre-albums-esagerati/"
-  - title: "Biografia"
-    url: "/biografia/"
-  - title: "Contatti"
-    url: "/contatti/"
-    url: "/interludio-i/"
-  - title: "Consigli musica di nicchia"
-    url: "/consigli-musica-nicchia/"
-  - title: "Immagini e parole"
-    url: "/immagini-e-parole/"
-  - title: "Interludio II"
-    url: "/interludio-ii/"
-  - title: "Tre albums esagerati"
-    url: "/tre-albums-esagerati/"
-  - title: "Biografia"
-    url: "/biografia/"
-  - title: "Contatti"
-    url: "/contatti/"
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #7f8c8d;
+            --text-color: #2c3e50;
+            --text-light: #7f8c8d;
+            --background: #ffffff;
+            --background-alt: #f8f9fa;
+            --border-color: #e9ecef;
+            --shadow: 0 2px 20px rgba(0,0,0,0.08);
+            --shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
+            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background: #0a0f1c;
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(102, 126, 234, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(118, 75, 162, 0.05) 0%, transparent 50%);
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Header elegante e scuro */
+        .header {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.98) 0%, rgba(30, 41, 59, 0.98) 100%);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(99, 102, 241, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(236, 72, 153, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .nav-brand h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 500;
+            color: #f1f5f9;
+            letter-spacing: -0.5px;
+            text-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+            position: relative;
+        }
+
+        .nav-brand h1::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #6366f1, #ec4899, transparent);
+            border-radius: 2px;
+        }
+
+        .main {
+            min-height: 80vh;
+            padding: 2rem 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 3rem 0;
+            margin-top: 4rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #94a3b8;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(10px);
+            position: relative;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #6366f1, #ec4899, transparent);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+            
+            .nav-brand h1 {
+                font-size: 2rem;
+            }
+            
+            .header {
+                padding: 1.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="nav-brand">
+                <h1>{{ site.title }}</h1>
+            </div>
+        </header>
+
+        <main class="main">
+            {{ content }}
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 {{ site.title }}. Tutti i diritti riservati.</p>
+        </footer>
+    </div>
+</body>
+</html>
