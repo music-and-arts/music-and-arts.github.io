@@ -7,13 +7,12 @@ permalink: /immagini-e-musica/
 <div class="immagini-container">
     <div class="music-header">
         <h1>Immagini e Musica</h1>
-        <p class="music-subtitle">L'unione perfetta tra visione e suono</p>
     </div>
 
     <div class="immagini-content">
         <!-- INTRODUZIONE -->
         <div class="testo-section">
-            <p>Nonostante sia un sostenitore dell'ascolto puro, è innegabile che l'associazione di musica e immagini produca talvolta effetti straordinari.</p>
+            <p>Nonstante sia un sostenitore dell'ascolto puro, è innegabile che l'associazione di musica e immagini produca talvolta effetti straordinari.</p>
             
             <p>Come avviene per un organismo, che non è riducibile alla semplice sommatoria di un insieme di organi, così un insieme di sensazioni visive e auditive crea risultati che vanno al di là delle singole componenti.</p>
             
@@ -22,85 +21,80 @@ permalink: /immagini-e-musica/
 
         <!-- MAHLER - MORTE A VENEZIA -->
         <div class="video-section">
-            <h3>Death in Venice by Luchino Visconti - Mahler Symphony No 5</h3>
+            <h2>Death in Venice by Luchino Visconti - Mahler Symphony No 5</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/ampu-e8A6Ls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="video-actions">
-                <a href="https://youtu.be/ampu-e8A6Ls" target="_blank" class="btn-youtube">Guarda su YouTube</a>
-                <button class="btn-share" onclick="shareVideo('ampu-e8A6Ls')">Condividi</button>
             </div>
         </div>
 
         <!-- R. STRAUSS - 2001 ODISSEA NELLO SPAZIO -->
         <div class="video-section">
-            <h3>2001 - Odissea nello spazio - La scena migliore del film</h3>
-            <div class="testo-section" style="margin: 20px 0; background: rgba(255,255,255,0.03);">
-                <p style="text-align: center; font-style: italic; margin: 0;">
+            <div class="testo-section" style="margin: 30px 0; background: rgba(255,255,255,0.03); border-left: 4px solid #e74c3c;">
+                <p style="text-align: center; font-style: italic; margin: 0; font-size: 1.3em;">
                     Oppure chi, pensando a R. Strauss, non rivede gli scenari cosmici di "2001 Odissea nello spazio" (ed è vero anche il contrario)?
                 </p>
             </div>
+            <h2>2001 - Odissea nello spazio - La scena migliore del film</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/WufKsOhkTL8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="video-actions">
-                <a href="https://www.youtube.com/watch?v=WufKsOhkTL8" target="_blank" class="btn-youtube">Guarda su YouTube</a>
                 <button class="btn-share" onclick="shareVideo('WufKsOhkTL8')">Condividi</button>
             </div>
         </div>
 
         <!-- PROCOL HARUM - A SALTY DOG -->
         <div class="video-section">
-            <h3>Procol Harum - A Salty Dog</h3>
-            <div class="testo-section" style="margin: 20px 0; background: rgba(255,255,255,0.03);">
+            <div class="testo-section" style="margin: 30px 0;">
                 <p>Quando io ero bambino ed esistevano solo due canali Rai, rigorosamente in bianco e nero, mi suggestionava enormemente la sigla di chiusura di un bel documentario di Mino Damato, "Avventura".</p>
+                
                 <p>Onde altissime, i marinai indaffarati, i titoli di coda in scorrimento; e soprattutto una stupenda canzone -che ancora non potevo conoscere- e che iniziava appunto col verso di gabbiani e accordi lenti e malinconici. Solo parecchio più tardi ho capito che si trattava di "A salty dog", a mio giudizio la più bella canzone dei Procol Harum.</p>
+                
                 <p>Se, passati quaranta o forse più anni, mi rimane impressa nella memoria la sigla di chiusura di un documentario, una ragione ci sarà pure.</p>
+                
                 <p>E insomma, ho almanaccato con la mia musica e con immagini certo non da me create, ringraziando gli autori di queste ultime, per creare video amatoriali in cui ho messo alla prova le mie capacità di montatore dilettante.</p>
+                
                 <p>Con risultati che vi lascio giudicare. Io personalmente mi autoassolvo da ogni peccato.</p>
             </div>
+            <h2>Melodramma</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/pS2TAeOnOxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="video-actions">
-                <a href="https://youtu.be/pS2TAeOnOxQ" target="_blank" class="btn-youtube">Guarda su YouTube</a>
                 <button class="btn-share" onclick="shareVideo('pS2TAeOnOxQ')">Condividi</button>
             </div>
         </div>
 
         <!-- ELEGY FOR THE EARTH -->
         <div class="video-section">
-            <h3>Elegy for the Earth</h3>
+            <h2>Elegy for the Earth</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/i09qxUjNLDU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="video-actions">
                 <a href="https://youtu.be/i09qxUjNLDU" target="_blank" class="btn-youtube">Guarda su YouTube</a>
-                <button class="btn-share" onclick="shareVideo('i09qxUjNLDU')">Condividi</button>
             </div>
         </div>
 
         <!-- RETURN OF HERO -->
         <div class="video-section">
-            <h3>Return of Hero</h3>
+            <h2>Return of Hero</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/ScSRDr9jeOM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="video-actions">
-                <a href="https://youtu.be/ScSRDr9jeOM" target="_blank" class="btn-youtube">Guarda su YouTube</a>
                 <button class="btn-share" onclick="shareVideo('ScSRDr9jeOM')">Condividi</button>
             </div>
         </div>
 
         <!-- THE FOREST WAY -->
         <div class="video-section">
-            <h3>The Forest Way</h3>
+            <h2>The Forest Way</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/fQmpCYjtoAQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="video-actions">
                 <a href="https://youtu.be/fQmpCYjtoAQ" target="_blank" class="btn-youtube">Guarda su YouTube</a>
-                <button class="btn-share" onclick="shareVideo('fQmpCYjtoAQ')">Condividi</button>
             </div>
         </div>
 
@@ -158,20 +152,12 @@ permalink: /immagini-e-musica/
     font-weight: 300;
 }
 
-.music-subtitle {
-    color: #cccccc;
-    font-size: 1.3em;
-    font-style: italic;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
 .testo-section {
     padding: 30px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     border-left: 4px solid #3498db;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .testo-section p {
@@ -183,16 +169,16 @@ permalink: /immagini-e-musica/
 
 /* SEZIONE VIDEO */
 .video-section {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     text-align: center;
 }
 
-.video-section h3 {
+.video-section h2 {
     color: #3498db;
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    font-size: 1.8em;
+    margin-bottom: 25px;
     border-bottom: 2px solid #3498db;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     display: inline-block;
 }
 
