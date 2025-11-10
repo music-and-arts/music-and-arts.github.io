@@ -77,7 +77,7 @@ permalink: /interludio-ii/
 <div class="music-section">
     <div class="text-content-full">
         <h3>Narrativa Erotica</h3>
-        <p>Riguardo alla scrittura, El Lelante ha riversato la sua passione per il gentil sesso nella narrativa erotica. Amazon ospita, con significativo successo di vendite, due opere che farebbero resuscitare anche gli eunuchi.</p>
+        <p>Riguardo alla scrittura, El Lelante ha riversato la sua passione per il gentil sesso nella narrativa erotica. Amazon ospita, con significativo successo di vendite, two opere che farebbero resuscitare anche gli eunuchi.</p>
         
         <p>E questo, ci tengo a sottolinearlo, senza mai scadere nella pornografia spicciola o nella volgarità fine a sé stessa.</p>
 
@@ -114,8 +114,19 @@ permalink: /interludio-ii/
                 </div>
             </div>
             
-            <div class="home-button">
-                <a href="/" class="btn-home">Torna alla Home</a>
+            <!-- PULSANTI DI NAVIGAZIONE AGGIUNTI -->
+            <div class="navigation-buttons">
+                <div class="nav-buttons-container">
+                    <a href="/immagini-e-musica/" class="btn-nav btn-prev">
+                        ← Immagini e Musica
+                    </a>
+                    
+                    <a href="/" class="btn-home">Torna alla Home</a>
+                    
+                    <a href="/tre-albums-esagerati/" class="btn-nav btn-next">
+                        Tre albums esagerati →
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -362,12 +373,47 @@ permalink: /interludio-ii/
     text-decoration: underline;
 }
 
-.home-button {
-    text-align: center;
-    margin-top: 30px;
+/* PULSANTI DI NAVIGAZIONE AGGIUNTI */
+.navigation-buttons {
+    margin-top: 40px;
 }
 
-/* BOTTONE HOME */
+.nav-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-nav {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.6);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    flex: 1;
+    max-width: 200px;
+}
+
+.btn-nav:hover {
+    background: rgba(41, 128, 185, 0.8);
+    transform: translateY(-2px);
+}
+
+.btn-prev {
+    text-align: left;
+}
+
+.btn-next {
+    text-align: right;
+}
+
 .btn-home {
     display: inline-block;
     background: rgba(52, 152, 219, 0.8);
@@ -379,6 +425,7 @@ permalink: /interludio-ii/
     font-size: 1em;
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    white-space: nowrap;
 }
 
 .btn-home:hover {
@@ -412,6 +459,20 @@ permalink: /interludio-ii/
     
     .music-image img {
         height: 250px;
+    }
+    
+    .nav-buttons-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .btn-nav {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .btn-prev, .btn-next {
+        text-align: center;
     }
 }
 </style>
