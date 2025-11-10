@@ -21,7 +21,7 @@ permalink: /immagini-e-musica/
 
         <!-- MAHLER - MORTE A VENEZIA -->
         <div class="video-section">
-            <h2>Death in Venice by Luchino Visconti - Mahler Symphony No 5</h2>
+            <h2 class="video-title">Death in Venice by Luchino Visconti - Mahler Symphony No 5</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/ampu-e8A6Ls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -34,7 +34,7 @@ permalink: /immagini-e-musica/
                     Oppure chi, pensando a R. Strauss, non rivede gli scenari cosmici di "2001 Odissea nello spazio" (ed è vero anche il contrario)?
                 </p>
             </div>
-            <h2>2001 - Odissea nello spazio - La scena migliore del film</h2>
+            <h2 class="video-title">2001 - Odissea nello spazio - La scena migliore del film</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/WufKsOhkTL8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -50,13 +50,13 @@ permalink: /immagini-e-musica/
                 
                 <p>Onde altissime, i marinai indaffarati, i titoli di coda in scorrimento; e soprattutto una stupenda canzone -che ancora non potevo conoscere- e che iniziava appunto col verso di gabbiani e accordi lenti e malinconici. Solo parecchio più tardi ho capito che si trattava di "A salty dog", a mio giudizio la più bella canzone dei Procol Harum.</p>
                 
-                <p>Se, passati quaranta o forse più anni, mi rimane impressa nella memoria la sigla di chiusura di un documentario, una ragione ci sarà pure.</p>
+                <p>Se, passati quaranta o force più anni, mi rimane impressa nella memoria la sigla di chiusura di un documentario, una ragione ci sarà pure.</p>
                 
                 <p>E insomma, ho almanaccato con la mia musica e con immagini certo non da me create, ringraziando gli autori di queste ultime, per creare video amatoriali in cui ho messo alla prova le mie capacità di montatore dilettante.</p>
                 
                 <p>Con risultati che vi lascio giudicare. Io personalmente mi autoassolvo da ogni peccato.</p>
             </div>
-            <h2>Melodramma</h2>
+            <h2 class="video-title">Melodramma</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/pS2TAeOnOxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -67,7 +67,7 @@ permalink: /immagini-e-musica/
 
         <!-- ELEGY FOR THE EARTH -->
         <div class="video-section">
-            <h2>Elegy for the Earth</h2>
+            <h2 class="video-title">Elegy for the Earth</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/i09qxUjNLDU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -78,7 +78,7 @@ permalink: /immagini-e-musica/
 
         <!-- RETURN OF HERO -->
         <div class="video-section">
-            <h2>Return of Hero</h2>
+            <h2 class="video-title">Return of Hero</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/ScSRDr9jeOM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -89,7 +89,7 @@ permalink: /immagini-e-musica/
 
         <!-- THE FOREST WAY -->
         <div class="video-section">
-            <h2>The Forest Way</h2>
+            <h2 class="video-title">The Forest Way</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/fQmpCYjtoAQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -150,6 +150,7 @@ permalink: /immagini-e-musica/
     font-size: 3em;
     margin-bottom: 15px;
     font-weight: 300;
+    font-family: 'Playfair Display', serif;
 }
 
 .testo-section {
@@ -167,17 +168,20 @@ permalink: /immagini-e-musica/
     margin-bottom: 15px;
 }
 
-/* SEZIONE VIDEO */
+/* TITOLI VIDEO ELEGANTI */
 .video-section {
     margin-bottom: 80px;
     text-align: center;
 }
 
-.video-section h2 {
-    color: #3498db;
-    font-size: 1.8em;
+.video-title {
+    color: #ffffff !important;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2em;
     margin-bottom: 25px;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
     padding-bottom: 10px;
     display: inline-block;
 }
@@ -327,6 +331,10 @@ permalink: /immagini-e-musica/
     
     .btn-youtube, .btn-share {
         width: 200px;
+    }
+    
+    .video-title {
+        font-size: 1.6em;
     }
 }
 </style>
