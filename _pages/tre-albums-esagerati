@@ -21,64 +21,64 @@ permalink: /tre-albums-esagerati/
         </div>
 
         <!-- ALBUM 1: OPUS 2 -->
-        <div class="music-section">
-            <div class="album-card">
+        <div class="layout-grid-avanzato">
+            <div class="area-immagine">
                 <div class="album-image">
                     <img src="{{ site.baseurl }}/images/opus2.webp" alt="Opus 2 Album Cover">
                 </div>
-                <div class="album-content">
-                    <h3>Opus 2</h3>
-                    <div class="highlight-box">
-                        <p><strong>Stupenda collaborazione</strong></p>
-                        <p>Anche qui qualche effetto, qua e là, di quelli di cui Cire fa spesso uso e talora -almeno a mio avviso- abuso. I momenti più belli sono quelli in cui la voce emerge limpida, lirica, calda: da interprete vero, e grande. Mi piacerebbe che Cire facesse più spesso esperimenti del genere, al di fuori dei recinti sciamanici che ama maggiormente. Una particolare citazione per il piano di South, semplicemente incantevole. Sensibilità, passione, dolcezza, tutto per un jazz tessuto di nuances magnifiche e toccanti nella loro semplicità. E' un album in cui io ed altri abbiamo dato a Cire la nostra musica, e lui ci ha messo su la magia della sua voce. Bravissimi tutti, e forse un po' anch'io ;-)</p>
-                    </div>
-                    <div class="album-link">
-                        <a href="https://www.jamendo.com/album/104876/opus-2/reviews" target="_blank" class="jamendo-btn">
-                            🎵 Ascolta "Opus 2" su Jamendo
-                        </a>
-                    </div>
+            </div>
+            <div class="area-testo">
+                <h3>Opus 2</h3>
+                <div class="highlight-box">
+                    <p><strong>Stupenda collaborazione</strong></p>
+                    <p>Anche qui qualche effetto, qua e là, di quelli di cui Cire fa spesso uso e talora -almeno a mio avviso- abuso. I momenti più belli sono quelli in cui la voce emerge limpida, lirica, calda: da interprete vero, e grande. Mi piacerebbe che Cire facesse più spesso esperimenti del genere, al di fuori dei recinti sciamanici che ama maggiormente. Una particolare citazione per il piano di South, semplicemente incantevole. Sensibilità, passazione, dolcezza, tutto per un jazz tessuto di nuances magnifiche e toccanti nella loro semplicità. E' un album in cui io ed altri abbiamo dato a Cire la nostra musica, e lui ci ha messo su la magia della sua voce. Bravissimi tutti, e forse un po' anch'io ;-)</p>
+                </div>
+                <div class="album-link">
+                    <a href="https://www.jamendo.com/album/104876/opus-2/reviews" target="_blank" class="jamendo-btn">
+                        🎵 Ascolta "Opus 2" su Jamendo
+                    </a>
                 </div>
             </div>
         </div>
 
         <!-- ALBUM 2: THE BUTCHER'S BALLROOM -->
-        <div class="music-section">
-            <div class="album-card">
+        <div class="layout-grid-avanzato reverse">
+            <div class="area-immagine">
                 <div class="album-image">
                     <img src="{{ site.baseurl }}/images/butcher.webp" alt="The Butcher's Ballroom Album Cover">
                 </div>
-                <div class="album-content">
-                    <h3>The Butcher's Ballroom</h3>
-                    <div class="highlight-box">
-                        <p><strong>Senza un centro</strong></p>
-                        <p>Ancora un album bellissimo, un gioco d'intarsio paziente in cui le singole tessere assumono valore solo nella visione d'insieme. Si devono chiudere gli occhi, ci si deve lasciar trasportare, ci si deve saper calare completamente nelle atmosfere. Questo non è "progressive" virtuosistico in senso stretto, perché il virtuosismo accompagna splendidamente l'ispirazione musicale senza nasconderla ed anzi valorizzandola al meglio.</p>
-                    </div>
-                    <div class="album-link">
-                        <a href="https://www.jamendo.com/album/49216/the-butcher-s-ballroom" target="_blank" class="jamendo-btn">
-                            🎵 Ascolta "The Butcher's Ballroom" su Jamendo
-                        </a>
-                    </div>
+            </div>
+            <div class="area-testo">
+                <h3>The Butcher's Ballroom</h3>
+                <div class="highlight-box">
+                    <p><strong>Senza un centro</strong></p>
+                    <p>Ancora un album bellissimo, un gioco d'intarsio paziente in cui le singole tessere assumono valore solo nella visione d'insieme. Si devono chiudere gli occhi, ci si deve lasciar trasportare, ci si deve saper calare completamente nelle atmosfere. Questo non è "progressive" virtuosistico in senso stretto, perché il virtuosismo accompagna splendidamente l'ispirazione musicale senza nasconderla ed anzi valorizzandola al meglio.</p>
+                </div>
+                <div class="album-link">
+                    <a href="https://www.jamendo.com/album/49216/the-butcher-s-ballroom" target="_blank" class="jamendo-btn">
+                        🎵 Ascolta "The Butcher's Ballroom" su Jamendo
+                    </a>
                 </div>
             </div>
         </div>
 
         <!-- ALBUM 3: LA MATERIA -->
-        <div class="music-section">
-            <div class="album-card">
+        <div class="layout-grid-avanzato">
+            <div class="area-immagine">
                 <div class="album-image">
                     <img src="{{ site.baseurl }}/images/materia.webp" alt="La Materia Album Cover">
                 </div>
-                <div class="album-content">
-                    <h3>La Materia Dell'Asienza</h3>
-                    <div class="highlight-box">
-                        <p><strong>Elettronica, minimalismo, sperimentazione</strong></p>
-                        <p>Affascinante miscela di suoni, fusione di Elettronica e Minimalismo. Un album difficile, da ascoltare e riascoltare più volte, ipnotico e a tratti drammatico. In una parola, affascinante! Di nicchia ristrettissima, di un coraggio pari alla qualità della musica.</p>
-                    </div>
-                    <div class="album-link">
-                        <a href="https://www.jamendo.com/album/152046/la-materia-soundtrack" target="_blank" class="jamendo-btn">
-                            🎵 Ascolta "La Materia" su Jamendo
-                        </a>
-                    </div>
+            </div>
+            <div class="area-testo">
+                <h3>La Materia Dell'Asienza</h3>
+                <div class="highlight-box">
+                    <p><strong>Elettronica, minimalismo, sperimentazione</strong></p>
+                    <p>Affascinante miscela di suoni, fusione di Elettronica e Minimalismo. Un album difficile, da ascoltare e riascoltare più volte, ipnotico e a tratti drammatico. In una parola, affascinante! Di nicchia ristrettissima, di un coraggio pari alla qualità della musica.</p>
+                </div>
+                <div class="album-link">
+                    <a href="https://www.jamendo.com/album/152046/la-materia-soundtrack" target="_blank" class="jamendo-btn">
+                        🎵 Ascolta "La Materia" su Jamendo
+                    </a>
                 </div>
             </div>
         </div>
@@ -150,51 +150,68 @@ permalink: /tre-albums-esagerati/
     margin-bottom: 80px;
 }
 
-/* CARD ALBUM - ALLINEAMENTO PERFETTO CON IL RIQUADRO */
-.album-card {
+/* LAYOUT GRID AVANZATO - COPIA ESATTA DELLA PAGINA CHE FUNZIONA */
+.layout-grid-avanzato {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "immagine testo"
+        ". testo";
     gap: 50px;
-    align-items: start; /* Questo è fondamentale per l'allineamento in alto */
+    margin-bottom: 80px;
+    align-items: start;
 }
 
+.layout-grid-avanzato.reverse {
+    grid-template-columns: 1fr 350px;
+    grid-template-areas: 
+        "testo immagine"
+        "testo .";
+}
+
+.area-immagine {
+    grid-area: immagine;
+    position: sticky;
+    top: 40px;
+    align-self: start;
+}
+
+.area-testo {
+    grid-area: testo;
+}
+
+/* IMMAGINE ALBUM */
 .album-image {
-    align-self: start; /* Allinea l'immagine in alto */
-    margin-top: 0; /* Rimuove qualsiasi margine superiore */
+    text-align: center;
 }
 
 .album-image img {
     width: 100%;
-    max-width: 280px;
-    height: 280px;
+    height: 350px;
     object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5);
     border: 3px solid #3498db;
-    vertical-align: top; /* Importante per rimuovere spazio sotto */
 }
 
-.album-content {
-    align-self: start; /* Allinea il contenuto in alto */
-}
-
-.album-content h3 {
+/* CONTENUTO TESTO */
+.area-testo h3 {
     color: #ffffff;
     font-size: 2em;
     margin-bottom: 25px;
     border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
-    margin-top: 0; /* Rimuove margine superiore */
+    margin-top: 0;
 }
 
-/* BOX EVIDENZIATO - PERFETTAMENTE ALLINEATO CON L'IMMAGINE */
+/* BOX EVIDENZIATO */
 .highlight-box {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     border-left: 4px solid #3498db;
     padding: 30px;
     margin-bottom: 30px;
-    margin-top: 0; /* Rimuove margine superiore */
 }
 
 .highlight-box p {
@@ -235,6 +252,21 @@ permalink: /tre-albums-esagerati/
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
     background: linear-gradient(45deg, #2980b9, #27ae60);
+}
+
+/* CONTENUTO TESTO COMPLETO */
+.text-content-full {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #3498db;
+}
+
+.text-content-full p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 15px;
 }
 
 /* NAVIGAZIONE FINALE */
@@ -309,15 +341,36 @@ permalink: /tre-albums-esagerati/
 }
 
 /* RESPONSIVE */
+@media (max-width: 968px) {
+    .layout-grid-avanzato {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "immagine"
+            "testo";
+        gap: 30px;
+    }
+    
+    .layout-grid-avanzato.reverse {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "immagine"
+            "testo";
+    }
+    
+    .area-immagine {
+        position: static;
+    }
+    
+    .album-image img {
+        height: 300px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 768px) {
     .albums-container {
         padding: 20px 15px;
-    }
-    
-    .album-card {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        text-align: center;
     }
     
     .album-image img {
@@ -334,7 +387,7 @@ permalink: /tre-albums-esagerati/
         font-size: 2.2em;
     }
     
-    .album-content h3 {
+    .area-testo h3 {
         font-size: 1.6em;
     }
     
