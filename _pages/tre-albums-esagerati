@@ -150,7 +150,7 @@ permalink: /tre-albums-esagerati/
     margin-bottom: 80px;
 }
 
-/* CARD ALBUM - IMMAGINI ALLINEATE A SINISTRA */
+/* CARD ALBUM - ALLINEAMENTO PERFETTO */
 .album-card {
     display: grid;
     grid-template-columns: 300px 1fr;
@@ -160,7 +160,8 @@ permalink: /tre-albums-esagerati/
 }
 
 .album-image {
-    text-align: left; /* ALLINEAMENTO A SINISTRA */
+    text-align: left;
+    align-self: start;
 }
 
 .album-image img {
@@ -170,7 +171,9 @@ permalink: /tre-albums-esagerati/
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
-    margin-left: 0; /* FORZA ALLINEAMENTO A SINISTRA */
+    margin-left: 0;
+    vertical-align: top;
+    display: block;
 }
 
 .album-content h3 {
@@ -324,14 +327,14 @@ permalink: /tre-albums-esagerati/
     }
     
     .album-image {
-        text-align: center; /* SU MOBILE TORNA CENTRATO */
+        text-align: center;
     }
     
     .album-image img {
         max-width: 250px;
         height: 250px;
-        margin-left: auto; /* SU MOBILE TORNA CENTRATO */
-        margin-right: auto; /* SU MOBILE TORNA CENTRATO */
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .nav-columns {
