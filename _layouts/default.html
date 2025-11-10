@@ -27,6 +27,35 @@
             box-sizing: border-box;
         }
 
+                <!-- NAVIGAZIONE TRA PAGINE - SOLO SE NON È LA HOME -->
+        {% unless page.url == "/" or page.url == "/index.html" %}
+        <div class="page-navigation">
+            <div class="nav-buttons">
+                {% assign current_index = 0 %}
+                {% for item in site.data.navigation.pages %}
+                    {% if item.url == page.url %}
+                        {% assign current_index = forloop.index0 %}
+                    {% endif %}
+                {% endfor %}
+                
+                {% if current_index > 0 %}
+                    {% assign prev_index = current_index | minus: 1 %}
+                    <a href="{{ site.data.navigation.pages[prev_index].url }}" class="btn-nav btn-prev">← {{ site.data.navigation.pages[prev_index].title }}</a>
+                {% else %}
+                    <a href="/" class="btn-nav btn-prev">← Home</a>
+                {% endif %}
+                
+                <a href="/" class="btn-home">Torna alla Home</a>
+                
+                {% assign next_index = current_index | plus: 1 %}
+                {% if site.data.navigation.pages[next_index] %}
+                    <a href="{{ site.data.navigation.pages[next_index].url }}" class="btn-nav btn-next">{{ site.data.navigation.pages[next_index].title }} →</a>
+                {% else %}
+                    <span class="btn-nav btn-next disabled">Fine →</span>
+                {% endif %}
+            </div>
+        </div>
+        {% endunless %}
         body {
             font-family: 'Inter', sans-serif;
             line-height: 1.7;
@@ -132,6 +161,7 @@
         }
     </style>
 </head>
+    
 <body>
     <div class="container">
         <header class="header">
