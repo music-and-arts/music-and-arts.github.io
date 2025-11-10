@@ -41,9 +41,9 @@ permalink: /immagini-e-musica/
         <!-- PROCOL HARUM - A SALTY DOG -->
         <div class="video-section">
             <div class="considerazioni-section">
-                <p>Quando io ero bambino ed esistevano solo due canali Rai, rigorosamente in bianco e nero, mi suggestionava enormemente la sigla di chiusura di un bel documentario di Mino Damato, "Avventura".</p>
+                <p>Quando io ero bambino ed esistevano solo due canali Rai, rigorosamente in bianco e nero, mi suggestionava enormemente la sigla di chiusura di un bel documentario di Mino Damato, <a href="https://www.youtube.com/watch?v=m3IGfsYV0Fs&list=RDm3IGfsYV0Fs&start_radio=1" target="_blank" class="text-link">"Avventura"</a>.</p>
                 
-                <p>Onde altissime, i marinai indaffarati, i titoli di coda in scorrimento; e soprattutto una stupenda canzone -che ancora non potevo conoscere- e che iniziava appunto col verso di gabbiani e accordi lenti e malinconici. Solo parecchio più tardi ho capito che si trattava di "A salty dog", a mio giudizio la più bella canzone dei Procol Harum.</p>
+                <p>Onde altissime, i marinai indaffarati, i titoli di coda in scorrimento; e soprattutto una stupenda canzone -che ancora non potevo conoscere- e che iniziava appunto col verso di gabbiani e accordi lenti e malinconici. Solo parecchio più tardi ho capito che si trattava di <a href="https://www.youtube.com/watch?v=S1iug5ivmAk&list=RDS1iug5ivmAk&start_radio=1" target="_blank" class="text-link">"A Salty Dog"</a>, a mio giudizio la più bella canzone dei Procol Harum.</p>
                 
                 <p>Se, passati quaranta o force più anni, mi rimane impressa nella memoria la sigla di chiusura di un documentario, una ragione ci sarà pure.</p>
                 
@@ -167,6 +167,21 @@ permalink: /immagini-e-musica/
     margin-bottom: 15px;
     font-style: normal;
     font-family: inherit;
+}
+
+/* LINK NEL TESTO */
+.text-link {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 1px dotted #3498db;
+    padding: 0 2px;
+    transition: all 0.3s ease;
+}
+
+.text-link:hover {
+    color: #e74c3c;
+    border-bottom: 1px solid #e74c3c;
+    background: rgba(52, 152, 219, 0.1);
 }
 
 /* TITOLI VIDEO */
