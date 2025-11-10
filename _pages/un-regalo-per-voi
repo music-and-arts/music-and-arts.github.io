@@ -236,8 +236,19 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
                 </div>
             </div>
             
-            <div class="home-button">
-                <a href="/" class="btn-home">Torna alla Home</a>
+            <!-- PULSANTI DI NAVIGAZIONE AGGIUNTI -->
+            <div class="navigation-buttons">
+                <div class="nav-buttons-container">
+                    <a href="/i-colori-della-musica/" class="btn-nav btn-prev">
+                        ← I colori della musica
+                    </a>
+                    
+                    <a href="/" class="btn-home">Torna alla Home</a>
+                    
+                    <a href="/interludio-i/" class="btn-nav btn-next">
+                        Interludio I →
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -327,7 +338,7 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
     color: #cccccc;
     padding: 8px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    font-size: 1em;
+    font-size: 1.em;
 }
 
 .track-list li:last-child {
@@ -560,8 +571,45 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
     font-size: 1.1em;
 }
 
-.home-button {
+/* PULSANTI DI NAVIGAZIONE AGGIUNTI */
+.navigation-buttons {
+    margin-top: 40px;
+}
+
+.nav-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-nav {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.6);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
+    flex: 1;
+    max-width: 200px;
+}
+
+.btn-nav:hover {
+    background: rgba(41, 128, 185, 0.8);
+    transform: translateY(-2px);
+}
+
+.btn-prev {
+    text-align: left;
+}
+
+.btn-next {
+    text-align: right;
 }
 
 .btn-home {
@@ -575,6 +623,7 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
     font-size: 1em;
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    white-space: nowrap;
 }
 
 .btn-home:hover {
@@ -593,6 +642,20 @@ description: "Scopri i miei brani musicali gratuiti. Download libero per uso per
     
     .category-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .nav-buttons-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .btn-nav {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .btn-prev, .btn-next {
+        text-align: center;
     }
 }
 </style>
