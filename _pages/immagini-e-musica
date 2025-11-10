@@ -11,17 +11,58 @@ permalink: /immagini-e-musica/
     </div>
 
     <div class="immagini-content">
-        <!-- CONTENUTO DELLA PAGINA IMMAGINI -->
+        <!-- INTRODUZIONE -->
         <div class="testo-section">
             <p>Questa pagina è dedicata alla relazione tra immagini e musica, due forme d'arte che si fondono per creare esperienze uniche.</p>
             
             <p>Qui troverai una selezione di lavori che esplorano questa sinergia creativa.</p>
         </div>
 
-        <!-- GALLERIA IMMAGINI (da completare) -->
-        <div class="galleria-section">
-            <div class="grid-galleria">
-                <!-- Le immagini verranno aggiunte qui -->
+        <!-- VIDEO 1 -->
+        <div class="video-section">
+            <h3>Video Musicale 1</h3>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ampu-e8A6Ls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- VIDEO 2 -->
+        <div class="video-section">
+            <h3>Video Musicale 2</h3>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/WufKsOhkTL8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- VIDEO 3 -->
+        <div class="video-section">
+            <h3>Video Musicale 3</h3>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/pS2TAeOnOxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- VIDEO 4 -->
+        <div class="video-section">
+            <h3>Video Musicale 4</h3>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/i09qxUjNLDU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- VIDEO 5 -->
+        <div class="video-section">
+            <h3>Video Musicale 5</h3>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ScSRDr9jeOM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- VIDEO 6 -->
+        <div class="video-section">
+            <h3>Video Musicale 6</h3>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/fQmpCYjtoAQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -102,6 +143,38 @@ permalink: /immagini-e-musica/
     margin-bottom: 15px;
 }
 
+/* SEZIONE VIDEO */
+.video-section {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.video-section h3 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 12px;
+}
+
 /* SEZIONE FINALE */
 .music-nav {
     background: rgba(255, 255, 255, 0.05);
@@ -172,6 +245,10 @@ permalink: /immagini-e-musica/
 }
 
 @media (max-width: 768px) {
+    .video-container iframe {
+        height: 250px;
+    }
+    
     .nav-columns {
         grid-template-columns: 1fr;
         gap: 30px;
