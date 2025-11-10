@@ -12,7 +12,7 @@ permalink: /immagini-e-musica/
     <div class="immagini-content">
         <!-- INTRODUZIONE -->
         <div class="testo-section">
-            <p>Nonostante sia un sostenitore dell'ascolto puro, è innegabile che l'associazione di musica e immagini produca talvolta effetti straordinari.</p>
+            <p>Nonstante sia un sostenitore dell'ascolto puro, è innegabile che l'associazione di musica e immagini produca talvolta effetti straordinari.</p>
             
             <p>Come avviene per un organismo, che non è riducibile alla semplice sommatoria di un insieme di organi, così un insieme di sensazioni visive e auditive crea risultati che vanno al di là delle singole componenti.</p>
             
@@ -32,12 +32,9 @@ permalink: /immagini-e-musica/
             <div class="considerazioni-section">
                 <p>Oppure chi, pensando a R. Strauss, non rivede gli scenari cosmici di "2001 Odissea nello spazio" (ed é vero anche il contrario)?</p>
             </div>
-            <h2 class="video-title">2001 - Odissea nello spazio - R. Strauss Symphonic Poem</h2>
+            <h2 class="video-title">2001 - Odissea nello spazio - La scena migliore del film</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/WufKsOhkTL8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="video-actions">
-                <button class="btn-share" onclick="shareVideo('WufKsOhkTL8')">Condividi</button>
             </div>
         </div>
 
@@ -58,9 +55,6 @@ permalink: /immagini-e-musica/
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/pS2TAeOnOxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="video-actions">
-                <button class="btn-share" onclick="shareVideo('pS2TAeOnOxQ')">Condividi</button>
-            </div>
         </div>
 
         <!-- ELEGY FOR THE EARTH -->
@@ -68,9 +62,6 @@ permalink: /immagini-e-musica/
             <h2 class="video-title">Elegy for the Earth</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/i09qxUjNLDU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="video-actions">
-                <a href="https://youtu.be/i09qxUjNLDU" target="_blank" class="btn-youtube">Guarda su YouTube</a>
             </div>
         </div>
 
@@ -80,9 +71,6 @@ permalink: /immagini-e-musica/
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/ScSRDr9jeOM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="video-actions">
-                <button class="btn-share" onclick="shareVideo('ScSRDr9jeOM')">Condividi</button>
-            </div>
         </div>
 
         <!-- THE FOREST WAY -->
@@ -90,9 +78,6 @@ permalink: /immagini-e-musica/
             <h2 class="video-title">The Forest Way</h2>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/fQmpCYjtoAQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="video-actions">
-                <a href="https://youtu.be/fQmpCYjtoAQ" target="_blank" class="btn-youtube">Guarda su YouTube</a>
             </div>
         </div>
 
@@ -180,11 +165,11 @@ permalink: /immagini-e-musica/
     font-size: 1.1em;
     line-height: 1.7;
     margin-bottom: 15px;
-    font-style: normal; /* NESSUN CORSIVO */
-    font-family: inherit; /* FONT COMUNE */
+    font-style: normal;
+    font-family: inherit;
 }
 
-/* TITOLI VIDEO PIÙ PICCOLI */
+/* TITOLI VIDEO */
 .video-section {
     margin-bottom: 60px;
     text-align: center;
@@ -195,7 +180,7 @@ permalink: /immagini-e-musica/
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-weight: 300;
-    font-size: 1.5em; /* RIMPICCIOLITO */
+    font-size: 1.5em;
     margin-bottom: 20px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
     padding-bottom: 8px;
@@ -217,48 +202,6 @@ permalink: /immagini-e-musica/
     height: 450px;
     border: none;
     border-radius: 12px;
-}
-
-/* PULSANTI VIDEO */
-.video-actions {
-    margin-top: 20px;
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.btn-youtube {
-    background: #e74c3c;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    border: none;
-    cursor: pointer;
-}
-
-.btn-youtube:hover {
-    background: #c0392b;
-    transform: translateY(-2px);
-}
-
-.btn-share {
-    background: #3498db;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 6px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn-share:hover {
-    background: #2980b9;
-    transform: translateY(-2px);
 }
 
 /* SEZIONE FINALE */
@@ -340,34 +283,8 @@ permalink: /immagini-e-musica/
         gap: 30px;
     }
     
-    .video-actions {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .btn-youtube, .btn-share {
-        width: 200px;
-    }
-    
     .video-title {
         font-size: 1.3em;
     }
 }
 </style>
-
-<script>
-function shareVideo(videoId) {
-    const url = `https://youtu.be/${videoId}`;
-    if (navigator.share) {
-        navigator.share({
-            title: document.title,
-            url: url
-        });
-    } else {
-        // Fallback per browser che non supportano Web Share API
-        navigator.clipboard.writeText(url).then(() => {
-            alert('Link copiato negli appunti!');
-        });
-    }
-}
-</script>
