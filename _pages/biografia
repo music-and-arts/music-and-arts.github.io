@@ -45,7 +45,7 @@ permalink: /biografia/
         <div class="testo-section">
             <p>Il mio interesse, oltre che per la Letteratura e la Filosofia, è tutto per la Musica e la scrittura, di cui in questo sito trovate traccia.</p>
 
-            <p>Risparmio ulteriori dettagli perché non sono l'esatto contrario di una rock star, svolgo una vita del tutto ordinaria e nessuno s'interesserebbe a fatti piuttosto banali che con l'espressione artistica c'entrano assai poco.</p>
+            <p>Risparmio ulteriori dettagli perché non sono l'esatto contrario di una rock star, svolgo una vita del tutto ordinaria e nessuno s'interesserebbe a fatti piuttosto banali che con l'espressione artistic c'entrano assai poco.</p>
 
             <p>Insomma, sono rappresentato qui solo dalla musica che compongo, da quel che ho scritto e da null'altro, com'è saggio che sia.</p>
         </div>
@@ -70,8 +70,19 @@ permalink: /biografia/
                 </div>
             </div>
             
-            <div class="home-button">
-                <a href="/" class="btn-home">Torna alla Home</a>
+            <!-- PULSANTI DI NAVIGAZIONE AGGIUNTI -->
+            <div class="navigation-buttons">
+                <div class="nav-buttons-container">
+                    <a href="/tre-albums-esagerati/" class="btn-nav btn-prev">
+                        ← Tre albums esagerati
+                    </a>
+                    
+                    <a href="/" class="btn-home">Torna alla Home</a>
+                    
+                    <a href="/contatti/" class="btn-nav btn-next">
+                        Contatti →
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -238,10 +249,45 @@ permalink: /biografia/
     text-decoration: underline;
 }
 
-/* BOTTONE HOME */
-.home-button {
+/* PULSANTI DI NAVIGAZIONE AGGIUNTI */
+.navigation-buttons {
+    margin-top: 40px;
+}
+
+.nav-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-nav {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.6);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
-    margin-top: 30px;
+    flex: 1;
+    max-width: 200px;
+}
+
+.btn-nav:hover {
+    background: rgba(41, 128, 185, 0.8);
+    transform: translateY(-2px);
+}
+
+.btn-prev {
+    text-align: left;
+}
+
+.btn-next {
+    text-align: right;
 }
 
 .btn-home {
@@ -255,12 +301,12 @@ permalink: /biografia/
     font-size: 1em;
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    white-space: nowrap;
 }
 
 .btn-home:hover {
     background: rgba(41, 128, 185, 0.9);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
 }
 
 /* RESPONSIVE */
@@ -322,6 +368,20 @@ permalink: /biografia/
     
     .music-nav {
         padding: 25px;
+    }
+    
+    .nav-buttons-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .btn-nav {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .btn-prev, .btn-next {
+        text-align: center;
     }
 }
 </style>
