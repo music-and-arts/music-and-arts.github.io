@@ -12,14 +12,14 @@ permalink: /biografia/
 
     <div class="biografia-content">
         <!-- PRIMA SEZIONE CON IMMAGINE PORTICI -->
-        <div class="layout-grid-bio">
-            <div class="bio-image-area">
+        <div class="layout-grid-avanzato">
+            <div class="area-immagine">
                 <div class="bio-image">
-                    <img src="{{ site.baseurl }}/images/portici.webp" alt="Portici, Napoli">
+                    <img src="/images/portici.webp" alt="Portici, Napoli">
                     <div class="image-caption">Portici (Na) - Dove sono nato nel 1961</div>
                 </div>
             </div>
-            <div class="bio-text-area">
+            <div class="area-testo">
                 <p>Sono nato nel 1961 a Portici (Na) e vivo ora con la mia famiglia a Bastia Umbra, vicino Perugia.</p>
                 
                 <p>Ho insegnato Italiano e Storia negli Istituti di Scuola Superiore sino al 2025, ricevendo parecchie soddisfazioni dai miei ragazzi, alcuni dei quali ancora mi scrivono, mi telefonano, chiedono di vedermi a distanza di anni.</p>
@@ -27,14 +27,14 @@ permalink: /biografia/
         </div>
 
         <!-- SECONDA SEZIONE CON IMMAGINE BASTIA UMBRA -->
-        <div class="layout-grid-bio reverse">
-            <div class="bio-image-area">
+        <div class="layout-grid-avanzato reverse">
+            <div class="area-immagine">
                 <div class="bio-image">
-                    <img src="{{ site.baseurl }}/images/bastia.webp" alt="Bastia Umbra">
+                    <img src="/images/bastia.webp" alt="Bastia Umbra">
                     <div class="image-caption">Bastia Umbra - Dove vivo ora vicino Perugia</div>
                 </div>
             </div>
-            <div class="bio-text-area">
+            <div class="area-testo">
                 <p>Infine però ha vinto l'età, la stanchezza, e più di ogni altra cosa la nausea per il marciume burocratico e l'idiocrazia scolastica, diventati davvero insopportabili negli anni.</p>
 
                 <p>Ora sono felicemente in pensione e, salute permettendo, posso dedicarmi una buona volta a quel che più mi piace.</p>
@@ -42,7 +42,7 @@ permalink: /biografia/
         </div>
 
         <!-- SEZIONE TESTO COMPLETO -->
-        <div class="bio-text-full">
+        <div class="testo-section">
             <p>Il mio interesse, oltre che per la Letteratura e la Filosofia, è tutto per la Musica e la scrittura, di cui in questo sito trovate traccia.</p>
 
             <p>Risparmio ulteriori dettagli perché non sono l'esatto contrario di una rock star, svolgo una vita del tutto ordinaria e nessuno s'interesserebbe a fatti piuttosto banali che con l'espressione artistica c'entrano assai poco.</p>
@@ -51,29 +51,28 @@ permalink: /biografia/
         </div>
 
         <!-- SEZIONE FINALE CON LINK -->
-        <div class="bio-links-section">
-            <div class="bio-links-grid">
-                <div class="bio-links-col">
-                    <h3>🎵 La Mia Musica</h3>
+        <div class="music-nav">
+            <div class="nav-columns">
+                <div class="nav-col">
+                    <h3>La Mia Musica</h3>
                     <ul>
-                        <li><a href="https://www.jamendo.com/artist/347673/aufklarung" target="_blank" rel="noopener">Jamendo</a></li>
-                        <li><a href="https://www.melodyloops.com/composers/raffaele-de-leonardo/" target="_blank" rel="noopener">Melodyloops</a></li>
-                        <li><a href="https://www.pond5.com/it/artist/europeanart" target="_blank" rel="noopener">Pond5</a></li>
-                        <li><a href="https://open.spotify.com/intl-it/artist/23mNnUEoDifg6ax49JfQrP" target="_blank" rel="noopener">Spotify</a></li>
+                        <li>🎵 <a href="https://www.jamendo.com/artist/347673/aufklarung" target="_blank">Jamendo</a></li>
+                        <li>🎵 <a href="https://www.melodyloops.com/composers/raffaele-de-leonardo/" target="_blank">Melodyloops</a></li>
+                        <li>🎵 <a href="https://www.pond5.com/it/artist/europeanart" target="_blank">Pond5</a></li>
+                        <li>🎵 <a href="https://open.spotify.com/intl-it/artist/23mNnUEoDifg6ax49JfQrP" target="_blank">Spotify</a></li>
                     </ul>
                 </div>
-                <div class="bio-links-col">
-                    <h3>☕ Offrimi un caffè</h3>
+                <div class="nav-col">
+                    <h3>Offrimi un caffè</h3>
                     <ul>
-                        <li><a href="https://ko-fi.com/aufklarung" target="_blank" rel="noopener">Supportami su Ko-fi</a></li>
+                        <li>☕ <a href="https://ko-fi.com/aufklarung" target="_blank">Supportami su Ko-fi</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-
-        <!-- BOTTONE HOME -->
-        <div class="home-button">
-            <a href="{{ site.baseurl }}/" class="btn-home">Torna alla Home</a>
+            
+            <div class="home-button">
+                <a href="/" class="btn-home">Torna alla Home</a>
+            </div>
         </div>
     </div>
 </div>
@@ -113,8 +112,8 @@ permalink: /biografia/
     font-style: italic;
 }
 
-/* LAYOUT GRID PER BIOGRAFIA */
-.layout-grid-bio {
+/* LAYOUT GRID AVANZATO - STESSO DELLE ALTRE PAGINE */
+.layout-grid-avanzato {
     display: grid;
     grid-template-columns: 400px 1fr;
     grid-template-rows: auto 1fr;
@@ -126,21 +125,21 @@ permalink: /biografia/
     align-items: start;
 }
 
-.layout-grid-bio.reverse {
+.layout-grid-avanzato.reverse {
     grid-template-columns: 1fr 400px;
     grid-template-areas: 
         "testo immagine"
         "testo .";
 }
 
-.bio-image-area {
+.area-immagine {
     grid-area: immagine;
     position: sticky;
     top: 40px;
     align-self: start;
 }
 
-.bio-text-area {
+.area-testo {
     grid-area: testo;
 }
 
@@ -169,7 +168,7 @@ permalink: /biografia/
 }
 
 /* TESTO BIOGRAFIA */
-.bio-text-area p {
+.area-testo p {
     color: #ffffff;
     font-size: 1.2em;
     line-height: 1.8;
@@ -177,7 +176,7 @@ permalink: /biografia/
     text-align: justify;
 }
 
-.bio-text-full {
+.testo-section {
     padding: 40px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
@@ -185,7 +184,7 @@ permalink: /biografia/
     margin-bottom: 60px;
 }
 
-.bio-text-full p {
+.testo-section p {
     color: #ffffff;
     font-size: 1.2em;
     line-height: 1.8;
@@ -193,22 +192,23 @@ permalink: /biografia/
     text-align: justify;
 }
 
-/* SEZIONE LINK BIOGRAFIA */
-.bio-links-section {
+/* SEZIONE FINALE CON LINK */
+.music-nav {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     padding: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.bio-links-grid {
+.nav-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+    margin-bottom: 40px;
 }
 
-.bio-links-col h3 {
+.nav-col h3 {
     color: #ffffff;
     border-bottom: 2px solid #e74c3c;
     padding-bottom: 10px;
@@ -216,24 +216,24 @@ permalink: /biografia/
     font-size: 1.4em;
 }
 
-.bio-links-col ul {
+.nav-col ul {
     list-style: none;
     padding: 0;
 }
 
-.bio-links-col li {
+.nav-col li {
     color: #cccccc;
     padding: 8px 0;
     font-size: 1.1em;
 }
 
-.bio-links-col a {
+.nav-col a {
     color: #3498db;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.bio-links-col a:hover {
+.nav-col a:hover {
     color: #e74c3c;
     text-decoration: underline;
 }
@@ -265,7 +265,7 @@ permalink: /biografia/
 
 /* RESPONSIVE */
 @media (max-width: 968px) {
-    .layout-grid-bio {
+    .layout-grid-avanzato {
         grid-template-columns: 1fr;
         grid-template-areas: 
             "immagine"
@@ -273,14 +273,14 @@ permalink: /biografia/
         gap: 30px;
     }
     
-    .layout-grid-bio.reverse {
+    .layout-grid-avanzato.reverse {
         grid-template-columns: 1fr;
         grid-template-areas: 
             "immagine"
             "testo";
     }
     
-    .bio-image-area {
+    .area-immagine {
         position: static;
     }
     
@@ -290,7 +290,7 @@ permalink: /biografia/
         margin: 0 auto;
     }
     
-    .bio-links-grid {
+    .nav-columns {
         grid-template-columns: 1fr;
         gap: 30px;
     }
@@ -310,17 +310,17 @@ permalink: /biografia/
         font-size: 2.2em;
     }
     
-    .bio-text-area p,
-    .bio-text-full p {
+    .area-testo p,
+    .testo-section p {
         text-align: left;
         font-size: 1.1em;
     }
     
-    .bio-text-full {
+    .testo-section {
         padding: 25px;
     }
     
-    .bio-links-section {
+    .music-nav {
         padding: 25px;
     }
 }
