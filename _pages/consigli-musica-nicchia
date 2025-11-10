@@ -66,7 +66,7 @@ permalink: /consigli-musica-nicchia/
 
             <p>L'ascolto (quello vero, di Musica vera - e intendo <em>libero</em>) è per sua natura evocativo: di luoghi, di sensazioni più o meno intense, di stati d'animo vissuti nel passato; e ancora di speranze, sogni, desideri, o anche angosce e paure del tutto astratte e indefinibili.</p>
 
-            <p>E tutto ciò, seppure non raggiunge il livello di una percezione razionale e logicamente giustificata, se mantiene pur sempre sul piano di un'assoluta consapevolezza. Per cui ogni ascolto autentico è accompagnato dalla coscienza di un'impressione, di un determinato mutamento psichico che interviene a cambiare lo stato di coscienza.</p>
+            <p>E tutto ciò, seppure non raggiunge il livello di uma percezione razionale e logicamente giustificata, se mantiene pur sempre sul piano di un'assoluta consapevolezza. Per cui ogni ascolto autentico è accompagnato dalla coscienza di un'impressione, di un determinato mutamento psichico che interviene a cambiare lo stato di coscienza.</p>
 
             <p>Il vero musicista è colui che vuole alterare uno stato percettivo, il vero ascoltatore è colui che trova in se stesso i motivi dell'ascolto, colui che lo cerca con un atto volontario e con l'esatta consapevolezza che le onde sonore non lasceranno inerti le sue sinapsi.</p>
 
@@ -149,8 +149,19 @@ permalink: /consigli-musica-nicchia/
                 </div>
             </div>
             
-            <div class="home-button">
-                <a href="/" class="btn-home">Torna alla Home</a>
+            <!-- PULSANTI DI NAVIGAZIONE AGGIUNTI -->
+            <div class="navigation-buttons">
+                <div class="nav-buttons-container">
+                    <a href="/interludio-i/" class="btn-nav btn-prev">
+                        ← Interludio I
+                    </a>
+                    
+                    <a href="/" class="btn-home">Torna alla Home</a>
+                    
+                    <a href="/immagini-e-musica/" class="btn-nav btn-next">
+                        Immagini e Musica →
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -357,8 +368,45 @@ permalink: /consigli-musica-nicchia/
     text-decoration: underline;
 }
 
-.home-button {
+/* PULSANTI DI NAVIGAZIONE AGGIUNTI */
+.navigation-buttons {
+    margin-top: 40px;
+}
+
+.nav-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-nav {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.6);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
+    flex: 1;
+    max-width: 200px;
+}
+
+.btn-nav:hover {
+    background: rgba(41, 128, 185, 0.8);
+    transform: translateY(-2px);
+}
+
+.btn-prev {
+    text-align: left;
+}
+
+.btn-next {
+    text-align: right;
 }
 
 .btn-home {
@@ -372,6 +420,7 @@ permalink: /consigli-musica-nicchia/
     font-size: 1em;
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    white-space: nowrap;
 }
 
 .btn-home:hover {
@@ -427,6 +476,20 @@ permalink: /consigli-musica-nicchia/
     
     .citazione-finale-centrata p {
         font-size: 1.3em;
+    }
+    
+    .nav-buttons-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .btn-nav {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .btn-prev, .btn-next {
+        text-align: center;
     }
 }
 </style>
