@@ -1,0 +1,342 @@
+---
+layout: default
+title: "Contatti - Music and Arts"
+permalink: /contatti/
+---
+
+<div class="contatti-container">
+    <div class="music-header">
+        <h1>Contatti</h1>
+        <p class="music-subtitle">Info e collaborazioni</p>
+    </div>
+
+    <div class="contatti-content">
+        <!-- SEZIONE PRINCIPALE CON IMMAGINE -->
+        <div class="layout-grid-avanzato">
+            <div class="area-immagine">
+                <div class="contatti-image">
+                    <img src="/images/telefoni.webp" alt="Contatti e comunicazione">
+                    <div class="image-caption">Contatti per collaborazioni musicali</div>
+                </div>
+            </div>
+            <div class="area-testo">
+                <div class="info-section">
+                    <h3>Raffaele De Leonardo</h3>
+                    <p class="email-contact">📧 e-mail: <a href="mailto:raffaele61@hotmail.it">raffaele61@hotmail.it</a></p>
+                </div>
+
+                <div class="testo-section">
+                    <p>Chi fosse interessato ad usi commerciali della mia musica è pregato:</p>
+                    
+                    <ol class="contatti-lista">
+                        <li>di <strong>contattarmi</strong> all'indirizzo e-mail che ho fornito;</li>
+                        <li>oppure di cliccare qualcuno dei link di siti che ospitano le mie tracce con licenza royalty free.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEZIONE LINK MUSICALI -->
+        <div class="music-nav">
+            <div class="nav-columns">
+                <div class="nav-col">
+                    <h3>📌 La Mia Musica</h3>
+                    <ul>
+                        <li>🗥 <a href="https://www.jamendo.com/artist/347673/aufklarung" target="_blank">Jamendo</a></li>
+                        <li>🗥 <a href="https://www.melodyloops.com/composers/raffaele-de-leonardo/" target="_blank">Melodyloops</a></li>
+                        <li>🗥 <a href="https://www.pond5.com/it/artist/europeanart" target="_blank">Pond5</a></li>
+                        <li>🗥 <a href="https://open.spotify.com/intl-it/artist/23mNnUEoDifg6ax49JfQrP" target="_blank">Spotify</a></li>
+                    </ul>
+                </div>
+                <div class="nav-col">
+                    <h3>📋 Offrimi un caffè</h3>
+                    <ul>
+                        <li>☕ <a href="https://ko-fi.com/aufklarung" target="_blank">Supportami su Ko-fi</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="home-button">
+                <a href="/" class="btn-home">Torna alla Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* STILI BASE */
+.contatti-container {
+    background: #1a1a1a;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.contatti-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.music-header {
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #333;
+}
+
+.music-header h1 {
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.music-subtitle {
+    color: #cccccc;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+/* LAYOUT GRID AVANZATO */
+.layout-grid-avanzato {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "immagine testo"
+        ". testo";
+    gap: 50px;
+    margin-bottom: 80px;
+    align-items: start;
+}
+
+.area-immagine {
+    grid-area: immagine;
+    position: sticky;
+    top: 40px;
+    align-self: start;
+}
+
+.area-testo {
+    grid-area: testo;
+}
+
+/* IMMAGINE CONTATTI */
+.contatti-image {
+    text-align: center;
+}
+
+.contatti-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5);
+    border: 3px solid #3498db;
+}
+
+.image-caption {
+    color: #cccccc;
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/* SEZIONE INFO */
+.info-section {
+    margin-bottom: 40px;
+}
+
+.info-section h3 {
+    color: #ffffff;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.email-contact {
+    color: #ffffff;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+.email-contact a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.email-contact a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* TESTO CONTATTI */
+.testo-section {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #3498db;
+    margin-bottom: 30px;
+}
+
+.testo-section p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* LISTA CONTATTI */
+.contatti-lista {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contatti-lista li {
+    margin-bottom: 15px;
+}
+
+.contatti-lista strong {
+    color: #e74c3c;
+}
+
+/* SEZIONE LINK MUSICALI */
+.music-nav {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.nav-col h3 {
+    color: #ffffff;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.nav-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-col li {
+    color: #cccccc;
+    padding: 8px 0;
+    font-size: 1.1em;
+}
+
+.nav-col a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-col a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* BOTTONE HOME */
+.home-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-home {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.8);
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-home:hover {
+    background: rgba(41, 128, 185, 0.9);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+/* RESPONSIVE */
+@media (max-width: 968px) {
+    .layout-grid-avanzato {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "immagine"
+            "testo";
+        gap: 30px;
+    }
+    
+    .area-immagine {
+        position: static;
+    }
+    
+    .contatti-image img {
+        height: 300px;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    .nav-columns {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contatti-container {
+        padding: 20px 15px;
+    }
+    
+    .contatti-image img {
+        max-width: 280px;
+        height: 250px;
+    }
+    
+    .music-header h1 {
+        font-size: 2.2em;
+    }
+    
+    .testo-section p,
+    .contatti-lista {
+        text-align: left;
+        font-size: 1.1em;
+    }
+    
+    .testo-section {
+        padding: 20px;
+    }
+    
+    .music-nav {
+        padding: 25px;
+    }
+    
+    .email-contact {
+        font-size: 1.1em;
+    }
+}
+</style>
