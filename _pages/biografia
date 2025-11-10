@@ -1,0 +1,327 @@
+---
+layout: default
+title: "Biografia - Music and Arts"
+permalink: /biografia/
+---
+
+<div class="biografia-container">
+    <div class="music-header">
+        <h1>Biografia men che minima</h1>
+        <p class="music-subtitle">Qualche cenno sulla mia vita e percorso artistico</p>
+    </div>
+
+    <div class="biografia-content">
+        <!-- PRIMA SEZIONE CON IMMAGINE PORTICI -->
+        <div class="layout-grid-bio">
+            <div class="bio-image-area">
+                <div class="bio-image">
+                    <img src="{{ site.baseurl }}/images/portici.webp" alt="Portici, Napoli">
+                    <div class="image-caption">Portici (Na) - Dove sono nato nel 1961</div>
+                </div>
+            </div>
+            <div class="bio-text-area">
+                <p>Sono nato nel 1961 a Portici (Na) e vivo ora con la mia famiglia a Bastia Umbra, vicino Perugia.</p>
+                
+                <p>Ho insegnato Italiano e Storia negli Istituti di Scuola Superiore sino al 2025, ricevendo parecchie soddisfazioni dai miei ragazzi, alcuni dei quali ancora mi scrivono, mi telefonano, chiedono di vedermi a distanza di anni.</p>
+            </div>
+        </div>
+
+        <!-- SECONDA SEZIONE CON IMMAGINE BASTIA UMBRA -->
+        <div class="layout-grid-bio reverse">
+            <div class="bio-image-area">
+                <div class="bio-image">
+                    <img src="{{ site.baseurl }}/images/bastia.webp" alt="Bastia Umbra">
+                    <div class="image-caption">Bastia Umbra - Dove vivo ora vicino Perugia</div>
+                </div>
+            </div>
+            <div class="bio-text-area">
+                <p>Infine però ha vinto l'età, la stanchezza, e più di ogni altra cosa la nausea per il marciume burocratico e l'idiocrazia scolastica, diventati davvero insopportabili negli anni.</p>
+
+                <p>Ora sono felicemente in pensione e, salute permettendo, posso dedicarmi una buona volta a quel che più mi piace.</p>
+            </div>
+        </div>
+
+        <!-- SEZIONE TESTO COMPLETO -->
+        <div class="bio-text-full">
+            <p>Il mio interesse, oltre che per la Letteratura e la Filosofia, è tutto per la Musica e la scrittura, di cui in questo sito trovate traccia.</p>
+
+            <p>Risparmio ulteriori dettagli perché non sono l'esatto contrario di una rock star, svolgo una vita del tutto ordinaria e nessuno s'interesserebbe a fatti piuttosto banali che con l'espressione artistica c'entrano assai poco.</p>
+
+            <p>Insomma, sono rappresentato qui solo dalla musica che compongo, da quel che ho scritto e da null'altro, com'è saggio che sia.</p>
+        </div>
+
+        <!-- SEZIONE FINALE CON LINK -->
+        <div class="bio-links-section">
+            <div class="bio-links-grid">
+                <div class="bio-links-col">
+                    <h3>🎵 La Mia Musica</h3>
+                    <ul>
+                        <li><a href="https://www.jamendo.com/artist/347673/aufklarung" target="_blank" rel="noopener">Jamendo</a></li>
+                        <li><a href="https://www.melodyloops.com/composers/raffaele-de-leonardo/" target="_blank" rel="noopener">Melodyloops</a></li>
+                        <li><a href="https://www.pond5.com/it/artist/europeanart" target="_blank" rel="noopener">Pond5</a></li>
+                        <li><a href="https://open.spotify.com/intl-it/artist/23mNnUEoDifg6ax49JfQrP" target="_blank" rel="noopener">Spotify</a></li>
+                    </ul>
+                </div>
+                <div class="bio-links-col">
+                    <h3>☕ Offrimi un caffè</h3>
+                    <ul>
+                        <li><a href="https://ko-fi.com/aufklarung" target="_blank" rel="noopener">Supportami su Ko-fi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- BOTTONE HOME -->
+        <div class="home-button">
+            <a href="{{ site.baseurl }}/" class="btn-home">Torna alla Home</a>
+        </div>
+    </div>
+</div>
+
+<style>
+/* STILI BASE */
+.biografia-container {
+    background: #1a1a1a;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.biografia-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.music-header {
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #333;
+}
+
+.music-header h1 {
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.music-subtitle {
+    color: #cccccc;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+/* LAYOUT GRID PER BIOGRAFIA */
+.layout-grid-bio {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "immagine testo"
+        ". testo";
+    gap: 50px;
+    margin-bottom: 80px;
+    align-items: start;
+}
+
+.layout-grid-bio.reverse {
+    grid-template-columns: 1fr 400px;
+    grid-template-areas: 
+        "testo immagine"
+        "testo .";
+}
+
+.bio-image-area {
+    grid-area: immagine;
+    position: sticky;
+    top: 40px;
+    align-self: start;
+}
+
+.bio-text-area {
+    grid-area: testo;
+}
+
+/* IMMAGINI BIOGRAFIA */
+.bio-image {
+    text-align: center;
+}
+
+.bio-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5);
+    border: 3px solid #3498db;
+}
+
+.image-caption {
+    color: #cccccc;
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/* TESTO BIOGRAFIA */
+.bio-text-area p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.bio-text-full {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #3498db;
+    margin-bottom: 60px;
+}
+
+.bio-text-full p {
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+/* SEZIONE LINK BIOGRAFIA */
+.bio-links-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bio-links-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.bio-links-col h3 {
+    color: #ffffff;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.bio-links-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bio-links-col li {
+    color: #cccccc;
+    padding: 8px 0;
+    font-size: 1.1em;
+}
+
+.bio-links-col a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.bio-links-col a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* BOTTONE HOME */
+.home-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-home {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.8);
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-home:hover {
+    background: rgba(41, 128, 185, 0.9);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+/* RESPONSIVE */
+@media (max-width: 968px) {
+    .layout-grid-bio {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "immagine"
+            "testo";
+        gap: 30px;
+    }
+    
+    .layout-grid-bio.reverse {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "immagine"
+            "testo";
+    }
+    
+    .bio-image-area {
+        position: static;
+    }
+    
+    .bio-image img {
+        height: 250px;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    .bio-links-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .biografia-container {
+        padding: 20px 15px;
+    }
+    
+    .bio-image img {
+        max-width: 280px;
+        height: 200px;
+    }
+    
+    .music-header h1 {
+        font-size: 2.2em;
+    }
+    
+    .bio-text-area p,
+    .bio-text-full p {
+        text-align: left;
+        font-size: 1.1em;
+    }
+    
+    .bio-text-full {
+        padding: 25px;
+    }
+    
+    .bio-links-section {
+        padding: 25px;
+    }
+}
+</style>
