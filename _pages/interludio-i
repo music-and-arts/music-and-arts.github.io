@@ -58,11 +58,21 @@ description: "Riflessioni politiche e analisi storiche. Ebook disponibili in mul
                     </ul>
                 </div>
             </div>
-        </div>
-
-        <!-- PULSANTE HOME -->
-        <div class="home-button">
-            <a href="/" class="btn-home">Torna alla Home</a>
+            
+            <!-- PULSANTI DI NAVIGAZIONE AGGIUNTI -->
+            <div class="navigation-buttons">
+                <div class="nav-buttons-container">
+                    <a href="/un-regalo-per-voi/" class="btn-nav btn-prev">
+                        ← Un regalo per voi
+                    </a>
+                    
+                    <a href="/" class="btn-home">Torna alla Home</a>
+                    
+                    <a href="/consigli-musica-nicchia/" class="btn-nav btn-next">
+                        Consigli musica di nicchia →
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -208,6 +218,7 @@ description: "Riflessioni politiche e analisi storiche. Ebook disponibili in mul
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+    margin-bottom: 40px;
 }
 
 .nav-col h3 {
@@ -229,10 +240,45 @@ description: "Riflessioni politiche e analisi storiche. Ebook disponibili in mul
     font-size: 1.1em;
 }
 
-/* PULSANTE HOME */
-.home-button {
-    text-align: center;
+/* PULSANTI DI NAVIGAZIONE AGGIUNTI */
+.navigation-buttons {
     margin-top: 40px;
+}
+
+.nav-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-nav {
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.6);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    flex: 1;
+    max-width: 200px;
+}
+
+.btn-nav:hover {
+    background: rgba(41, 128, 185, 0.8);
+    transform: translateY(-2px);
+}
+
+.btn-prev {
+    text-align: left;
+}
+
+.btn-next {
+    text-align: right;
 }
 
 .btn-home {
@@ -246,6 +292,7 @@ description: "Riflessioni politiche e analisi storiche. Ebook disponibili in mul
     font-size: 1em;
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    white-space: nowrap;
 }
 
 .btn-home:hover {
@@ -284,6 +331,20 @@ description: "Riflessioni politiche e analisi storiche. Ebook disponibili in mul
     .text-section p {
         text-align: left;
         font-size: 1.1em;
+    }
+    
+    .nav-buttons-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .btn-nav {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .btn-prev, .btn-next {
+        text-align: center;
     }
 }
 </style>
