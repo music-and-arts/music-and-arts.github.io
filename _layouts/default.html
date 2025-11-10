@@ -146,6 +146,102 @@
             background: linear-gradient(90deg, transparent, #6366f1, #ec4899, transparent);
         }
 
+         /* NAVIGAZIONE TRA PAGINE */
+        .page-navigation {
+            margin: 40px auto 0;
+            padding: 30px 20px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            max-width: 1200px;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .btn-nav {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 0.95em;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+            flex: 1;
+            max-width: 200px;
+        }
+
+        .btn-nav.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .btn-prev {
+            text-align: left;
+        }
+
+        .btn-next {
+            text-align: right;
+        }
+
+        .btn-nav:hover:not(.disabled) {
+            background: rgba(52, 152, 219, 0.6);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+        }
+
+        .btn-home {
+            display: inline-block;
+            background: rgba(52, 152, 219, 0.8);
+            color: white;
+            padding: 12px 35px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            flex: 0 0 auto;
+        }
+
+        .btn-home:hover {
+            background: rgba(41, 128, 185, 0.9);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+        }
+
+        /* RESPONSIVE PER NAVIGAZIONE */
+        @media (max-width: 768px) {
+            .nav-buttons {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .btn-nav {
+                max-width: 100%;
+                order: 2;
+            }
+            
+            .btn-prev {
+                order: 1;
+            }
+            
+            .btn-next {
+                order: 3;
+            }
+            
+            .btn-home {
+                order: 2;
+            }
+        } 
+                 
         @media (max-width: 768px) {
             .container {
                 padding: 0 1rem;
