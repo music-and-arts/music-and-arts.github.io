@@ -6,18 +6,103 @@ permalink: /index.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Visibilità</title>
+    <title>Music and Arts - Musica, Arte e Pensiero</title>
+    <meta name="description" content="Uno spazio raffinato dedicato alla musica, arte, scrittura e creatività. Esplora contenuti unici e riflessioni profonde.">
+    <meta name="keywords" content="musica, arte, scrittura, creatività, cultura, pensiero">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- TEST BASE SENZA CSS -->
-    <div style="position: fixed; top: 0; left: 0; width: 100%; background: red; color: white; padding: 20px; text-align: center; font-size: 24px; z-index: 999999;">
-        SE VEDI QUESTO TESTO ROSSO, IL PROBLEMA È NEL CSS
+    <div class="container">
+        <!-- TRADUTTORE DENTRO IL CONTAINER PRINCIPALE -->
+        <div style="text-align: right; margin-bottom: 20px; padding: 10px; background: #3498db; border-radius: 5px;">
+            <button onclick="translatePage('en')" style="background: white; border: none; padding: 8px 15px; border-radius: 3px; margin: 0 5px; cursor: pointer;">🇬🇧 English</button>
+            <button onclick="translatePage('fr')" style="background: white; border: none; padding: 8px 15px; border-radius: 3px; margin: 0 5px; cursor: pointer;">🇫🇷 Français</button>
+            <button onclick="translatePage('de')" style="background: white; border: none; padding: 8px 15px; border-radius: 3px; margin: 0 5px; cursor: pointer;">🇩🇪 Deutsch</button>
+            <button onclick="translatePage('es')" style="background: white; border: none; padding: 8px 15px; border-radius: 3px; margin: 0 5px; cursor: pointer;">🇪🇸 Español</button>
+        </div>
+
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <h1>Music & Arts</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="/i-colori-della-musica/" class="nav-link">I Colori della Musica</a></li>
+                    <li><a href="/un-regalo-per-voi/" class="nav-link">Un Regalo per Voi</a></li>
+                    <li><a href="interludio-i.html" class="nav-link">Interludio I</a></li>
+                    <li><a href="consigli-musica-nicchia.html" class="nav-link">Consigli Musica</a></li>
+                    <li><a href="/immagini-e-musica/" class="nav-link">Immagini e Musica</a></li>
+                    <li><a href="/interludio-fotografia-erotismo/" class="nav-link">Interludio II</a></li>
+                    <li><a href="/tre-albums-esagerati/" class="nav-link">Tre Albums</a></li>
+                    <li><a href="biografia.html" class="nav-link">Biografia</a></li>
+                    <li><a href="contatti.html" class="nav-link">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Musica e Altro</h1>
+                    <p class="hero-subtitle">Uno spazio per condividere passioni, idee e riflessioni</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <div class="text-block">
+                    <h2>Benvenuto nel mio angolo di creatività</h2>
+                    <p>Questo sito nasce dalla necessità di dare forma concreta a pensieri, emozioni e connessioni che la musica e l'arte suscitano in me. Non troverai recensioni tecniche o analisi accademiche, ma piuttosto impressioni personali, suggestioni e forse qualche intuizione che risuoni con la tua esperienza.</p>
+                    
+                    <p>La musica per me non è solo suono organizzato, ma un linguaggio in grado di attraversare dimensioni diverse della percezione. È colore, è immagine, è memoria, è corpo. In queste pagine esploreremo insieme queste connessioni.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>I Colori della Musica</h3>
+                        <p>Esplorazione delle connessioni tra musica e percezione visiva. Come i suoni si traducono in palette cromatiche e visioni interiori.</p>
+                        <a href="/i-colori-della-musica/" class="feature-link">Esplora →</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Un Regalo per Voi</h3>
+                        <p>Risorse musicali e contenuti speciali condivisi con la comunità. Piccoli doni per chi apprezza la profondità artistica.</p>
+                        <a href="/un-regalo-per-voi/" class="feature-link">Scopri →</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Tre Albums Esagerati</h3>
+                        <p>Album che hanno superato i confini della normalità musicale. Opere che hanno segnato traiettorie artistiche uniche.</p>
+                        <a href="/tre-albums-esagerati/" class="feature-link">Ascolta →</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Immagini e Musica</h3>
+                        <p>Il dialogo costante tra visione e ascolto nell'esperienza artistica. Come le immagini influenzano la percezione musicale.</p>
+                        <a href="/immagini-e-musica/" class="feature-link">Vedi →</a>
+                    </div>
+                </div>
+
+                <div class="quote-block">
+                    <blockquote>
+                        "La musica è la letteratura del cuore; essa comincia dove finisce la parola."
+                        <cite>— Alphonse de Lamartine</cite>
+                    </blockquote>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 Music and Arts. Tutti i diritti riservati.</p>
+        </footer>
     </div>
 
-    <div style="margin-top: 100px; padding: 20px;">
-        <h1>Pagina di test</h1>
-        <p>Se vedi la barra rossa in alto, il problema è nel file CSS del sito.</p>
-        <p>Se NON vedi la barra rossa, c'è un problema più grave.</p>
-    </div>
+    <script>
+    function translatePage(targetLang) {
+        const translateUrl = `https://${targetLang}-it.translate.goog${window.location.pathname}?_x_tr_sl=it&_x_tr_tl=${targetLang}&_x_tr_hl=${targetLang}&_x_tr_pto=wapp`;
+        window.open(translateUrl, '_blank');
+    }
+    </script>
 </body>
 </html>
