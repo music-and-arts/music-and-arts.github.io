@@ -4,6 +4,18 @@ title: "Music and Arts - Musica, Arte e Pensiero"
 description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creatività. Esplora contenuti unici e riflessioni profonde."
 ---
 
+<!-- TRADUTTORE MULTILINGUA -->
+<div class="translator-container">
+    <div class="translator-title">🌐 TRADUCI PAGINA</div>
+    <div class="translator-buttons">
+        <button class="translate-btn" onclick="window.open('https://en-it.translate.goog' + window.location.pathname + '?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp', '_blank')">🇬🇧 English</button>
+        <button class="translate-btn" onclick="window.open('https://fr-it.translate.goog' + window.location.pathname + '?_x_tr_sl=it&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=wapp', '_blank')">🇫🇷 Français</button>
+        <button class="translate-btn" onclick="window.open('https://es-it.translate.goog' + window.location.pathname + '?_x_tr_sl=it&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=wapp', '_blank')">🇪🇸 Español</button>
+        <button class="translate-btn" onclick="window.open('https://de-it.translate.goog' + window.location.pathname + '?_x_tr_sl=it&_x_tr_tl=de&_x_tr_hl=de&_x_tr_pto=wapp', '_blank')">🇩🇪 Deutsch</button>
+        <button class="translate-btn" onclick="window.open('https://pt-it.translate.goog' + window.location.pathname + '?_x_tr_sl=it&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=wapp', '_blank')">🇵🇹 Português</button>
+    </div>
+</div>
+
 <section class="hero">
     <div class="hero-content">
         <h1 class="hero-title">Musica e Altro</h1>
@@ -126,6 +138,52 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
 </section>
 
 <style>
+/* STILI TRADUTTORE */
+.translator-container {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    padding: 25px;
+    border-radius: 15px;
+    margin: 30px 0;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.translator-title {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.translator-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.translate-btn {
+    background: white;
+    color: #3498db;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    min-width: 120px;
+}
+
+.translate-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    background: #f8f9fa;
+}
+
+/* STILI ESISTENTI */
 :root {
     --primary-color: #f1f5f9;
     --secondary-color: #e2e8f0;
@@ -367,6 +425,15 @@ body {
     
     .quote-card {
         padding: 1.5rem;
+    }
+    
+    .translator-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .translate-btn {
+        width: 200px;
     }
 }
 </style>
