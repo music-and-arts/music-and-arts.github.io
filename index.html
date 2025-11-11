@@ -14,12 +14,25 @@ permalink: /index.html
 </head>
 <body>
     <div class="container">
-        <!-- TRADUTTORE DENTRO IL CONTAINER PRINCIPALE -->
-        <div style="text-align: right; margin-bottom: 20px; padding: 10px; background: #3498db; border-radius: 5px;">
-            <button onclick="translatePage('en')" style="background: white; border: none; padding: 8px 15px; border-radius: 3px; margin: 0 5px; cursor: pointer;">🇬🇧 English</button>
-            <button onclick="translatePage('fr')" style="background: white; border: none; padding: 8px 15px; border-radius: 3px; margin: 0 5px; cursor: pointer;">🇫🇷 Français</button>
-            <button onclick="translatePage('de')" style="background: white; border: none; padding: 8px 15px; border-radius: 3px; margin: 0 5px; cursor: pointer;">🇩🇪 Deutsch</button>
-            <button onclick="translatePage('es')" style="background: white; border: none; padding: 8px 15px; border-radius: 3px; margin: 0 5px; cursor: pointer;">🇪🇸 Español</button>
+        <!-- TRADUTTORE SEMPLICE -->
+        <div style="text-align: center; background: #3498db; padding: 15px; border-radius: 10px; margin: 20px 0;">
+            <h3 style="color: white; margin-bottom: 15px;">🌐 TRADUCI PAGINA</h3>
+            <button onclick="window.open('https://en-it.translate.goog' + window.location.pathname, '_blank')" 
+                    style="background: white; color: #3498db; border: none; padding: 10px 20px; margin: 5px; border-radius: 25px; cursor: pointer; font-weight: bold;">
+                🇬🇧 English
+            </button>
+            <button onclick="window.open('https://fr-it.translate.goog' + window.location.pathname, '_blank')" 
+                    style="background: white; color: #3498db; border: none; padding: 10px 20px; margin: 5px; border-radius: 25px; cursor: pointer; font-weight: bold;">
+                🇫🇷 Français
+            </button>
+            <button onclick="window.open('https://es-it.translate.goog' + window.location.pathname, '_blank')" 
+                    style="background: white; color: #3498db; border: none; padding: 10px 20px; margin: 5px; border-radius: 25px; cursor: pointer; font-weight: bold;">
+                🇪🇸 Español
+            </button>
+            <button onclick="window.open('https://de-it.translate.goog' + window.location.pathname, '_blank')" 
+                    style="background: white; color: #3498db; border: none; padding: 10px 20px; margin: 5px; border-radius: 25px; cursor: pointer; font-weight: bold;">
+                🇩🇪 Deutsch
+            </button>
         </div>
 
         <header class="header">
@@ -49,14 +62,7 @@ permalink: /index.html
                     <p class="hero-subtitle">Uno spazio per condividere passioni, idee e riflessioni</p>
                 </div>
             </section>
-<!-- Aggiungi questo codice DOPO il titolo "Musica e Altro" -->
-<div style="background: #2c3e50; padding: 15px; border-radius: 10px; margin: 20px 0; text-align: center;">
-    <h3 style="color: white; margin-bottom: 10px;">🌐 Traduci Pagina</h3>
-    <button onclick="window.open('https://en-it.translate.goog' + window.location.pathname, '_blank')" style="background: #3498db; color: white; border: none; padding: 10px 15px; margin: 5px; border-radius: 5px; cursor: pointer;">English</button>
-    <button onclick="window.open('https://fr-it.translate.goog' + window.location.pathname, '_blank')" style="background: #3498db; color: white; border: none; padding: 10px 15px; margin: 5px; border-radius: 5px; cursor: pointer;">Français</button>
-    <button onclick="window.open('https://es-it.translate.goog' + window.location.pathname, '_blank')" style="background: #3498db; color: white; border: none; padding: 10px 15px; margin: 5px; border-radius: 5px; cursor: pointer;">Español</button>
-    <button onclick="window.open('https://de-it.translate.goog' + window.location.pathname, '_blank')" style="background: #3498db; color: white; border: none; padding: 10px 15px; margin: 5px; border-radius: 5px; cursor: pointer;">Deutsch</button>
-</div>
+
             <section class="content-section">
                 <div class="text-block">
                     <h2>Benvenuto nel mio angolo di creatività</h2>
@@ -104,12 +110,5 @@ permalink: /index.html
             <p>&copy; 2024 Music and Arts. Tutti i diritti riservati.</p>
         </footer>
     </div>
-
-    <script>
-    function translatePage(targetLang) {
-        const translateUrl = `https://${targetLang}-it.translate.goog${window.location.pathname}?_x_tr_sl=it&_x_tr_tl=${targetLang}&_x_tr_hl=${targetLang}&_x_tr_pto=wapp`;
-        window.open(translateUrl, '_blank');
-    }
-    </script>
 </body>
 </html>
