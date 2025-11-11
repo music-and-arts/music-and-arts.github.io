@@ -4,15 +4,20 @@ title: "Music and Arts - Musica, Arte e Pensiero"
 description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creatività. Esplora contenuti unici e riflessioni profonde."
 ---
 
-<!-- TRADUTTORE MULTILINGUA -->
+<!-- TRADUTTORE MULTILINGUA COMPATTO -->
 <div class="translator-container">
-    <div class="translator-title">🌐 TRADUCI PAGINA</div>
     <div class="translator-buttons">
-        <button class="translate-btn" onclick="window.open('https://en-it.translate.goog' + window.location.pathname + '?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp', '_blank')">🇬🇧 English</button>
-        <button class="translate-btn" onclick="window.open('https://fr-it.translate.goog' + window.location.pathname + '?_x_tr_sl=it&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=wapp', '_blank')">🇫🇷 Français</button>
-        <button class="translate-btn" onclick="window.open('https://es-it.translate.goog' + window.location.pathname + '?_x_tr_sl=it&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=wapp', '_blank')">🇪🇸 Español</button>
-        <button class="translate-btn" onclick="window.open('https://de-it.translate.goog' + window.location.pathname + '?_x_tr_sl=it&_x_tr_tl=de&_x_tr_hl=de&_x_tr_pto=wapp', '_blank')">🇩🇪 Deutsch</button>
-        <button class="translate-btn" onclick="window.open('https://pt-it.translate.goog' + window.location.pathname + '?_x_tr_sl=it&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=wapp', '_blank')">🇵🇹 Português</button>
+        <button class="translate-btn flag-btn" onclick="window.open('https://translate.google.com/translate?hl=en&sl=it&tl=en&u=https://music-and-arts.github.io', '_blank')" title="Translate entire site to English">🇬🇧</button>
+        <button class="translate-btn flag-btn" onclick="window.open('https://translate.google.com/translate?hl=fr&sl=it&tl=fr&u=https://music-and-arts.github.io', '_blank')" title="Traduire tout le site en Français">🇫🇷</button>
+        <button class="translate-btn flag-btn" onclick="window.open('https://translate.google.com/translate?hl=es&sl=it&tl=es&u=https://music-and-arts.github.io', '_blank')" title="Traducir todo el sitio al Español">🇪🇸</button>
+        <button class="translate-btn flag-btn" onclick="window.open('https://translate.google.com/translate?hl=de&sl=it&tl=de&u=https://music-and-arts.github.io', '_blank')" title="Gesamte Website auf Deutsch übersetzen">🇩🇪</button>
+        <button class="translate-btn flag-btn" onclick="window.open('https://translate.google.com/translate?hl=pt&sl=it&tl=pt&u=https://music-and-arts.github.io', '_blank')" title="Traduzir todo o site para Português">🇵🇹</button>
+        <button class="translate-btn flag-btn" onclick="window.open('https://translate.google.com/translate?hl=ru&sl=it&tl=ru&u=https://music-and-arts.github.io', '_blank')" title="Перевести весь сайт на Русский">🇷🇺</button>
+        <button class="translate-btn flag-btn" onclick="window.open('https://translate.google.com/translate?hl=zh-CN&sl=it&tl=zh-CN&u=https://music-and-arts.github.io', '_blank')" title="将整个网站翻译成中文">🇨🇳</button>
+        <button class="translate-btn flag-btn" onclick="window.open('https://translate.google.com/translate?hl=ja&sl=it&tl=ja&u=https://music-and-arts.github.io', '_blank')" title="サイト全体を日本語に翻訳">🇯🇵</button>
+    </div>
+    <div class="translator-note">
+        Click a flag to translate entire website
     </div>
 </div>
 
@@ -40,7 +45,7 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
 
         <div class="feature-card">
             <h3>Un Regalo per Voi</h3>
-            <p>Risorse musicali e contenuti speciali condivisi con la comunità. Piccoli doni per chi apprezza la profondità artistica.</p>
+            <p>Risorse musicali e contenuti speciali condivisi con la communauté. Piccoli doni per chi apprezza la profondità artistica.</p>
             <a href="{{ '/un-regalo-per-voi' | relative_url }}" class="feature-link">Esplora →</a>
         </div>
 
@@ -117,7 +122,7 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
             </div>
             <div class="quote-card">
                 <blockquote>
-                    "Tra i piaceri della vita, solo all'amore la musica è seconda. Ma l'amore stesso è musica."
+                    "Tra i piaceri della vida, solo all'amore la musica è seconda. Ma l'amore stesso è musica."
                     <cite>— Aleksandr Puskin</cite>
                 </blockquote>
             </div>
@@ -138,49 +143,53 @@ description: "Uno spazio raffinato dedicato alla musica, arte, scrittura e creat
 </section>
 
 <style>
-/* STILI TRADUTTORE */
+/* STILI TRADUTTORE COMPATTO */
 .translator-container {
     background: linear-gradient(135deg, #3498db, #2980b9);
-    padding: 25px;
-    border-radius: 15px;
-    margin: 30px 0;
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin: 20px 0;
     text-align: center;
-    box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-.translator-title {
-    color: white;
-    margin-bottom: 20px;
-    font-size: 1.4em;
-    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .translator-buttons {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
+    margin-bottom: 8px;
 }
 
-.translate-btn {
-    background: white;
+.flag-btn {
+    background: rgba(255, 255, 255, 0.9);
     color: #3498db;
     border: none;
-    padding: 12px 25px;
-    border-radius: 25px;
+    padding: 8px 12px;
+    border-radius: 20px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.2em;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    min-width: 120px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    min-width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.translate-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-    background: #f8f9fa;
+.flag-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    background: white;
+}
+
+.translator-note {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8em;
+    font-style: italic;
 }
 
 /* STILI ESISTENTI */
@@ -428,12 +437,14 @@ body {
     }
     
     .translator-buttons {
-        flex-direction: column;
-        align-items: center;
+        gap: 6px;
     }
     
-    .translate-btn {
-        width: 200px;
+    .flag-btn {
+        padding: 6px 10px;
+        min-width: 45px;
+        height: 35px;
+        font-size: 1.1em;
     }
 }
 </style>
