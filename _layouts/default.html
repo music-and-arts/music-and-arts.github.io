@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ page.description | default: site.description }}">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DK3HZKEDM2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DK3HZKEDM2');
+    </script>
+
     <style>
         :root {
             --primary-color: #2c3e50;
@@ -27,7 +37,7 @@
             box-sizing: border-box;
         }
 
-                <!-- NAVIGAZIONE TRA PAGINE - SOLO SE NON È LA HOME -->
+        <!-- NAVIGAZIONE TRA PAGINE - SOLO SE NON È LA HOME -->
         {% unless page.url == "/" or page.url == "/index.html" %}
         <div class="page-navigation">
             <div class="nav-buttons">
